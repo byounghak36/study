@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "858efd2d286d18c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5742e34d06742701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94c8daeb54db170a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8a115183d162479",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8d1997c45b1e67a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80c75579a66211b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab76b76854309008",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "840f8c3ed3e11ac2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "62e015e0b5c02283",
+    "type": "split",
+    "children": [
+      {
+        "id": "723975564ff67740",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ee1fb663db1127e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7568772eee735157",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3011464001e81bec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2b31f4ada88a46fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "7568772eee735157",
+  "lastOpenFiles": [
+    "2024-04-17.md",
+    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
+    "k8s/KNN_회의안건.md.md",
+    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
+    "k8s/K8S_Service_OBJ-NodePort.md.md",
+    "k8s/K8S_Service_OBJ.md.md",
+    "k8s/yaml설명.md",
+    "k8s/무제 파일.canvas",
+    "Pasted image 20240417103730.png",
+    "k8s/image/photo_2024-04-17_09-34-07.jpg",
+    "Pasted image 20240417093436.png",
+    "Pasted image 20240417093348.png",
+    "().md",
+    "k8s/image/nodeport_image.png",
+    "linux/regular_expression.md",
+    "공부/Welcome.md",
+    "공부",
+    "갈레라설치.md",
+    "home/kimbh/문서/김병학_공부/draw.io/테스트MHA구성도.jpg.md",
+    "home/kimbh/문서/김병학_공부/draw.io",
+    "home/kimbh/문서/김병학_공부",
+    "home/kimbh/문서",
+    "home/kimbh",
+    "home",
+    "Day2_기본 명령어와 리눅스의 파일 권한.md",
+    "무제 파일 1.canvas",
+    "디스크마운트.md",
+    "paasta/container-platform/install-guide/storage/rook-ceph-install-guide.md",
+    "5.1. Cluster Role 운영자 생성 및 Token 획득.md",
+    "github_blog/create_a_github_blog.md"
+  ]
+}

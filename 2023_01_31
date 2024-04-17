@@ -1,0 +1,325 @@
+#!/bin/bash
+# 2023-01-31 content173
+
+# CentOS 7.9 
+# Apache httpd=2.4.54 - pcre=8.45 - apr=1.6.5 - apr-util=1.6.1
+# PHP=8.2.1 - libzip=1.9.2
+# MariaDB 10.6.11 - openssl=1.1.1s
+# bind 9.18.10
+
+# 변수 관리
+# SOURCE="http://115.68.249.77"
+JOB=$(nproc)
+DEB_PKG=(make build-essential gcc libexpat1-dev g++ net-tools curl pkg-config libncurses-dev)
+RHEL_PKG=(vim gcc gcc-c++ g++ make curl pkgconfig ncurses expat wget autoconf automake git rpcgen libtool libcap-devel glibc-devel ncurses-devel lzma)
+
+APA_VER=2.4.54
+MY_SQL_VER=5.7.16
+PHP_VER=8.2.1
+MA_SQL_VER=10.6.11
+POST_SQL_VER=""
+MONGO_VER=""
+echo $2
+RUN_MODE="mariadb_install"
+echo $RUN_MODE
+#
+# 사전 준비
+echo """
+nameserver 164.124.101.2
+nameserver 168.126.63.1
+" >> /etc/resolv.conf
+
+if [ /etc/selinux/config ]; then
+sed -i 's/SELINUX=(enforcing|permissive)/SELINUX=disabled/g' /etc/selinux/config
+fi
+
+if [ ~/.bash_profile -eq 0 ]; then
+echo ''' 
+    # .bash_profile
+     
+    # Get the aliases and functions
+    if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+    fi
+
+    # User specific environment and startup programs with root
+
+    PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/mysql/bin:
+    BASH_ENV=/root/.bashrc
+    USERNAME="root"
+    export USERNAME BASH_ENV PATH''' >> ~/.bash_profile
+source ~/.bash_profile
+else 
+    echo "PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/mysql/bin:/usr/local/apache/bin" >> ~/.bash_profile
+    source ~/.bash_profile
+fi
+
+OS=`cat /etc/os-release |grep NAME |head -n 1`
+case $OS in
+	*"Ubuntu"* | *"ubuntu"* | *"Debian"* | *"debian"* )
+        	apt -y update && apt -y upgrade
+		for debPKG in ${DEB_PKG[@]}; do
+	        	apt-get -y install ${debPKG}
+		done ;;
+	*)
+	        yum -y update && yum -y upgrade
+		for rhelPKG in ${RHEL_PKG[@]} ;do
+		        yum -y install ${rhelPKG}
+		done ;;
+esac
+
+cd /usr/local/src
+
+function getFileCheck(){
+    account=`cat /etc/passwd |grep $user |wc -l`
+    home=`cat /etc/passwd |grep $user | awk -F: '{print $6}'`
+
+    echo "%20 Input Directory : " 
+    
+    
+    
+}
+
+
+# wget $SOURCE
+function baseSetupFileCheck(){
+    cd /usr/local/src
+    # pcre, apr, apr-util, openssl, cmake
+    # import version, read Link 
+    #if [ -f "./apr-?.?.?.tar.gz" ]; then
+
+    #else
+
+#    fi
+  #  wget -c https://dlcdn.apache.org/apr/apr-1.6.5.tar.gz
+    tar zxf apr-1.6.5.tar.gz
+    mv apr-1.6.5 apr
+
+   # wget -c https://dlcdn.apache.org//apr/apr-util-1.6.1.tar.gz
+    tar zxf apr-util-1.6.1.tar.gz
+    mv apr-util-1.6.1 apr-util
+
+    #wget -c https://sourceforge.net/projects/pcre/files/pcre/8.45/pcre-8.45.tar.gz
+    tar zxf pcre-8.45.tar.gz
+    mv pcre-8.45 pcre
+
+    #wget -c https://www.openssl.org/source/openssl-1.1.1s.tar.gz
+    tar zxf openssl-1.1.1s.tar.gz
+    mv openssl-1.1.1s openssl
+
+    #wget -c https://github.com/Kitware/CMake/releases/download/v3.25.1-rc1/cmake-3.25.1-rc1.tar.gz
+    tar zxf cmake-3.25.1.tar.gz
+    mv cmake-3.25.1 cmake
+
+    #wget -c https://libzip.org/download/libzip-1.9.2.tar.gz
+    tar zxf libzip-1.9.2.tar.gz
+    mv libzip-1.9.2 libzip
+	
+#    wget -c https://www.zlib.net/zlib-1.2.13.tar.gz
+    tar zxf zlib-1.2.13.tar.gz
+    mv zlib-1.2.13 zlib
+}
+
+#centos 7 -> ubuntu 20.04 Rocky 최신 EOL update 주기 
+#function gccSetupFile(){
+
+#}
+
+function baseConfig(){   
+    #APR
+    cd /usr/local/src
+    cd apr
+    ./configure --prefix=/usr/local
+    make -j $JOB && make install
+
+    #APR-UTIL
+    cd ../apr-util
+    ./configure --prefix=/usr/local --with-apr=/usr/local
+    make -j $JOB && make install
+    
+    #PCRE
+    cd ../pcre
+    ./configure --prefix=/usr/local
+    make -j $JOB && make install
+
+    #OpenSSL
+    cd ../openssl
+    ./config --prefix=/usr/local --openssldir=/usr/local/ssl -fPIC shared threads zlib
+
+    make -j $JOB && make install
+    echo "/usr/local/ssl" >> /etc/ld.so.conf.d/openssl.conf
+    ldconfig
+
+    #cmake
+    cd ../cmake
+    ./configure --prefix=/usr/local
+    make -j $JOB && make install
+
+    #libzip
+    cd ../libzip
+    ./configure --prefix=/usr/local
+    cmake -DCMAKE_INSTALL_PREFIX=/usr/local/
+    make -j $JOB && make install
+    
+    #zlib
+    cd ../zlib
+    ./configure --const --64 --prefix=/usr/local --libdir=/usr/local/lib
+    make -j $JOB && make install   
+    
+}
+
+function apacheSetup(){
+    #get file
+    cd /usr/local/src
+    wget -c https://dlcdn.apache.org/httpd/httpd-2.4.54.tar.gz
+    tar zxf httpd
+    
+    ./configure --prefix=/usr/local/apache --enable-so --enable-rewrite --enable-ssl --enable-modules=shared --enable-mods-shared=all --enable-ssl --with-mpm=prefork --enable-http2
+    make && make install
+}
+
+function phpSetup(){
+    #get file
+    cd /usr/local/src
+
+    wget -c https://www.php.net/distributions/php-7.4.32.tar.gz
+    tar zxf php-7.4.32.tar.gz
+
+    cd php-7.4.32
+    ./configure --prefix=/usr/local/php --enable-sockets --enable-bcmath --enable-exif --enable-calender --enable-mbstring --enable-mysqlnd --enable-inline-optimization --enable-sysvmsg --enable-sockets --enable-sysvsem --enable-sysvshm --enable-pcntl --enable-mbregex --enable-zip --with-mhash --with-fpm-systemd --with-gettext --with-gmp --with-gd --with-zlib --with-bz2 --with-xsl --with-sodium --with-curl --with-openssl --with-pcre-regex --with-jpeg-dir=/usr --with-png-dir=/usr --with-zlib-dir=/usr --with-freetype-dir=/usr --with-libxml-dir=/usr --with-apxs2=/usr/local/apache/bin/apxs --with-config-file-path=/usr/local/apache/conf --with-libdir=/lib64 --with-pdo-mysql=mysqlnd --with-mysqli=mysqlnd 
+
+    make -j $JOB && make install
+
+}
+function mariadbSetup(){
+    groupadd -g 400 mysql
+    useradd -u400 -g400 -d/usr/local/mysql mysql
+    
+
+#    SQL_FILE=`find . name 'mariadb*'`
+#    cd /usr/local/src
+#    if [ -f $SQL_FILE ]; then
+	wget -c https://ftp.kaist.ac.kr/source/mariadb/mariadb-$MA_SQL.tar.gz
+#        SQL_FILE=mariadb
+#    else
+#    fi
+    mkdir makerun
+    cd makerun
+
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \
+    -DMYSQL_DATADIR=/usr/local/mysql/data \
+    -DDEFAULT_CHARSET=utf8 \
+    -DDEFAULT_COLLATION=utf8_general_ci \
+    -DWITH_EXTRA_CHARSETS=all \
+    -DENABLED_LOCAL_INFILE=1 \
+    -DWITH_INNOBASE_STORAGE_ENGINE=1 \
+    -DMYSQL_UNIX_ADDR=/tmp/mysql.sock \
+    -DSYSCONFDIR=/etc \
+    -DINSTALL_SYSCONFDIR=/etc
+    -DINSTALL_SYSCONF2DIR=/etc/my.cnf.d
+    -DWITH_SSL=system \
+    -DWITH_ZLIB=system \
+    -DWITH_READLINE=1 \
+    -DMYSQL_TCP_PORT=3306
+	
+    make -j $JOB && make install
+    
+    cd /usr/local/mysql/
+    echo '%20 Please input DB PASSWORD to Root'
+    read PASD
+    bin/mysqladmin -uroot -p$PASD
+    scripts/mysql_install_db
+
+    bin/mysql_secure_installation
+
+}
+function mysqlSetup(){
+    groupadd -g400 mysql 
+    useradd -u400 -g400 -d /usr/local/mysql mysql
+    
+    cd /usr/local/src
+    wget -c https://cdn.mysql.com/archives/mysql-5.7/mysql-5.7.39.tar.gz
+    wget -c https://cdn.mysql.com/archives/mysql-5.7/mysql-boost-5.7.39.tar.gz
+    tar zxf mysql*.tar.gz
+    mv mysql-5.7.39 mysql
+    chown mysql:mysql mysql
+
+    mkdir mysql/makerun
+    cd mysql/makerun
+
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \
+    -DMYSQL_DATADIR=/usr/local/mysql/data \
+    -DDEFAULT_CHARSET=utf8 \
+    -DDEFAULT_COLLATION=utf8_general_ci \
+    -DWITH_EXTRA_CHARSETS=all \
+    -DENABLED_LOCAL_INFILE=1 \
+    -DWITH_INNOBASE_STORAGE_ENGINE=1 \
+    -DMYSQL_UNIX_ADDR=/tmp/mysql.sock \
+    -DSYSCONFDIR=/etc \
+    -DWITH_SSL=system \
+    -DMYSQL_TCP_PORT=3306 \
+    -DDOWNLOAD_BOOST=1 \
+    -DWITH_BOOST=../boost/boost_1_59_0
+
+    make -j $JOB && make install    
+    
+    cd /usr/local/mysql/
+    echo '%20 Please input DB PASSWORD to Root'
+    read PASD
+    bin/mysqladmin -uroot -p$PASD
+    scripts/mysql_install_db    
+
+    bin/mysql_secure_installation
+
+    
+}
+
+function galeraSetup (){
+	echo "hi"	
+}
+
+case $RUN_MODE in
+	"all") 
+#		setting $1 $2 $3
+		baseSetupFile
+		mysqlSetup
+		apacheSetup
+		phpSetup ;;
+	"m" | "mysql_install")
+#		setting $1 $2 $3i
+		baseSetupFile
+		mysqlSetup ;;
+	"ma" | "mariadb_install")
+		baseSetupFileCheck
+		baseConfig
+		mariadbSetup;;
+	"g" | "galera_install")
+#		setting $1 $2 $3
+		mysql_install 
+		galeraSetup ;;
+	"a" | "apache_install")
+#		setting $1 $2 $3
+		apacheSetup ;;
+	"p" | "php_install")
+#		setting $1 $2 $3
+		phpSetup ;;
+	"h" | "-h"| "--help")
+	#	display_usage ;;
+		echo "hi" ;;
+	"t" | "test")
+		echo "Why don't you give to me another parameter?" 
+		sleep 5
+		yes "Why don't you give to me  another parameter?";;
+	*) 
+		if  [ -n "$1" ]; then
+		    input=$1
+		    echo "display_usage"
+		else
+		    echo "display_usage"
+		fi ;;
+esac
+
+#baseConfig
+#mysqlSetup
+#apacheSetup
+#phpSetup
