@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5742e34d06742701",
+        "id": "80da808837f4eff6",
         "type": "tabs",
         "children": [
           {
-            "id": "94c8daeb54db170a",
+            "id": "faf5b52d45c3db6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md",
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 380.5
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md",
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +103,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md",
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md"
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md"
               }
             }
           }
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,37 +148,51 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7568772eee735157",
+  "active": "faf5b52d45c3db6b",
   "lastOpenFiles": [
-    "2024-04-17.md",
-    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
-    "k8s/KNN_회의안건.md.md",
-    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
+    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
+    "openstack/1. openstack_install_환경설정.md",
     "k8s/K8S_Service_OBJ.md.md",
-    "k8s/yaml설명.md",
+    "k8s/KNN_회의안건.md.md",
+    "openstack/6. openstack_install_nova.md",
+    "openstack/5. openstack_install_placement.md",
+    "openstack/2. openstack_install_service.md",
+    "openstack/3. openstack_install_keystone.md",
+    "openstack/4. openstack_install_glance.md",
+    "2024-04-18.md",
+    "무제 파일.canvas",
+    "k8s/K8S_Service_OBJ-ExternalName.md.md",
+    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
+    "k8s/image/Pasted image 20240417103730.png",
+    "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "컴퓨터개론.md",
+    "galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
+    "galera",
+    "apache/apache_install.md",
+    "apache",
+    "pdns/dns_record.md",
+    "linux/디스크마운트.md",
+    "computer_disk",
+    "소세지의쓸데없는백과사전.md",
+    "nagios/nagios.md",
+    "galera/갈레라설치.md",
+    "nagios",
+    "5.1. Cluster Role 운영자 생성 및 Token 획득.md",
+    "MHA 구성/MHA구성.md",
+    "mariadb/mariadb_install.md",
+    "ceph/ceph-ansible/Ceph-ansible.md",
+    "ceph/ceph-ansible",
+    "ceph",
+    "k8s/image/Pasted image 20240417093436.png",
+    "k8s/image/Pasted image 20240417093348.png",
     "k8s/무제 파일.canvas",
-    "Pasted image 20240417103730.png",
     "k8s/image/photo_2024-04-17_09-34-07.jpg",
-    "Pasted image 20240417093436.png",
-    "Pasted image 20240417093348.png",
-    "().md",
     "k8s/image/nodeport_image.png",
-    "linux/regular_expression.md",
-    "공부/Welcome.md",
     "공부",
-    "갈레라설치.md",
-    "home/kimbh/문서/김병학_공부/draw.io/테스트MHA구성도.jpg.md",
     "home/kimbh/문서/김병학_공부/draw.io",
     "home/kimbh/문서/김병학_공부",
     "home/kimbh/문서",
-    "home/kimbh",
-    "home",
-    "Day2_기본 명령어와 리눅스의 파일 권한.md",
-    "무제 파일 1.canvas",
-    "디스크마운트.md",
-    "paasta/container-platform/install-guide/storage/rook-ceph-install-guide.md",
-    "5.1. Cluster Role 운영자 생성 및 Token 획득.md",
-    "github_blog/create_a_github_blog.md"
+    "무제 파일 1.canvas"
   ]
 }
