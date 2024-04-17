@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md",
+                "file": "k8s/K8S_Service_OBJ-NodePort.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md",
+                "file": "k8s/K8S_Service_OBJ-NodePort.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md",
+                "file": "k8s/K8S_Service_OBJ-NodePort.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md"
+                "file": "k8s/K8S_Service_OBJ-NodePort.md.md"
               }
             }
           }
@@ -149,9 +149,11 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
-    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
+    "k8s/K8S_Service_OBJ.md.md",
     "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
+    "k8s/KNN_회의안건.md.md",
+    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "openstack/2. openstack_install_service.md",
     "openstack/1. openstack_install_환경설정.md",
     "galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
@@ -182,8 +184,6 @@
     "Pasted image 20240417093436.png",
     "Pasted image 20240417093348.png",
     "Mysql 명령어.md",
-    "galera_이중화_구성.md",
-    "galera4,mysql8.md",
     "k8s/무제 파일.canvas",
     "k8s/image/photo_2024-04-17_09-34-07.jpg",
     "k8s/image/nodeport_image.png",
