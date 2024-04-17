@@ -11,8 +11,13 @@
             "id": "94c8daeb54db170a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "k8s/K8S_Service_OBJ.md.md"
+              }
             }
           }
         ],
@@ -141,11 +150,11 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
+    "k8s/K8S_Service_OBJ.md.md",
     "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
     "컴퓨터개론.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
-    "k8s/K8S_Service_OBJ.md.md",
-    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "k8s/KNN_회의안건.md.md",
     "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "openstack/2. openstack_install_service.md",
