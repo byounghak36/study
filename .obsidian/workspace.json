@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Daily_note/2024-04-18.md",
+                "file": "k8s/KNN_회의안건.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Daily_note/2024-04-18.md",
+                "file": "k8s/KNN_회의안건.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Daily_note/2024-04-18.md",
+                "file": "k8s/KNN_회의안건.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Daily_note/2024-04-18.md"
+                "file": "k8s/KNN_회의안건.md.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
-    "k8s/KNN_회의안건.md.md",
+    "무제 파일.canvas",
     "_Daily_note/2024-04-18.md",
+    "k8s/KNN_회의안건.md.md",
     "_Daily_note",
     "k8s/K8S_Service_OBJ.md.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
@@ -159,7 +160,6 @@
     "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "컴퓨터개론.md",
-    "무제 파일.canvas",
     "openstack/1. openstack_install_환경설정.md",
     "pdns/dns_record.md",
     "openstack/6. openstack_install_nova.md",

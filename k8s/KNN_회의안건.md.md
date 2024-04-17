@@ -1,4 +1,4 @@
-- 디플로이먼트 어떤식으로 진행중인지.
+- Deployment, Service 어떤식으로 진행중인지.
 - k8s 네트워크 구성
 	- 시트로만 보기에는 nodeport만 사용하는 것으로 보임, 모든 pod가 외부로 노출되도록 구성할 예정인지
 	- 로드밸런서(MetalLB) 사용하실 예정은 없는지
@@ -13,3 +13,4 @@ K-PaaS 진행상황 공유
 
 - K-PaaS 및 GPU-Operator 배포 완료
 - Application 설치 전 BaseImage 제작 완료(TM,CA,TA)
+- rook-ceph, gpu-operator 기능 테스트 완료
