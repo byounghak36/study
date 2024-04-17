@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s/K8S_Service_OBJ-NodePort.md.md",
+                "file": "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/K8S_Service_OBJ-NodePort.md.md",
+                "file": "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/K8S_Service_OBJ-NodePort.md.md",
+                "file": "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s/K8S_Service_OBJ-NodePort.md.md"
+                "file": "MHA 구성/[DB] MySQL Replication, MHA 구성.md"
               }
             }
           }
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,9 +150,10 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "컴퓨터개론.md",
+    "k8s/K8S_Service_OBJ-NodePort.md.md",
     "k8s/K8S_Service_OBJ.md.md",
     "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
-    "k8s/K8S_Service_OBJ-NodePort.md.md",
     "k8s/KNN_회의안건.md.md",
     "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "openstack/2. openstack_install_service.md",
@@ -163,7 +165,6 @@
     "pdns/dns_record.md",
     "linux/디스크마운트.md",
     "computer_disk",
-    "컴퓨터개론.md",
     "소세지의쓸데없는백과사전.md",
     "nagios/nagios.md",
     "galera/갈레라설치.md",

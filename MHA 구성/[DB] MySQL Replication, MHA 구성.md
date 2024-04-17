@@ -554,7 +554,7 @@ mha 소스 변경
 ---
 ### ssh 및 replication test
 설치 및 설정이 모두 마무리 되었으면, ssh 연결은 정상적인지 replication은 정상적으로 작동중인지 확인한다.
-```
+```bash
 $ masterha_check_ssh --conf=/root/mha/conf/app1.cnf
 Fri Dec  1 16:36:12 2023 - [info] Reading default configuration from /etc/masterha_default.cnf..
 Fri Dec  1 16:36:12 2023 - [info] Reading application default configuration from /etc/app1.cnf..
@@ -620,7 +620,7 @@ alter user mha@'%' identified with mysql_native_password by 'qwe1212';
 *error #2*
 
 
-```
+```bash
 /usr/local/bin/masterha_check_repl --conf=/etc/app1.cnf
 Thu Nov 30 14:03:31 2023 - [info] Reading default configuration from /etc/masterha_default.cnf..
 Thu Nov 30 14:03:31 2023 - [info] Reading application default configuration from /etc/app1.cnf..
@@ -647,7 +647,7 @@ NodeUtil.pm 수정
 
 *error #3*
 
-```
+```bash
 ~
 ~
 Thu Nov 30 14:10:10 2023 - [debug]   ok.
