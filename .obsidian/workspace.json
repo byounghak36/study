@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b8f253c1455df1c8",
+        "id": "80da808837f4eff6",
         "type": "tabs",
         "children": [
           {
-            "id": "44ef08d0f6f464c8",
+            "id": "faf5b52d45c3db6b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "k8s/K8S_Service_OBJ-LoadBalancer.md.md"
+              }
             }
           }
         ],
@@ -140,20 +148,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "44ef08d0f6f464c8",
+  "active": "faf5b52d45c3db6b",
   "lastOpenFiles": [
-    "k8s/K8S_Service_OBJ.md.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
     "k8s/K8S_Service_OBJ-ClusterIP.md.md",
+    "openstack/1. openstack_install_환경설정.md",
+    "k8s/K8S_Service_OBJ.md.md",
+    "k8s/KNN_회의안건.md.md",
+    "openstack/6. openstack_install_nova.md",
+    "openstack/5. openstack_install_placement.md",
+    "openstack/2. openstack_install_service.md",
+    "openstack/3. openstack_install_keystone.md",
+    "openstack/4. openstack_install_glance.md",
+    "2024-04-18.md",
+    "무제 파일.canvas",
     "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
-    "k8s/KNN_회의안건.md.md",
     "k8s/image/Pasted image 20240417103730.png",
-    "2024-04-18.md",
     "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
     "컴퓨터개론.md",
-    "openstack/2. openstack_install_service.md",
-    "openstack/1. openstack_install_환경설정.md",
     "galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
     "galera",
     "apache/apache_install.md",
@@ -171,9 +184,6 @@
     "ceph/ceph-ansible/Ceph-ansible.md",
     "ceph/ceph-ansible",
     "ceph",
-    "Day2_기본 명령어와 리눅스의 파일 권한.md",
-    "vim_option&plugin/vim_단축키.md",
-    "rocky_repo/rocky_repo.md.md",
     "k8s/image/Pasted image 20240417093436.png",
     "k8s/image/Pasted image 20240417093348.png",
     "k8s/무제 파일.canvas",
