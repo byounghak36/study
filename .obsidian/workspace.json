@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5742e34d06742701",
+        "id": "b8f253c1455df1c8",
         "type": "tabs",
         "children": [
           {
-            "id": "94c8daeb54db170a",
+            "id": "44ef08d0f6f464c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "k8s/K8S_Service_OBJ.md.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,16 +140,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "94c8daeb54db170a",
+  "active": "44ef08d0f6f464c8",
   "lastOpenFiles": [
-    "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/K8S_Service_OBJ.md.md",
+    "k8s/K8S_Service_OBJ-NodePort.md.md",
+    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
+    "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
+    "k8s/KNN_회의안건.md.md",
+    "k8s/image/Pasted image 20240417103730.png",
+    "2024-04-18.md",
     "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
     "컴퓨터개론.md",
-    "k8s/K8S_Service_OBJ-NodePort.md.md",
-    "k8s/KNN_회의안건.md.md",
-    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "openstack/2. openstack_install_service.md",
     "openstack/1. openstack_install_환경설정.md",
     "galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
@@ -180,11 +174,8 @@
     "Day2_기본 명령어와 리눅스의 파일 권한.md",
     "vim_option&plugin/vim_단축키.md",
     "rocky_repo/rocky_repo.md.md",
-    "rocky_repo/ubuntu_repo.md.md",
-    "Pasted image 20240417103730.png",
-    "typroa_단축키.md",
-    "Pasted image 20240417093436.png",
-    "Pasted image 20240417093348.png",
+    "k8s/image/Pasted image 20240417093436.png",
+    "k8s/image/Pasted image 20240417093348.png",
     "k8s/무제 파일.canvas",
     "k8s/image/photo_2024-04-17_09-34-07.jpg",
     "k8s/image/nodeport_image.png",

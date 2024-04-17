@@ -1,4 +1,4 @@
-# K8S Service 오브젝트
+# K8S Service 오브젝트 
 ### K8S Service 오브젝트의 역할
 - **논리적인 그룹화(Logical grouping)** : Service는 백엔드 Pod 그룹을 논리적으로 그룹화하고, 이 그룹에 대해 단일 진입점을 제공합니다. 이로써 Client 는 서비스 이름을 통해 여러 Pod에 분산되어 있는 애플리케이션 인스턴스에 접근할 수 있습니다.
 - **서비스 디스커버리(Service Discovery)** : client 에서 서비스의 DNS를 조회하면, Kubernetes는 해당 서비스에 연결된 Pod의 IP 주소를 반환합니다. 이를 통해 Pod의 동적인 변화에도 무관하게 서비스에 연결할 수 있습니다.
