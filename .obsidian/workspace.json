@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 380.5
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -150,8 +150,9 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
-    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
+    "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/K8S_Service_OBJ.md.md",
+    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
     "컴퓨터개론.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
@@ -184,7 +185,6 @@
     "typroa_단축키.md",
     "Pasted image 20240417093436.png",
     "Pasted image 20240417093348.png",
-    "Mysql 명령어.md",
     "k8s/무제 파일.canvas",
     "k8s/image/photo_2024-04-17_09-34-07.jpg",
     "k8s/image/nodeport_image.png",
