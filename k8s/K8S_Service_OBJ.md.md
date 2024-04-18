@@ -25,25 +25,21 @@ Kubernetes에서는 여러 유형의 서비스를 제공합니다.
 ### 2) Service 타입
 
 #### (1) ClusterIP 
-[[K8S_Service_OBJ-ClusterIP.md]]
 - 가장 기본이 되는 Service 타입이며, 클러스터 내부 통신만 가능하고 외부 트래픽은 받을 수 없다.
 - 클러스터 내부에서 Service에 요청을 보낼 때, Service가 관리하는 Pod들에게 로드밸런싱하는 역할을 한다.
 
 #### (2) NodePort
-[[K8S_Service_OBJ-NodePort.md]]
 - 클러스터 내부 및 외부 통신이 가능한 Service 타입이다.
 - NodePort는 외부 트래픽을 전달을 받을 수 있고, NodePort는 ClusetIP를 wrapping 하는 방식이기 때문에 종장의 흐름은 결국 ClusetIP 비슷한 방식으로 이루어진다.
 - NodePort는 이름 그대로 노드의 포트를 사용한다. (30000-32767)
 - 그리고 클러스터를 구성하는 각각의 Node에 동일한 포트를 열게 되는데, 이렇게 열린 포트를 통해서 Node마다 외부 트래픽을 받고 => 그게 결국 ClusetIP로 모인 후 다시 로드를 분산시키는 방식이다.
 
 #### (3) LoadBalancer
-[[K8S_Service_OBJ-LoadBalancer.md]]
 - LoadBalancer는 기본적으로 외부에 존재하며, 보통 클라우드 프로바이더와 함께 사용되어 외부 트래픽을 받는 역할을 받는다.
 - 받은 트래픽을 각각의 Service로 전달해서 L4 분배가 일어나게 된다.
 - 역시 마찬가지로 흐름은 처음엔 LoadBalancer를 통하고, 이후엔 NodePort를 거쳐 ClusterIP로 이어지기 때문에 해당 기능을 모두 사용할 수 있다.
 - 클라우드 프로바이더를 사용하는 경우 클라우드 로드밸런서를 사용하여 외부로 노출시킨다.
 
 #### (4) ExternalName
-[[K8S_Service_OBJ-ExternalName.md]]
 - 위 3가지와 전혀 다른 Service 타입이라 할 수 있다. 다른 타입이 트래픽을 받기 위한 용도였다면 ExternalName 타입은 외부로 나가는 트래픽을 변환하기 위한 용도이다.
 - ExternalName을 통해 a.b.com이라는 도메인 트래픽을 클러스터 내부에서는 a.b로 호출을 할 수 있게 해준다. 즉, 도메인 이름을 변환하여 연결해주는 역할을 한다.
