@@ -1,3 +1,4 @@
+# K8S_Service_OBJ-NodePort
 
 - 클러스터 내부 및 외부 통신이 가능한 Service 타입이다.
 - **NodePort** 는 외부 트래픽을 전달을 받을 수 있고, **NodePort** 는 **CluseterIP** 를 wrapping 하는 방식이기 때문에 종장의 흐름은 결국 **CluseterIP**  비슷한 방식으로 이루어진다.
