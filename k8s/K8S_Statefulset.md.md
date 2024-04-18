@@ -1,120 +1,78 @@
 ## ReplicaSet으로 Stateful Pod 관리하기 
 
-컨트롤러들은 상태가 유지되지 않는 애플리케이션(Stateless application)을 관리하기 위해 사용된다. Pod가 수시로 리스타트되어도 되고, Pod 내의 디스크 내용이 리스타트되어 유실되는 경우라도 문제가 없는 워크로드 형태이다. 웹서버나 웹애플리케이션 서버 (WAS)등이 그에 해당한다. 그러나 RDBMS나 NoSQL과 같은  분산 데이타 베이스등과 같이 디스크에 데이타가 유지 되어야 하는 상태가 유지되는 애플리케이션 (Stateful application)은 기존의 컨트롤러로 지원하기가 어렵다.
+컨트롤러들은 상태가 유지되지 않는 애플리케이션(Stateless application)을 관리하기 위해 사용된다. Pod가 수시로 리스타트되어도 되고, Pod 내의 디스크 내용이 리스타트되어 유실되는 경우라도 문제가 없는 워크로드 형태이다. 웹서버나 웹애플리케이션 서버 (WAS)등이 그에 해당한다. 그러나 RDBMS나 NoSQL과 같은  분산 데이터 베이스등과 같이 디스크에 데이터가 유지 되어야 하는 상태가 유지되는 애플리케이션 (Stateful application)은 기존의 컨트롤러로 지원하기가 어렵다.
 
-ReplicaSet (이하 RS)를 이용하여 데이타 베이스 Pod를 관리하게 되면 여러가지 문제가 발생한다.
+ReplicaSet (이하 RS)를 이용하여 데이터 베이스 Pod를 관리하게 되면 여러가지 문제가 발생한다.
 
 ### Pod의 이름
 
 RS 등, Stateless Pod를 관리하는 컨트롤러에 의해서 관리되는 Pod들의 이름은 아래 그림과 같이 그 이름이 불 규칙적으로 지정된다. 
 
-  
-
 ![](https://t1.daumcdn.net/cfile/tistory/999AA3505C6578222C)
 
-  
-
-마스터/슬레이브 구조를 가지는 데이타 베이스등에서 마스터 서버의 이름을 특정 이름으로 지정할 수 가 없다. 
+마스터/슬레이브 구조를 가지는 데이터 베이스등에서 마스터 서버의 이름을 특정 이름으로 지정할 수 가 없다. 
 
 ### Pod의 기동 순서
 
-RS에 의해서 관리되는 Pod들은 기동이 될때 병렬로 동시에 기동이 된다. 그러나 데이타베이스의 경우에는 마스터 노드가 기동된 다음에, 슬레이브 노드가 순차적으로 기동되어야 하는 순차성을 가지고 있는 경우가 있다. 
+RS에 의해서 관리되는 Pod들은 기동이 될때 병렬로 동시에 기동이 된다. 그러나 데이터베이스의 경우에는 마스터 노드가 기동된 다음에, 슬레이브 노드가 순차적으로 기동되어야 하는 순차성을 가지고 있는 경우가 있다. 
 
 ### 볼륨 마운트
 
 Pod에 볼륨을 마운트 하려면, Pod는 PersistentVolume (이하 PV)를 PersistentVolumeClaim(이하 PVC)로 연결해서 정의해야 한다.
 
-RS등의 컨트롤러를 사용해서 Pod를 정의하게 되면, Pod 템플릿에 의해서 PVC와 PV를 정의하게 되기 때문에, 여러개의 Pod들에 대해서 아래 그림과 같이 하나의 PVC와 PV만 정의가 된다. RS의 Pod 템플릿에 의해 정의된 Pod들은 하나의 PVC와 연결을 시도 하는데, 맨 처음 생성된 Pod가 이 PVC와 PV에 연결이 되기 때문에 뒤에 생성되는 Pod들은 PVC를 얻지 못해서 디스크를 사용할 수 없게 된다.   
+RS등의 컨트롤러를 사용해서 Pod를 정의하게 되면, Pod 템플릿에 의해서 PVC와 PV를 정의하게 되기 때문에, 여러개의 Pod들에 대해서 아래 그림과 같이 하나의 PVC와 PV만 정의가 된다. RS의 Pod 템플릿에 의해 정의된 Pod들은 하나의 PVC와 연결을 시도 하는데, 맨 처음 생성된 Pod가 이 PVC와 PV에 연결이 되기 때문에 뒤에 생성되는 Pod들은 PVC를 얻지 못해서 디스크를 사용할 수 없게 된다.
 
 ![](https://t1.daumcdn.net/cfile/tistory/99A30E395C6578222C)
-
   
-
 아래 YAML 파일은 위의 내용을 테스트 하기 위해서 작성한 파일이다.
 
+```
 apiVersion: v1
-
 kind: PersistentVolumeClaim
-
 metadata:
-
  name: helloweb-disk
-
 spec:
-
  accessModes:
-
    - ReadWriteOnce
-
  resources:
-
    requests:
-
      storage: 30Gi
-
+     
 ---
 
 apiVersion: v1
-
 kind: ReplicationController
-
 metadata:
-
  name: nginx
-
 spec:
-
  replicas: 3
-
  selector:
-
    app: nginx
-
  template:
-
    metadata:
-
      name: nginx
-
      labels:
-
        app: nginx
-
    spec:
-
      containers:
-
      - name: nginx
-
        image: nginx:1.7.9
-
        volumeMounts:
-
        - name: nginx-data
-
          mountPath: /data/redis
-
        ports:
-
        - containerPort: 8090
-
      volumes:
-
      - name: nginx-data
-
        persistentVolumeClaim:
-
          claimName: helloweb-disk
+```
 
 nginx Pod를 RC를 이용하여 3개를 만들도록 하고, nginx-data 라는 볼륨을 helloweb-disk라는 PVC를 이용해서 마운트 하는 YAML 설정이다. 이 설정을 실행해보면 아래 그림과 같이 nginx-2784n Pod 하나만 생성된다. 
 
 ![](https://t1.daumcdn.net/cfile/tistory/99E0D6345C6578221E)
 
-  
-
-%kubectl describe pod nginx-6w9xf 
-
-명령을 이용해서 다른 Pod가 기동되지 않는 이유를 조회해보면 다음과 같은 결과를 얻을 수 있다. 
+`kubectl describe pod nginx-6w9xf ` 명령을 이용해서 다른 Pod가 기동되지 않는 이유를 조회해보면 다음과 같은 결과를 얻을 수 있다. 
 
 ![](https://t1.daumcdn.net/cfile/tistory/991A964E5C6578222D)
 
@@ -122,7 +80,9 @@ nginx Pod를 RC를 이용하여 3개를 만들도록 하고, nginx-data 라는 �
 
 내용중에 중요한 내용을 보면 다음과 같다. 
 
+```
 “Multi-Attach error for volume "pvc-d930bfcb-2ec0-11e9-8d43-42010a920009" Volume is already used by pod(s) nginx-2784n”
+```
 
 앞에서 설명한 대로, 볼륨(PV)이 다른 Pod (nginx-2784n)에 의해 이미 사용되고 있기 때문에 볼륨을 사용할 수 없고, 이로 인해서, Pod 생성이 되지 않고 있는 상황이다.
 
@@ -136,7 +96,7 @@ RS로 이를 해결 하려면 아래 그림과 같이 Pod 마다 각각 RS을 �
 
 ## StatefulSet
 
-그래서 상태를 유지하는 데이타베이스와 같은 애플리케이션을 관리하기 위한 컨트롤러가 StatefulSet 컨트롤러이다. (StatefulSet은 쿠버네티스 1.9 버전 부터 정식 적용 되었다. )
+그래서 상태를 유지하는 데이터베이스와 같은 애플리케이션을 관리하기 위한 컨트롤러가 StatefulSet 컨트롤러이다. (StatefulSet은 쿠버네티스 1.9 버전 부터 정식 적용 되었다. )
 
 StatefulSet은 앞에서 설명한 RS등의 Stateless 애플리케이션이 관리하는 컨트롤러로 할 수 없는 기능들을 제공한다. 대표적인 기능들은 다음과 같다.
 
@@ -146,7 +106,7 @@ StatefulSet에 의해서 생성되는 Pod들의 이름은 규칙성을 띈다. �
 
 ### 배포시 순차적인 기동과 업데이트
 
-또한 StatefulSet에 의해서 Pod가 생성될때, 동시에 모든 Pod를 생성하지 않고, 0,1,2,.. 순서대로 하나씩 Pod를 생성한다. 이러한 순차기동은 데이타베이스에서 마스터 노드가 기동된 후에, 슬레이브 노드가 기동되어야 하는 조건등에 유용하게 사용될 수 있다. 
+또한 StatefulSet에 의해서 Pod가 생성될때, 동시에 모든 Pod를 생성하지 않고, 0,1,2,.. 순서대로 하나씩 Pod를 생성한다. 이러한 순차기동은 데이터베이스에서 마스터 노드가 기동된 후에, 슬레이브 노드가 기동되어야 하는 조건등에 유용하게 사용될 수 있다. 
 
 ### 개별 Pod에 대한 디스크 볼륨 관리
 
