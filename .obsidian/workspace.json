@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md",
+                "file": "k8s/K8S.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md",
+                "file": "k8s/K8S.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md",
+                "file": "k8s/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s/KNN_회의안건.md.md"
+                "file": "k8s/K8S.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "k8s/KNN_회의안건.md.md",
+    "k8s/K8S.md",
     "무제 파일.canvas",
     "_Daily_note/2024-04-18.md",
-    "k8s/KNN_회의안건.md.md",
     "_Daily_note",
     "k8s/K8S_Service_OBJ.md.md",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
