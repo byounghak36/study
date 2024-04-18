@@ -153,7 +153,6 @@ template에 의해서 PVC가 생성되는데, 아래는 생성된 PVC 목록이�
 ![](https://t1.daumcdn.net/cfile/tistory/992BD5365C65782233)
 
 ### 기동 순서의 조작
-
 위의 예제에 보는것과 같이, StatefulSet은 Pod를 생성할때 순차적으로 기동되고, 삭제할때도 순차적으로 (2→ 1 → 0 생성과 역순으로) 삭제한다. 그런데 만약 그런 요건이 필요 없이 전체가 같이 기동되도 된다면 .spec.podManagementPolicy 를 통해서 설정할 수 있다.
 
 .spec.podManagementPolicy 는 디폴트로 OrderedReady 설정이 되어 있고, Pod가 순차적으로 기동되도록 설정이 되어 있고, 병렬로 동시에 모든 Pod를 기동하고자 하면  Parallel 을 사용하면 된다. 
