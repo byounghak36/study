@@ -3,7 +3,6 @@
 - **NodePort** 는 외부 트래픽을 전달을 받을 수 있고, **NodePort** 는 **CluseterIP** 를 wrapping 하는 방식이기 때문에 종장의 흐름은 결국 **CluseterIP**  비슷한 방식으로 이루어진다.
 - **NodePort** 는 이름 그대로 노드의 포트를 사용한다. (30000-32767)
 - 그리고 클러스터를 구성하는 각각의 Node에 동일한 포트를 열게 되는데, 이렇게 열린 포트를 통해서 Node마다 외부 트래픽을 받고 => 그게 결국 **CluseterIP** 로 모인 후 다시 로드를 분산시키는 방식이다.
-
 ### Service.yaml
 ```yaml
 apiVersion: v1
@@ -41,7 +40,7 @@ hostname-svc-nodeport   NodePort    10.233.60.61   <none>        8080:31333/TCP 
 kubernetes              ClusterIP   10.233.0.1     <none>        443/TCP          48d
 ```
 
-서비스 목록을 확인해보면 NodePort 타입의 서비스가 생성되고 PORT(S) 항목에 출력된 31514라는 숫자는 모든 노드에서 동일하게 접근할 수 있는 포트를 의미합니다. 즉, 클러스터의 모든 노드에 내부 IP 또는 외부 IP 를 통해 31514 포트로 접근하면 동일한 서비스에 연결 할 수 있습니다.
+서비스 목록을 확인해보면 NodePort 타입의 서비스가 생성되고 PORT(S) 항목에 출력된 31333라는 숫자는 모든 노드에서 동일하게 접근할 수 있는 포트를 의미합니다. 즉, 클러스터의 모든 노드에 내부 IP 또는 외부 IP 를 통해 31333 포트로 접근하면 동일한 서비스에 연결 할 수 있습니다.
 
 ```bash
 $ kubectl get nodes -o wide
