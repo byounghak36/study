@@ -11,6 +11,9 @@
     "date&time": "datetime",
     "book_title": "text",
     "author": "multitext",
-    "book_page": "number"
+    "book_page": "number",
+    "date_daily": "text",
+    "Modify_Date": "date",
+    "title": "text"
   }
 }

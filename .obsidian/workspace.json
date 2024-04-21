@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Inbox/231224_템플릿.md",
+                "file": "Templetes/manaual.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Inbox/231224_템플릿.md",
+                "file": "Templetes/manaual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Inbox/231224_템플릿.md",
+                "file": "Templetes/manaual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Inbox/231224_템플릿.md"
+                "file": "Templetes/manaual.md"
               }
             }
           }
@@ -175,8 +175,10 @@
   },
   "active": "d28c3409928bdaf1",
   "lastOpenFiles": [
+    "_Inbox/무제 파일.md",
+    "Templetes/manaual.md",
+    "_Inbox/asdfasdf.md",
     "_Inbox/231224_템플릿.md",
-    "Templetes/Daily_Note 템플릿.md",
     "Study/k8s/K8S_Service_OBJ.md",
     "_Inbox/Propertis.md",
     "_Inbox/독서 블록.md",
@@ -212,8 +214,6 @@
     "Study/openstack/1. openstack_install_환경설정.md",
     "k8s/K8S_Service_OBJ.md.md",
     "k8s/KNN_회의안건.md.md",
-    "Study/openstack/6. openstack_install_nova.md",
-    "Study/openstack/5. openstack_install_placement.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
