@@ -1,5 +1,10 @@
 {
   "promptDelete": false,
   "vimMode": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "readableLineLength": false,
+  "trashOption": "local",
+  "newFileLocation": "current",
+  "attachmentFolderPath": ""
 }
