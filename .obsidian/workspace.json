@@ -20,17 +20,8 @@
                 }
               }
             }
-          },
-          {
-            "id": "26ec45c8ee9f0634",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +178,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "26ec45c8ee9f0634",
+  "active": "7a83f67112152d4d",
   "lastOpenFiles": [
     "Study/github_blog",
     "Study/k8s/무제 파일.md",
