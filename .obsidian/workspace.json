@@ -11,8 +11,13 @@
             "id": "94c8daeb54db170a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Templetes/manaual_templetes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Templetes/manaual_templetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Templetes/manaual_templetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Templetes/manaual_templetes.md"
+              }
             }
           }
         ],
@@ -138,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "80c75579a66211b0",
+  "active": "94c8daeb54db170a",
   "lastOpenFiles": [
     "_Inbox/무제 파일.md",
     "_Inbox",
