@@ -1,3 +1,12 @@
+---
+title: K8S_Service_OBJ-ClusterIP
+tags:
+  - K-PaaS
+  - kubernetes
+date: 2024_04_21
+Modify_Date: 
+reference:
+---
 # K8S_Service_OBJ-ClusterIP
 
 쿠버네티스 내부에서 파드들에 접근할 때 사용합니다. 외부로 파드를 노출하지 않기 때문에 쿠버네티스 클러스터 내부에서만 사용되는 파드에 적합합니다.

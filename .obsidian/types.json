@@ -7,7 +7,7 @@
     "list": "multitext",
     "number": "number",
     "checkbox": "checkbox",
-    "date": "date",
+    "date": "text",
     "date&time": "datetime",
     "book_title": "text",
     "author": "multitext",

@@ -74,6 +74,8 @@ cmake ../ -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \
 ------------------
 
 # option 설명
+
+```
 #-DCMAKE_INSTALL_PREFIX=/usr/local/mysql \
 #= mysql을 설치할 기본 경로 지정
 #-DMYSQL_DATADIR=/usr/local/mysql/data \
@@ -158,7 +160,7 @@ WantedBy=multi-user.target
 > update user set password=password('변경할_비밀번호') where user='root';
 > flush privileges;
 > quit
-
+```
 
 [Unit] 섹션은 서비스를 설명하는 부분으로, Description은 서비스에 대한 간단한 설명을 작성합니다. After는 해당 서비스가 실행되기 전에 실행되어야 할 타겟을 지정합니다.
 

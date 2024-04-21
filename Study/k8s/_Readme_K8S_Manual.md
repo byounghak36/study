@@ -1,3 +1,12 @@
+---
+title: _Readme_K8S_Manual
+tags:
+  - kubernetes
+  - K-PaaS
+date: 2024_04_21
+Modify_Date: 
+reference:
+---
 # 카테고리
 
 - K8S Service OBJ

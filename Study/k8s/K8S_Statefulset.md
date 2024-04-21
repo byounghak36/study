@@ -1,3 +1,12 @@
+---
+title: K8S_Statefulset
+tags:
+  - kubernetes
+  - K-PaaS
+date: 2024_04_21
+Modify_Date: 
+reference:
+---
 ## ReplicaSet으로 Stateful Pod 관리하기
 
 컨트롤러들은 상태가 유지되지 않는 애플리케이션(Stateless application)을 관리하기 위해 사용된다. Pod가 수시로 리스타트되어도 되고, Pod 내의 디스크 내용이 리스타트되어 유실되는 경우라도 문제가 없는 워크로드 형태이다. 웹서버나 웹애플리케이션 서버 (WAS)등이 그에 해당한다. 그러나 RDBMS나 NoSQL과 같은  분산 데이터 베이스등과 같이 디스크에 데이터가 유지 되어야 하는 상태가 유지되는 애플리케이션 (Stateful application)은 기존의 컨트롤러로 지원하기가 어렵다.

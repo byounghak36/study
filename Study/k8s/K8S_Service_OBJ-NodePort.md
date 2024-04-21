@@ -1,3 +1,12 @@
+---
+title: K8S_Service_OBJ-NodePort
+tags:
+  - kubernetes
+  - K-PaaS
+date: 2024_04_21
+Modify_Date: 
+reference:
+---
 # K8S_Service_OBJ-NodePort
 
 - 클러스터 내부 및 외부 통신이 가능한 Service 타입이다.
