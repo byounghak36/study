@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#K-PaaS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,14 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bc5c850f5353d618",
+        "type": "tabs",
+        "children": [
           {
             "id": "840f8c3ed3e11ac2",
             "type": "leaf",
@@ -79,6 +86,7 @@
       {
         "id": "723975564ff67740",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "1ee1fb663db1127e",
@@ -110,17 +118,6 @@
             }
           },
           {
-            "id": "3011464001e81bec",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "2b31f4ada88a46fb",
             "type": "leaf",
             "state": {
@@ -132,6 +129,39 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "8eb0b263d5845279",
+        "type": "tabs",
+        "dimension": 28.462273161413563,
+        "children": [
+          {
+            "id": "3011464001e81bec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "89b8e1dd8c09579e",
+        "type": "tabs",
+        "dimension": 38.2043935052531,
+        "children": [
+          {
+            "id": "16faf47d3ee96a1d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,10 +174,11 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "94c8daeb54db170a",
+  "active": "ab76b76854309008",
   "lastOpenFiles": [
     "_Inbox/무제 파일.md",
     "_Inbox",

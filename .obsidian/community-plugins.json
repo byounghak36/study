@@ -1,8 +1,7 @@
 [
   "obsidian-git",
-  "calendar",
-  "periodic-notes",
   "obsidian-tasks-plugin",
   "templater-obsidian",
-  "terminal"
+  "dataview",
+  "calendar"
 ]
