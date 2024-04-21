@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templetes/manaual_templetes.md",
+                "file": "Study/k8s/K8S_Statefulset.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#K-PaaS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "bc5c850f5353d618",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templetes/manaual_templetes.md",
+                "file": "Study/k8s/K8S_Statefulset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templetes/manaual_templetes.md",
+                "file": "Study/k8s/K8S_Statefulset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templetes/manaual_templetes.md"
+                "file": "Study/k8s/K8S_Statefulset.md"
               }
             }
           }
@@ -178,11 +177,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ab76b76854309008",
+  "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox",
-    "Templetes/manaual_templetes.md",
     "Templetes",
     "Study/rocky_repo/ubuntu_repo.md.md",
     "Study/rocky_repo/rocky_repo.md.md",
