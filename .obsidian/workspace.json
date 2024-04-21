@@ -11,15 +11,8 @@
             "id": "7a83f67112152d4d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "무제 파일.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.canvas"
+                "file": "Study/k8s/무제 파일.md"
               }
             }
           }
@@ -182,9 +173,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7a83f67112152d4d",
+  "active": "80c75579a66211b0",
   "lastOpenFiles": [
     "무제 파일.canvas",
+    "Study/k8s/무제 파일.md",
     "Study/0.Linux_ETC/mariadb/mariadb_install.md",
     "_Inbox/무제 파일.md",
     "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
@@ -222,7 +214,6 @@
     "_life/무제 파일.canvas",
     "_life",
     "_Daily_note/2024-04-18.md",
-    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
