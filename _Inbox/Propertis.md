@@ -1,3 +1,9 @@
 ---
-soruce:
+text: 
+list: 
+number: 
+checkbox: 
+date: 
+date&time: 
+tags:
 ---

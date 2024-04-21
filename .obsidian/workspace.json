@@ -27,14 +27,27 @@
               "type": "markdown",
               "state": {
                 "file": "_Inbox/Propertis.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eceef7b2ed52ad39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Inbox/독서 블록.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Inbox/Propertis.md",
+                "file": "_Inbox/독서 블록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Inbox/Propertis.md",
+                "file": "_Inbox/독서 블록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Inbox/Propertis.md"
+                "file": "_Inbox/독서 블록.md"
               }
             }
           }
@@ -178,10 +191,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0623f51744280364",
+  "active": "eceef7b2ed52ad39",
   "lastOpenFiles": [
-    "Study/k8s/K8S_Service_OBJ.md",
+    "_Inbox/독서 블록.md",
     "_Inbox/Propertis.md",
+    "Study/k8s/K8S_Service_OBJ.md",
     "DailyNotes",
     "Study/0.Linux_ETC",
     "Study",
@@ -218,7 +232,6 @@
     "Study/openstack/6. openstack_install_nova.md",
     "Study/openstack/5. openstack_install_placement.md",
     "Study/openstack/2. openstack_install_service.md",
-    "Study/openstack/3. openstack_install_keystone.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",

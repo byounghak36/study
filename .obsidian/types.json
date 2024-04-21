@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "text": "text",
+    "list": "multitext",
+    "number": "number",
+    "checkbox": "checkbox",
+    "date": "date",
+    "date&time": "datetime",
+    "book_title": "text",
+    "author": "multitext",
+    "book_page": "number"
+  }
+}
