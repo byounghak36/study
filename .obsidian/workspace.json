@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Inbox/무제 파일.md",
+                "file": "_Inbox/231224_템플릿.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Inbox/무제 파일.md",
+                "file": "_Inbox/231224_템플릿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Inbox/무제 파일.md",
+                "file": "_Inbox/231224_템플릿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Inbox/무제 파일.md"
+                "file": "_Inbox/231224_템플릿.md"
               }
             }
           }
@@ -175,7 +175,7 @@
   },
   "active": "d28c3409928bdaf1",
   "lastOpenFiles": [
-    "_Inbox/무제 파일.md",
+    "_Inbox/231224_템플릿.md",
     "Templetes/Daily_Note 템플릿.md",
     "Study/k8s/K8S_Service_OBJ.md",
     "_Inbox/Propertis.md",
