@@ -4,21 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c36d0c107acef8bc",
+        "id": "5742e34d06742701",
         "type": "tabs",
         "children": [
           {
-            "id": "7a83f67112152d4d",
+            "id": "94c8daeb54db170a",
             "type": "leaf",
             "state": {
-              "type": "terminal:documentation",
-              "state": {
-                "terminal:documentation": {
-                  "data": "# Terminal for Obsidian [![release](https://img.shields.io/github/v/release/polyipseity/obsidian-terminal)][latest release] [![Obsidian downloads](https://img.shields.io/badge/dynamic/json?logo=Obsidian&color=%238b6cef&label=downloads&query=$[\"terminal\"].downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json)][community plugin] [![Python](https://img.shields.io/badge/Python-≥3.10-gold?labelColor=blue&logo=Python&logoColor=white)][Python]\n\n[Buy Me a Coffee]: https://buymeacoffee.com/polyipseity\n[Buy Me a Coffee/embed]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=polyipseity&button_colour=40DCA5&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00\n[Obsidian]: https://obsidian.md/\n[Python]: https://python.org/downloads/\n[changelog]: https://github.com/polyipseity/obsidian-terminal/blob/main/CHANGELOG.md\n[community plugin]: https://obsidian.md/plugins?id=terminal\n[latest release]: https://github.com/polyipseity/obsidian-terminal/releases/latest\n[other things]: https://github.com/polyipseity/obsidian-monorepo\n[plugin library]: https://github.com/polyipseity/obsidian-plugin-library\n[repository]: https://github.com/polyipseity/obsidian-terminal\n[trailer]: https://raw.githubusercontent.com/polyipseity/obsidian-terminal/main/assets/trailer.png\n\nIntegrate consoles, shells, and terminals inside [Obsidian].\n\n[![Buy Me a Coffee/embed]][Buy Me a Coffee]\n\n__[Repository] · [Changelog] · [Community plugin] · [Other things] · [Features](#features) · [Installation](#installation) · [Usage](#usage) · [Contributing](#contributing) · [Security](#security)__\n\n![Trailer]\n\nFor first time users, read the [installation](#installation) section first!\n\nThis file is automatically opened on first install. You can reopen it in settings or command palette.\n\n## Features\n\n- Start external terminals from Obsidian.\n- Integrate terminals into Obsidian.\n- Has an emulated developer console usable on all platforms.\n- Supports multiple terminal profiles.\n- Has built-in keyboard shortcuts.\n- Automatically save and restore integrated terminal history.\n- Find in terminal.\n- Save terminal history as file.\n- Customize terminal appearance.\n\n## Installation\n\n1. Install plugin.\n\t- Community plugins\n\t\t1. Install the [plugin][community plugin] from community plugins directly.\n\t- Manual\n\t\t1. Create directory `terminal` under `.obsidian/plugins` of your vault.\n\t\t2. Place `manifest.json`, `main.js`, and `styles.css` from the [latest release] into the directory.\n\t- Building (latest)\n\t\t1. Clone this repository, including its submodules.\n\t\t2. Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).\n\t\t3. Run `npm install` in the root directory.\n\t\t4. Run `npm run obsidian:install <vault directory>` in the root directory.\n\t- [Obsidian42 - BRAT](https://obsidian.md/plugins?id=obsidian42-brat) (latest)\n\t\t- See [their readme](https://github.com/TfTHacker/obsidian42-brat#readme).\n2. (optional for Windows, recommended) Install Python and dependencies.\n\t1. Install [Python] 3.10/+.\n\t2. (Windows only) Run `pip3 install psutil==5.9.5 pywinctl==0.0.50 typing_extensions==4.7.1`. <!-- Update `README.md`, `magic.ts`, and `requirements.txt` together. -->\n\t3. Configure Python executable in plugin settings. Press the \"Check\" button to validate the Python configuration.\n3. Enable plugin.\n4. (optional) Configure plugin settings.\n\n## Usage\n\n- To start a new external or integrated terminal\n\t- Ribbon\n\t\t1. Click on the `Open terminal` ribbon.\n\t\t2. Choose the desired profile.\n\t- Context menu\n\t\t1. Right-click on files, folders, or tab headers.\n\t\t2. Choose the desired action (and profile).\n\t- Command palette\n\t\t1. Press `Ctrl`+`P` or click on the `Open command palette` ribbon next to the left window border.\n\t\t2. Choose the desired action (and profile).\n- To save and restore integrated terminal history\n\t1. Keep the terminal open when exiting Obsidian.\n\t2. Terminal history will be restored next time Obsidian is opened.\n- Additional actions\n\t- Includes\n\t\t- Find in terminal: (1), (4)\n\t\t- Clear terminal: (1), (4)\n\t\t- Restart terminal: (1)\n\t\t- Edit terminal: (1)\n\t\t- Save terminal history as file: (1)\n\t\t- Export, import, or edit settings: (2), (3)\n\t\t- Open documentation: (2), (3)\n\t- Available by\n\t\t- (1) Right-click on tab header/`More options`\n\t\t- (2) Open settings\n\t\t- (3) Open command palette\n\t\t- (4) Use keyboard shortcuts\n\n### Keyboard shortcuts\n\n__Terminal tab is focused__\n- Focus terminal: `Ctrl`+`Shift`+`` ` ``\n- Inherits global keyboard shortcuts\n\n__Terminal is focused__\n- Focus terminal tab/Unfocus terminal: `Ctrl`+`Shift`+`` ` ``\n- Clear terminal: `Ctrl`+`Shift`+`K`, `Command`+`K` (macOS)\n- Find in terminal: `Ctrl`+`Shift`+`F`, `Command`+`F` (macOS)\n\n### Profiles\n\nThis plugin comes with several profile presets that you can reference.\n\nWhen setting up a terminal profile, you need to distinguish between shells and terminal emulators. (Search online if needed.) Generally, integrated profiles only work with shells while external ones only work with terminal emulators.\n\n#### Examples\n\n__Shells__\n- Bash: `bash`\n- Bourne shell: `sh`\n- Command Prompt: `cmd`\n- Dash: `dash`\n- Git Bash: `<Git installation>\\bin\\bash.exe` (e.g. `C:\\Program Files\\Git\\bin\\bash.exe`)\n- PowerShell Core: `pwsh`\n- Windows PowerShell: `powershell`\n- Windows Subsystem for Linux: `wsl` or `wsl -d <distribution name>`\n- Z shell: `zsh`\n\n__Terminal emulators__\n- Command Prompt: `cmd`\n- GNOME Terminal: `gnome-terminal`\n- Konsole: `konsole`\n- Terminal (macOS): `/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal \"$PWD\"`\n- Windows Terminal: `wt`\n- iTerm2: `/Applications/iTerm.app/Contents/MacOS/iTerm2 \"$PWD\"`\n- xterm: `xterm`\n\n### Miscellaneous\n\nThis plugin patches `require` so that `require(\"obsidian\")` and other Obsidian modules work in the developer console. It is toggleable as `Expose internal modules` in settings.\n\nIn the developer console, a context variable `$$` is passed into the code, which can be used to dynamically change terminal options.\n\nThe full API is available from [`sources/@types/obsidian-terminal.ts`](sources/%40types/obsidian-terminal.ts).\n\n## Contributing\n\nContributions are welcome!\n\n### Todos\n\nThe todos here, ordered alphabetically, are things planned for the plugin. There are no guarantees that they will be completed. However, we are likely to accept contributions for them.\n\n- Connect to remote shells.\n- Copy terminal tabs.\n- Create ad-hoc profile in `Open terminal: Select`.\n- Detect sandboxed environment and notify users.\n- Edit profile before opening terminal in `Open terminal: Select` when a modifier key is pressed.\n- External link confirmation.\n- Filter console log by severity in the developer console.\n- Fix broken section links in builtin documentations.\n- Indicate that the terminal resizer has crashed or is disabled.\n- Shared terminal tabs.\n- Vim mode switch.\n\n### Translating\n\nTranslation files are under [`assets/locales/`](assets/locales/). Each locale has its own directory named with its corresponding __[IETF language tag](https://wikipedia.org/wiki/IETF_language_tag)__. Some translation keys are missing here and instead located at [`obsidian-plugin-library`][plugin library].\n\nTo contribute translation for an existing locale, modify the files in the corresponding directory.\n\nFor a new locale, create a new directory named with its language tag and copy [`assets/locales/en/translation.json`](assets/locales/en/translation.json) into it. Then, add an entry to [`assets/locales/en/language.json`](assets/locales/en/language.json) in this format:\n```JSONc\n{\n\t// ...\n\t\"en\": \"English\",\n\t\"(your-language-tag)\": \"(Native name of your language)\",\n\t\"uwu\": \"Uwuish\",\n\t// ...\n}\n```\nSort the list of languages by the alphabetical order of their language tags. Then modify the files in the new directory. There will be errors in [`assets/locales.ts`](assets/locales.ts), which you can ignore and we will fix them for you. You are welcome to fix them yourself if you know TypeScript.\n\nWhen translating, keep in mind the following things:\n- Do not translate anything between `{{` and `}}` (`{{example}}`). They are __interpolations__ and will be replaced by localized strings at runtime.\n- Do not translate anything between `$t(` and `)` (`$t(example)`). They refer to other localized strings. To find the localized string being referred to, follow the path of the key, which is separated by dots (`.`). For example, the key [`youtu.be./dQw4w9WgXcQ`](https://youtu.be./dQw4w9WgXcQ) refers to:\n```JSONc\n{\n\t// ...\n\t\"youtu\": {\n\t\t// ...\n\t\t\"be\": {\n\t\t\t// ...\n\t\t\t\"/dQw4w9WgXcQ\": \"I am 'youtu.be./dQw4w9WgXcQ'!\",\n\t\t\t// ...\n\t\t},\n\t\t// ...\n\t},\n\t// ...\n}\n```\n- The keys under `generic` are vocabularies. They can be referred in translation strings by `$t(generic.key)`. Refer to them as much as possible to standardize translations for vocabularies that appear in different places.\n- It is okay to move interpolations and references to other localized strings around to make the translation natural. It is also okay to not use some references used in the original translation. However, it is NOT okay to not use all interpolations.\n\n## Security\n\nWe hope that there will never be any security vulnerabilities, but unfortunately it does happen. Please [report](#reporting-a-vulnerability) them!\n\n### Supported versions\n\n| Version | Supported |\n|-|-|\n| latest | ✅ |\n| outdated | ❌ |\n\n### Reporting a vulnerability\n\nPlease report a vulerability by opening an new issue. We will get back to you as soon as possible.\n",
-                  "displayTextI18nKey": "translation:generic.documentations.readme",
-                  "iconI18nKey": "asset:generic.documentations.readme-icon"
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -33,7 +27,6 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 58.75,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -59,16 +52,9 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "95d33e77c24e0c8b",
-        "type": "tabs",
-        "dimension": 41.25,
-        "children": [
+          },
           {
-            "id": "ce96b8733d757a11",
+            "id": "840f8c3ed3e11ac2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 253.5
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -88,7 +74,6 @@
       {
         "id": "723975564ff67740",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "1ee1fb663db1127e",
@@ -113,7 +98,18 @@
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3011464001e81bec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
@@ -126,44 +122,11 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "be14a18fc47ab44f",
-        "type": "tabs",
-        "dimension": 25,
-        "children": [
-          {
-            "id": "3011464001e81bec",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "9a511aaf31ba2126",
-        "type": "tabs",
-        "dimension": 25,
-        "children": [
-          {
-            "id": "9d4db8bebd50da74",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,59 +135,59 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "periodic-notes:Open today": false,
-      "templater-obsidian:Templater": false,
-      "terminal:Open terminal": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7a83f67112152d4d",
+  "active": "80c75579a66211b0",
   "lastOpenFiles": [
-    "Study/github_blog",
-    "Study/k8s/무제 파일.md",
-    "무제 파일.canvas",
-    "Study/0.Linux_ETC/mariadb/mariadb_install.md",
     "_Inbox/무제 파일.md",
-    "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
-    "Study/0.Linux_ETC/openssl/openssl_install_man.md",
-    "Study/k8s/_Readme_K8S_Manual.md",
-    "Study/k8s/K8S_Service_OBJ.md",
-    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
-    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
-    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
-    "Study/k8s/K8S_Service_OBJ-NodePort.md",
-    "Study/k8s/K8S_Statefulset.md",
-    "Templetes/manaual_templetes.md",
-    "Study/k8s/KNN_회의안건.md",
-    "_Inbox/테스트_메뉴얼.md",
-    "10.Planer/11.Daily/2024-04-01(월).md",
-    "_Inbox/asdfasdf.md",
-    "_Inbox/231224_템플릿.md",
-    "_Inbox/Propertis.md",
-    "_Inbox/독서 블록.md",
-    "DailyNotes",
-    "Study/0.Linux_ETC",
-    "Study",
-    "컴퓨터개론.md",
-    "Study/k8s/image/nodeport_image.png",
     "_Inbox",
-    "_Files",
-    "10.Planer/11.Daily/240401(월).md",
-    "Study/0.Linux_ETC/grep_option/grep.md",
+    "Templetes/manaual_templetes.md",
     "Templetes",
-    "Daily_Note 템플릿",
-    "10.Planer/11.Daily",
-    "10.Planer/무제 파일.canvas",
-    "Study/0.Linux_ETC/apache/apache_install.md",
-    "10.Planer",
-    "_life/무제 파일.canvas",
-    "_life",
-    "_Daily_note/2024-04-18.md",
+    "Study/rocky_repo/ubuntu_repo.md.md",
+    "Study/rocky_repo/rocky_repo.md.md",
+    "Study/rocky_repo",
+    "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
+    "Study/openstack/subnet생성후 붙이기",
+    "Study/openstack/6. openstack_install_nova.md",
+    "Study/openstack/5. openstack_install_placement.md",
+    "Study/openstack/4. openstack_install_glance.md",
+    "Study/openstack/3. openstack_install_keystone.md",
+    "Study/openstack/2. openstack_install_service.md",
+    "Study/openstack/1. openstack_install_환경설정.md",
+    "Study/openstack",
+    "Study/k8s/image/photo_2024-04-17_09-34-07.jpg",
+    "Study/k8s/image/nodeport_image.png",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
+    "Study/k8s/image",
+    "Study/k8s/_Readme_K8S_Manual.md",
+    "Study/k8s/K8S_Statefulset.md",
+    "Study/k8s/K8S_Service_OBJ.md",
+    "Study/k8s/K8S_Service_OBJ-NodePort.md",
+    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
+    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
+    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
+    "Study/k8s",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Study/ceph/ceph-ansible",
+    "Study/ceph",
+    "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
+    "Study/0.Linux_ETC/vim_option&plugin",
+    "Study/0.Linux_ETC/pdns/pictures/master_serv_record.png",
+    "Study/0.Linux_ETC/pdns/pdns_install.md",
+    "Study/0.Linux_ETC/pdns/dns_record.md",
+    "Study/0.Linux_ETC/linux/images/regular-expression.gif",
+    "Study/0.Linux_ETC/linux/images/regexp_3type.jpeg",
+    "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
+    "Study/0.Linux_ETC/openssl/openssl_install_man.md",
+    "Study/0.Linux_ETC/nagios/nagios.md",
+    "Study/0.Linux_ETC/mariadb/mariadb_install.md",
+    "무제 파일.canvas",
+    "k8s/image/Pasted image 20240417103730.png",
+    "k8s/image/Pasted image 20240417093436.png",
     "k8s/무제 파일.canvas",
-    "Study/k8s/image/photo_2024-04-17_09-34-07.jpg",
     "무제 파일 1.canvas"
   ]
 }
