@@ -193,7 +193,7 @@ Mar 17 15:13:26 kimbh0132-197840 pdns_server: AXFR done for 'kimbh.xyz', zone co
 Mar 17 15:14:26 kimbh0132-197840 pdns_server: No new unfresh slave domains, 0 queued for AXFR already, 0 in progress
 ```
 - record 등록한 사진
-![사진1](./pictures/master_serv_record.png)
+![사진1](master_serv_record.png)
 
 - whois
 ```

@@ -5,6 +5,7 @@
   "showLineNumber": true,
   "readableLineLength": false,
   "trashOption": "local",
-  "newFileLocation": "current",
-  "attachmentFolderPath": ""
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "_Files",
+  "newFileFolderPath": "_Inbox"
 }
