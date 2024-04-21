@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0623f51744280364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Inbox/Propertis.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_Service_OBJ.md",
+                "file": "_Inbox/Propertis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_Service_OBJ.md",
+                "file": "_Inbox/Propertis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_Service_OBJ.md"
+                "file": "_Inbox/Propertis.md"
               }
             }
           }
@@ -164,13 +178,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "80c75579a66211b0",
+  "active": "0623f51744280364",
   "lastOpenFiles": [
+    "Study/k8s/K8S_Service_OBJ.md",
+    "_Inbox/Propertis.md",
     "DailyNotes",
     "Study/0.Linux_ETC",
     "Study",
     "컴퓨터개론.md",
-    "Study/k8s/K8S_Service_OBJ.md",
     "Study/k8s/image/nodeport_image.png",
     "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
     "Study/k8s/_Readme_K8S_Manual.md",
@@ -195,7 +210,6 @@
     "Study/k8s/KNN_회의안건.md",
     "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
-    "_Daily_note",
     "k8s/K8S_Service_OBJ-NodePort.md.md",
     "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "Study/openstack/1. openstack_install_환경설정.md",
