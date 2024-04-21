@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "apache/apache_install.md",
+                "file": "Templetes/Daily_Note 템플릿.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apache/apache_install.md",
+                "file": "Templetes/Daily_Note 템플릿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "apache/apache_install.md",
+                "file": "Templetes/Daily_Note 템플릿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "apache/apache_install.md"
+                "file": "Templetes/Daily_Note 템플릿.md"
               }
             }
           }
@@ -160,11 +160,22 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "9d4db8bebd50da74",
+  "active": "faf5b52d45c3db6b",
   "lastOpenFiles": [
+    "10.Planer/11.Daily/2024-04-01(월).md",
+    "Templetes/Daily_Note 템플릿.md",
+    "10.Planer/11.Daily/240401(월).md",
+    "grep_option/grep.md",
+    "Templetes",
+    "Daily_Note 템플릿",
+    "10.Planer/11.Daily",
+    "10.Planer/무제 파일.canvas",
+    "apache/apache_install.md",
+    "10.Planer",
     "_life/무제 파일.canvas",
     "_life",
     "_Daily_note/2024-04-18.md",
@@ -189,24 +200,16 @@
     "openstack/3. openstack_install_keystone.md",
     "openstack/4. openstack_install_glance.md",
     "2024-04-18.md",
-    "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/image/Pasted image 20240417103730.png",
-    "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
-    "컴퓨터개론.md",
-    "galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
     "galera",
     "apache",
     "computer_disk",
     "nagios",
-    "ceph/ceph-ansible",
-    "ceph",
     "k8s/image/Pasted image 20240417093436.png",
     "k8s/image/Pasted image 20240417093348.png",
     "k8s/무제 파일.canvas",
     "k8s/image/photo_2024-04-17_09-34-07.jpg",
     "k8s/image/nodeport_image.png",
-    "공부",
-    "home/kimbh/문서/김병학_공부/draw.io",
     "무제 파일 1.canvas"
   ]
 }
