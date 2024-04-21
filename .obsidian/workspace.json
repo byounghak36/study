@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5742e34d06742701",
+        "id": "80da808837f4eff6",
         "type": "tabs",
         "children": [
           {
-            "id": "94c8daeb54db170a",
+            "id": "faf5b52d45c3db6b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "_life/무제 파일.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -44,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 380.5
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_life/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,8 +105,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_life/무제 파일.canvas",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -118,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_life/무제 파일.canvas"
+              }
             }
           }
         ],
@@ -139,54 +150,51 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "94c8daeb54db170a",
+  "active": "faf5b52d45c3db6b",
   "lastOpenFiles": [
-    "k8s/K8S_Service_OBJ-ClusterIP.md",
+    "_life",
+    "_Daily_note/2024-04-18.md",
+    "_life/무제 파일.canvas",
+    "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "k8s/_Readme_K8S_Manual.md",
-    "k8s/K8S_Service_OBJ.md",
-    "k8s/K8S_Service_OBJ-ExternalName.md",
-    "k8s/K8S_Service_OBJ-LoadBalancer.md",
-    "k8s/K8S_Service_OBJ-NodePort.md",
     "k8s/KNN_회의안건.md",
     "k8s/K8S_Statefulset.md",
-    "k8s/K8S_Manual_readme.md",
-    "무제 파일.canvas",
-    "_Daily_note/2024-04-18.md",
+    "k8s/K8S_Service_OBJ.md",
+    "k8s/K8S_Service_OBJ-NodePort.md",
+    "k8s/K8S_Service_OBJ-LoadBalancer.md",
+    "k8s/K8S_Service_OBJ-ExternalName.md",
+    "k8s/K8S_Service_OBJ-ClusterIP.md",
     "_Daily_note",
-    "컴퓨터개론.md",
+    "k8s/K8S_Service_OBJ-NodePort.md.md",
+    "k8s/K8S_Service_OBJ-ClusterIP.md.md",
     "openstack/1. openstack_install_환경설정.md",
-    "pdns/dns_record.md",
+    "k8s/K8S_Service_OBJ.md.md",
+    "k8s/KNN_회의안건.md.md",
     "openstack/6. openstack_install_nova.md",
-    "nagios/nagios.md",
-    "nagios",
-    "linux/디스크마운트.md",
+    "openstack/5. openstack_install_placement.md",
+    "openstack/2. openstack_install_service.md",
+    "openstack/3. openstack_install_keystone.md",
+    "openstack/4. openstack_install_glance.md",
+    "2024-04-18.md",
+    "k8s/K8S_Service_OBJ-ExternalName.md.md",
     "k8s/image/Pasted image 20240417103730.png",
-    "k8s/image/Pasted image 20240417093436.png",
-    "k8s/image/Pasted image 20240417093348.png",
-    "galera/갈레라설치.md",
+    "MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "컴퓨터개론.md",
     "galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
     "galera",
-    "ceph/ceph-ansible/Ceph-ansible.md",
+    "apache",
+    "computer_disk",
+    "nagios",
     "ceph/ceph-ansible",
     "ceph",
-    "apache/apache_install.md",
-    "apache",
-    "2024-04-17.md",
-    "k8s/yaml설명.md",
+    "k8s/image/Pasted image 20240417093436.png",
+    "k8s/image/Pasted image 20240417093348.png",
     "k8s/무제 파일.canvas",
-    "Pasted image 20240417103730.png",
     "k8s/image/photo_2024-04-17_09-34-07.jpg",
-    "Pasted image 20240417093436.png",
-    "Pasted image 20240417093348.png",
-    "().md",
     "k8s/image/nodeport_image.png",
-    "linux/regular_expression.md",
-    "공부/Welcome.md",
     "공부",
-    "갈레라설치.md",
     "home/kimbh/문서/김병학_공부/draw.io",
     "home/kimbh/문서/김병학_공부",
-    "home/kimbh/문서",
     "무제 파일 1.canvas"
   ]
 }
