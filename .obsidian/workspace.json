@@ -11,14 +11,12 @@
             "id": "faf5b52d45c3db6b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "_life/무제 파일.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "apache/apache_install.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -81,6 +79,7 @@
       {
         "id": "723975564ff67740",
         "type": "tabs",
+        "dimension": 60.44117647058823,
         "children": [
           {
             "id": "1ee1fb663db1127e",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_life/무제 파일.canvas",
+                "file": "apache/apache_install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_life/무제 파일.canvas",
+                "file": "apache/apache_install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,17 +127,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_life/무제 파일.canvas"
+                "file": "apache/apache_install.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
+      },
+      {
+        "id": "d8c42ff1b4bf9723",
+        "type": "tabs",
+        "dimension": 39.55882352941176,
+        "children": [
+          {
+            "id": "9d4db8bebd50da74",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,11 +163,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "faf5b52d45c3db6b",
+  "active": "9d4db8bebd50da74",
   "lastOpenFiles": [
+    "_life/무제 파일.canvas",
     "_life",
     "_Daily_note/2024-04-18.md",
-    "_life/무제 파일.canvas",
     "k8s/K8S_Service_OBJ-LoadBalancer.md.md",
     "k8s/_Readme_K8S_Manual.md",
     "k8s/KNN_회의안건.md",
@@ -194,7 +207,6 @@
     "k8s/image/nodeport_image.png",
     "공부",
     "home/kimbh/문서/김병학_공부/draw.io",
-    "home/kimbh/문서/김병학_공부",
     "무제 파일 1.canvas"
   ]
 }
