@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_Statefulset.md",
+                "file": "Study/k8s/K8S_GPU_Container.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_Statefulset.md",
+                "file": "Study/k8s/K8S_GPU_Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_Statefulset.md",
+                "file": "Study/k8s/K8S_GPU_Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_Statefulset.md"
+                "file": "Study/k8s/K8S_GPU_Container.md"
               }
             }
           }
@@ -179,6 +179,8 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "Study/k8s/K8S_Statefulset.md",
+    "Study/k8s/K8S_GPU_Container.md",
     "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox",
@@ -202,7 +204,6 @@
     "Study/k8s/image/Pasted image 20240417093348.png",
     "Study/k8s/image",
     "Study/k8s/_Readme_K8S_Manual.md",
-    "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/K8S_Service_OBJ.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
     "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
@@ -222,7 +223,6 @@
     "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
     "Study/0.Linux_ETC/openssl/openssl_install_man.md",
     "Study/0.Linux_ETC/nagios/nagios.md",
-    "Study/0.Linux_ETC/mariadb/mariadb_install.md",
     "무제 파일.canvas",
     "k8s/image/Pasted image 20240417103730.png",
     "k8s/image/Pasted image 20240417093436.png",
