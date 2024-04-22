@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_GPU_Container.md",
+                "file": "Study/k8s/K8S_개념정리.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_GPU_Container.md",
+                "file": "Study/k8s/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_GPU_Container.md",
+                "file": "Study/k8s/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_GPU_Container.md"
+                "file": "Study/k8s/K8S_개념정리.md"
               }
             }
           }
@@ -179,8 +179,10 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
-    "Study/k8s/K8S_Statefulset.md",
+    "Study/k8s/_Readme_K8S_Manual.md",
+    "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_GPU_Container.md",
+    "Study/k8s/K8S_Statefulset.md",
     "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox",
@@ -203,7 +205,6 @@
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
     "Study/k8s/image",
-    "Study/k8s/_Readme_K8S_Manual.md",
     "Study/k8s/K8S_Service_OBJ.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
     "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
@@ -222,7 +223,6 @@
     "Study/0.Linux_ETC/linux/images/regexp_3type.jpeg",
     "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
     "Study/0.Linux_ETC/openssl/openssl_install_man.md",
-    "Study/0.Linux_ETC/nagios/nagios.md",
     "무제 파일.canvas",
     "k8s/image/Pasted image 20240417103730.png",
     "k8s/image/Pasted image 20240417093436.png",
