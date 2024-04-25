@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Inbox/K8S_architecture.md",
+                "file": "Study/k8s/K8S_architecture.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Inbox/K8S_architecture.md",
+                "file": "Study/k8s/K8S_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Inbox/K8S_architecture.md",
+                "file": "Study/k8s/K8S_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Inbox/K8S_architecture.md"
+                "file": "Study/k8s/K8S_architecture.md"
               }
             }
           }
@@ -180,12 +180,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "94c8daeb54db170a",
+  "active": "80c75579a66211b0",
   "lastOpenFiles": [
     "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox/무제 파일 1.md",
-    "_Inbox/K8S_architecture.md",
+    "Study/k8s/K8S_architecture.md",
     "Study/k8s/_Readme_K8S_Manual.md",
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/_error_vault.md",
