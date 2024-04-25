@@ -17,3 +17,6 @@ reference:
 	- [[K8S_Service_OBJ-ExternalName]]
 - Statefulset
 	- [[K8S_Statefulset]] (참조 https://bcho.tistory.com/1306)
+- K8S architecture
+	- [[K8S_architecture]]
+	- 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/_Readme_K8S_Manual.md",
+                "file": "_Inbox/K8S_architecture.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/_Readme_K8S_Manual.md",
+                "file": "_Inbox/K8S_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/_Readme_K8S_Manual.md",
+                "file": "_Inbox/K8S_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/_Readme_K8S_Manual.md"
+                "file": "_Inbox/K8S_architecture.md"
               }
             }
           }
@@ -182,15 +182,17 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "Templetes/manaual_templetes.md",
+    "_Inbox/무제 파일.md",
+    "_Inbox/무제 파일 1.md",
+    "_Inbox/K8S_architecture.md",
+    "Study/k8s/_Readme_K8S_Manual.md",
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/_error_vault.md",
     "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
-    "Study/k8s/_Readme_K8S_Manual.md",
     "Study/k8s/K8S_Service_OBJ.md",
     "Study/k8s/K8S_GPU_Container.md",
-    "Templetes/manaual_templetes.md",
-    "_Inbox/무제 파일.md",
     "_Inbox",
     "Templetes",
     "Study/rocky_repo/ubuntu_repo.md.md",
@@ -222,10 +224,8 @@
     "Study/0.Linux_ETC/vim_option&plugin",
     "Study/0.Linux_ETC/pdns/pictures/master_serv_record.png",
     "Study/0.Linux_ETC/pdns/pdns_install.md",
-    "Study/0.Linux_ETC/pdns/dns_record.md",
     "Study/0.Linux_ETC/linux/images/regular-expression.gif",
     "Study/0.Linux_ETC/linux/images/regexp_3type.jpeg",
-    "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
     "무제 파일.canvas",
     "k8s/image/Pasted image 20240417103730.png",
     "k8s/image/Pasted image 20240417093436.png",
