@@ -63,4 +63,7 @@ reference:
 
 ### 구성 요소가 통신하는 방법
 쿠버네티스는 오로지 API 서버하고만 통신한다. 서로 직접 통신하지 않는다. API 서버는 etcd 서버와 통신하는 유일한 구성 요소다. 다른 구성 요소는 etcd와 직접 통신하지않고, API 서버로 부터 클러스터 상태를 변경한다.
-허나 kubectl 을 이용하여 로그를 가져오거나 kubectl attach 를 통하여 실행중인 컨테이너에 연
+허나 kubectl 을 이용하여 로그를 가져오거나 kubectl attach 를 통하여 실행중인 컨테이너에 연결할 때, kubectl por-forward 명령을 실행할 때는  API 서버가 kubelet에 접속한다.
+
+> [!NOTE] attach 와 exec 의 차이점
+> 
