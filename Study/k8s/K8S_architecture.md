@@ -16,6 +16,7 @@ reference:
 이 두 부분이 무엇을 하고 그 내부에서 무엇이 실행되는지 설명하고자 한다.
 
 ### 컨트롤 플레인 구성 요소
+
 컨트롤 플레인은 클러스터 기능을 제어하고 전체 클러스터가 동작하게 만드는 역할을 한다. 구성 요소는 다음과 같다.
 
 - etcd (분산 저장 스토리지)
@@ -26,12 +27,14 @@ reference:
 이들 구성 요소는 클러스터 상태를 저장하고 관리하지만 어플리케이션 컨테이너를 직접 실행하는 것은 아니다.
 
 ### 워커 노드에서 실행하는 구성 요소
+
 컨테이너를 실행하는 작업은 각 워커 노드에서 실행되는 구성 요소가 담당한다.
 
 - kubelet
 - kube-proxy(쿠버네티스 서비스 프록시)
 - 컨테이너 런타임(Dockerk, CRI-O 외 기타)
 ### 애드온 구성 요소
+
 컨트롤 플레인과 노드에서 실행되는 구성 요소 외에도 클러스터에서 지금까지 설명한 모든 기능을 제공하기 위해 몇 가지 추가 구성 요소가 필요하다.
 
 - 쿠버네티스 DNS 서버
@@ -46,5 +49,18 @@ reference:
 각 구성요소가 어떻게 동작하는지 살펴보자.
 
 > [!NOTE] 컨트롤 플레인 구성 요소의 상태 확인
-> API 서버는 각 
-> 
+> API 서버는 각 컨트롤 플레인의 구성 요소의 상태를 표시하는 ComponentStatus 라는 API 리소스를 제공한다. kubectl 명령으로 구성 요소와 각각의 상태를 조회할 수 있다.
+> ```
+> ubuntu@master1:~$ kubectl get componentstatuses
+> Warning: v1 ComponentStatus is deprecated in v1.19+
+> NAME                 STATUS    MESSAGE   ERROR
+> controller-manager   Healthy   ok
+> scheduler            Healthy   ok
+> etcd-2               Healthy
+> etcd-0               Healthy
+> etcd-1               Healthy
+> ```
+
+### 구성 요소가 통신하는 방법
+쿠버네티스는 오로지 API 서버하고만 통신한다. 서로 직접 통신하지 않는다. API 서버는 etcd 서버와 통신하는 유일한 구성 요소다. 다른 구성 요소는 etcd와 직접 통신하지않고, API 서버로 부터 클러스터 상태를 변경한다.
+허나 kubectl 을 이용하여 로그를 가져오거나 kubectl attach 를 통하여 실행중인 컨테이너에 연
