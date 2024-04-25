@@ -66,4 +66,4 @@ reference:
 허나 kubectl 을 이용하여 로그를 가져오거나 kubectl attach 를 통하여 실행중인 컨테이너에 연결할 때, kubectl por-forward 명령을 실행할 때는  API 서버가 kubelet에 접속한다.
 
 > [!NOTE] attach 와 exec 의 차이점
-> 
+> attach 명령은 exec 와 비슷하지만 별도의 프로세스를 실행하는 대신 컨테이너에서 실행 중인 메인 프로세스에 연결한다.
