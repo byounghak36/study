@@ -46,7 +46,7 @@ reference:
 컨테이너 기술을 이용하면 컴퓨팅 리소스를 가상화 방식보다 더 작게 나눌 수 있습니다. 추상화된 리소스를 할당하는것이 아닌, 표면상으로는 OS 에서 작동하는 프로세스기 때문이죠.
 
 ![[Pasted image 20240426111808.png]]
-_출처 : https://www.redhat.com/ko/topics/containers/whats-a-linux-container
+*출처 : https://www.redhat.com/ko/topics/containers/whats-a-linux-container* 
 
 운영자 입장에서는 이렇게 잘게 나눈 컨테이너를 효과적으로 관리하기 위한 새로운 가이드라인이 필요했습니다.
 ```bash
@@ -93,7 +93,7 @@ podman exec ubuntu-dev /bin/bash ls
 
 **Master Node**
 - **kubernetes API server** : 쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다.
-- **Scheduler** : Pod 가 생성될 때 노드에 할당되지 않은 상
+- **Scheduler** : Pod 가 생성될 때 노드에 할당되지 않은 상태에서 만들어진 Pod 를 감시하고, Pod가 배치될 적절한 노드를 탐색하여 배치합니다. 기본적으로 기본 Scheduler인 kube-scheduler 의 룰을 따르되 필요 따라 관리자가 scheduler 를 새로이 만들고 설계할 수 있습니다. *(참고 : https://kubernetes.io/ko/docs/concepts/scheduling-eviction/kube-scheduler/)* 
 - **etcd** : 
 - **control manager** : 
 
