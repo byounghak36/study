@@ -22,6 +22,11 @@ reference:
 		- [[#2.1 Control Plane#2.1.2 Scheduler|2.1.2 Scheduler]]
 		- [[#2.1 Control Plane#2.1.3 etcd|2.1.3 etcd]]
 		- [[#2.1 Control Plane#2.1.4 control manager|2.1.4 control manager]]
+	- [[#2 쿠버네티스 클러스터의 구성#2.2 Worker node|2.2 Worker node]]
+		- [[#2.2 Worker node#2.2.1 kubelet|2.2.1 kubelet]]
+		- [[#2.2 Worker node#2.2.2 kube-proxy|2.2.2 kube-proxy]]
+		- [[#2.2 Worker node#2.2.3 Container Runtime|2.2.3 Container Runtime]]
+
 
 ---
 
@@ -66,6 +71,8 @@ podman exec ubuntu-dev /bin/bash ls
 **관리자의 리소스 컨트롤**
 관리자는 쿠버네티스로 구성한 클러스터 어디에서 어플리케이션이 실행되고 있는지 고민하지 않아도 됩니다. 쿠버네티스는 노드 상황을 자동적으로 파악해 어플리케이션의 재배치등이나 장애복구를 진행하기 때문입니다. 리소스의 수동 스케줄링보다 더 빠르고 정확합니다.
 
+---
+
 ## 2 쿠버네티스 클러스터의 구성
 
 쿠버네티스의 설명은 간략하게 했으니, 하드웨어 수준에서 쿠버네티스 클러스터가 어떻게 구성되는지 알 필요가 있습니다. 쿠버네티스는 기본적으로 마스터노드, 워커노드로 구성됩니다.
@@ -95,5 +102,12 @@ podman exec ubuntu-dev /bin/bash ls
 #### 2.1.1 Kubernetes API server
 쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다.
 #### 2.1.2 Scheduler
+
 #### 2.1.3 etcd
+
 #### 2.1.4 control manager
+
+### 2.2 Worker node
+#### 2.2.1 kubelet
+#### 2.2.2 kube-proxy
+#### 2.2.3 Container Runtime
