@@ -18,14 +18,7 @@ reference:
 		- [[#1.1 Kubernetes 란?#1.1.2 쿠버네티스의 핵심 역할|1.1.2 쿠버네티스의 핵심 역할]]
 - [[#2 쿠버네티스 클러스터의 구성|2 쿠버네티스 클러스터의 구성]]
 	- [[#2 쿠버네티스 클러스터의 구성#2.1 Control Plane|2.1 Control Plane]]
-		- [[#2.1 Control Plane#2.1.1 Kubernetes API server|2.1.1 Kubernetes API server]]
-		- [[#2.1 Control Plane#2.1.2 Scheduler|2.1.2 Scheduler]]
-		- [[#2.1 Control Plane#2.1.3 etcd|2.1.3 etcd]]
-		- [[#2.1 Control Plane#2.1.4 control manager|2.1.4 control manager]]
 	- [[#2 쿠버네티스 클러스터의 구성#2.2 Worker node|2.2 Worker node]]
-		- [[#2.2 Worker node#2.2.1 kubelet|2.2.1 kubelet]]
-		- [[#2.2 Worker node#2.2.2 kube-proxy|2.2.2 kube-proxy]]
-		- [[#2.2 Worker node#2.2.3 Container Runtime|2.2.3 Container Runtime]]
 
 
 ---
@@ -101,6 +94,7 @@ podman exec ubuntu-dev /bin/bash ls
 	- Statefulset Contorller (스테이트풀셋 컨트롤러)
 	- Node Controler (노드 컨트롤러)
 	- Service Controler (서비스 컨틀롤러)
+	  [[K8S_Service_OBJ]]
 	  [[K8S_Service_OBJ-ClusterIP]]
 	  [[K8S_Service_OBJ-NodePort]]
 	  [[K8S_Service_OBJ-LoadBalancer]]
@@ -110,15 +104,4 @@ podman exec ubuntu-dev /bin/bash ls
 	- PhysicalVolumeControler (이하 PVC, 피지컬볼륨 컨트롤러)
 	- 그 외
 
-#### 2.1.1 Kubernetes API server
-
-#### 2.1.2 Scheduler
-
-#### 2.1.3 etcd
-
-#### 2.1.4 control manager
-
 ### 2.2 Worker node
-#### 2.2.1 kubelet
-#### 2.2.2 kube-proxy
-#### 2.2.3 Container Runtime
