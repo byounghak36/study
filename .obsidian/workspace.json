@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c2faf51de452a8ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
       {
         "id": "723975564ff67740",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 36.81462140992167,
         "children": [
           {
             "id": "1ee1fb663db1127e",
@@ -148,7 +134,7 @@
       {
         "id": "8eb0b263d5845279",
         "type": "tabs",
-        "dimension": 28.462273161413563,
+        "dimension": 24.978241949521323,
         "children": [
           {
             "id": "3011464001e81bec",
@@ -166,7 +152,7 @@
       {
         "id": "89b8e1dd8c09579e",
         "type": "tabs",
-        "dimension": 38.2043935052531,
+        "dimension": 38.207136640557,
         "children": [
           {
             "id": "16faf47d3ee96a1d",
@@ -193,14 +179,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c2faf51de452a8ff",
+  "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "Study/k8s/image/쿠버네티스_구성_요소.png",
+    "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
     "Study/k8s/K8S_architecture.md",
     "Study/k8s/image/쿠버네티스 기본 구성.png",
-    "Study/k8s/image/쿠버네티스_구성_요소.png.png",
-    "Study/k8s/K8S_개념정리.md",
     "Study/k8s/_Readme_K8S_Manual.md",
     "Study/k8s/image/Pasted image 20240426111808.png",
     "Study/k8s/image/data-center-isometric-flowchart.zip",
@@ -214,7 +201,6 @@
     "Study/k8s/K8S_Service_OBJ-ExternalName.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
     "Study/k8s/K8S_Statefulset.md",
-    "무제 파일.canvas",
     "Study/k8s/K8S_Service_OBJ.md",
     "Study/k8s/image/photo_2024-04-17_09-34-07.jpg",
     "Templetes/manaual_templetes.md",
@@ -239,7 +225,6 @@
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
-    "Study/k8s/image",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/0.Linux_ETC/pdns/pictures/master_serv_record.png",
     "k8s/무제 파일.canvas",
