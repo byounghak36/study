@@ -3,5 +3,6 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "dataview",
-  "calendar"
+  "calendar",
+  "obsidian-plugin-toc"
 ]
