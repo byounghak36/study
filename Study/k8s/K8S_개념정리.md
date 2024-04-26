@@ -103,5 +103,6 @@ podman exec ubuntu-dev /bin/bash ls
 	- Namespaced Controler (네임스페이스 컨트롤러)
 	- PhysicalVolumeControler (이하 PVC, 피지컬볼륨 컨트롤러)
 	- 그 외
+	허나 컨트롤 플레인은 쿠버네티스 시스템 운영의 한 부분만을 처리하기 때문에 쿠버네티스 클러스터 안에서 어던 일
 
 ### 2.2 Worker node
