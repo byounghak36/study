@@ -52,4 +52,3 @@ podman exec ubuntu-dev /bin/bash ls
 ### 2.1 쿠버네티스 클러스터의 구성
 
 쿠버네티스 클러스터는
-
