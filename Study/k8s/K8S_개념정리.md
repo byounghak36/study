@@ -63,4 +63,4 @@ podman exec ubuntu-dev /bin/bash ls
 ![[쿠버네티스 기본 구성.png]]
 
 위 사진은 가장 기본적인 쿠버네티스 구성이다. API서버는 CM(컨트롤매니저), kubelet 등의 명령을 받은 다음 etcd에 변동사항을 저장하고 Worker Node의 kubelet에 명령을 전달합니다. kubelet은 컨테이너 런타임을 동작시켜 Pod를 관리합니다.
-### 2.1.1 Con
+### 2.1.1 Control Plane
