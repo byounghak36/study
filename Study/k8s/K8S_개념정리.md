@@ -91,11 +91,12 @@ podman exec ubuntu-dev /bin/bash ls
 
 컨트롤 플레인 컴포넌트는 쿠버네티스 클러스터의 전반적인 결정을 수행하고 클러스터 이벤트를 감지하고 반응합니다. 컨트롤 플레인의 컴포넌트들은 어떤 노드에서도 Pod 형태로 구동될 수 있습니다. 구성 요소와 기능은 아래와 같습니다.
 
-- **kubernetes API server** : 쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다. 노드간 API server 가 특별한 일을 하는것은 아닙니다. API 서버는 kubernetes 환경을 위해 배포된 컨트롤러 매니저가 타 리소스를 etcd 에 저장학
+- **kubernetes API server** : 쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다. 노드간 API server 가 특별한 일을 하는것은 아닙니다. API 서버는 kubernetes 환경을 위해 배포된 컨트롤러 매니저가 리소스를 etcd 에 저장하고 타 리소스의 변경 사항을 클라이언트에 통보하는것 외에 다른 일을 하지 않습니다. 
 - **Scheduler** : Pod 가 생성될 때 노드에 할당되지 않은 상태에서 만들어진 Pod 를 감시하고, Pod가 배치될 적절한 노드를 탐색하여 배치합니다. 기본적으로 기본 Scheduler인 kube-scheduler 의 룰을 따르되 필요 따라 관리자가 scheduler 를 새로이 만들고 설계할 수 있습니다. *(참고 : https://kubernetes.io/ko/docs/concepts/scheduling-eviction/kube-scheduler/)* 
-- **etcd** : 모든 오브젝트(Pod, Replicas, Service, Secret 등) 는 API 서버가 다시 시작되거나 실패하더라도 유지하기 위해 매니페스트가 영구적으로 저장될 필요가 있습니다. 이를 위해 쿠버네티스는 빠르고, 분산되어 저장되며, 키-값 구조의 저장소를 제공하는 etcd 를 사용합니다. **쿠버네티스 API 서버만이 etcd와 직접적으로 통신하는 유일한 구성 요소 입니다.** 다른 구성 요소는 API 서버로 간접적으로 데이터에 접근합니다. 이를통해 *"낙관적 잠금 시스템(Optimistic Concurrency Contro)"*  뿐만 아니라 유효성 검사를 하는 등의 이점을 얻습니다. 쿠버네티스가 클러스터 상태와 메타데이터를 저장하는 유일한 장소가 etcd 라는 것은 매우 중요한 정보입니다. etcd 에 대한 설명은 나중에 다시 글을 올리도록 하겠습니다.
-  [[K8S_architecture_etcd]]
-- **control manager** : 
+- **etcd** : 모든 오브젝트(Pod, Replicas, Service, Secret 등) 는 API 서버가 다시 시작되거나 실패하더라도 유지하기 위해 매니페스트가 영구적으로 저장될 필요가 있습니다. 이를 위해 쿠버네티스는 빠르고, 분산되어 저장되며, 키-값 구조의 저장소를 제공하는 etcd 를 사용합니다. **쿠버네티스 API 서버만이 etcd와 직접적으로 통신하는 유일한 구성 요소 입니다.** 다른 구성 요소는 API 서버로 간접적으로 데이터에 접근합니다. 이를통해 *"낙관적 잠금 시스템(Optimistic Concurrency Contro)"*  뿐만 아니라 유효성 검사를 하는 등의 이점을 얻습니다. 쿠버네티스가 클러스터 상태와 메타데이터를 저장하는 유일한 장소가 etcd 라는 것은 매우 중요한 정보입니다.(참조 : [[K8S_architecture_etcd]])
+- **control manager** : 시스템을 관리자가 원하는 모습으로 구성되도록 하는 컨트롤러의 집합입니다. 각 컨트롤러는 관리자의 의도대로 수정할 수 있습니다. 종류는 아래와 같습니다.
+	- Replication Manager, Replicaset
+	- DaemonSet
 
 #### 2.1.1 Kubernetes API server
 
