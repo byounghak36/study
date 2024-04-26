@@ -26,10 +26,14 @@ reference:
 ![[Pasted image 20240426111808.png]]
 *출처 : https://www.redhat.com/ko/topics/containers/whats-a-linux-container
 
+운영자 입장에서는 이렇게 잘게 나눈 컨테이너를 효과적으로 관리하기 위한 새로운 가이드라인이 필요했습니다.
+```bash
+podman run -ti --name ubuntu-dev ubuntu:latest
+podman delete ubuntu-dev
+```
+매번 이런 명령어를 치면서 인프라를 관리 할 수 없으니까요.
 
-
-" 저 수많은 컨테이너를 어떻게 관리하지? "
-
+따라서 많은 Orchestration(구성, 조율, 관리)하기 위한 프로그램이 많이 나왔습니다. 새로운 시장이니 만큼 역사를 찾아보면 치열했지만, 그중에서 de-pato
 
 런테임 엔진에 관련해서는 따로 작성하고 링크를 달아두겠습니다.
 
