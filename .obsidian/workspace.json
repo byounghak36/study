@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_architecture.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -32,7 +32,7 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 65.1567944250871,
+        "dimension": 82.57839721254355,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -64,7 +64,7 @@
       {
         "id": "bc5c850f5353d618",
         "type": "tabs",
-        "dimension": 34.84320557491289,
+        "dimension": 17.421602787456447,
         "children": [
           {
             "id": "840f8c3ed3e11ac2",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md"
+                "file": "Study/k8s/K8S_architecture.md"
               }
             }
           }
@@ -181,10 +181,10 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "무제 파일.canvas",
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_architecture.md",
     "Study/k8s/K8S_Service_OBJ.md",
-    "무제 파일.canvas",
     "Study/k8s/K8S_architecture_etcd.md",
     "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
     "Study/k8s/_Readme_K8S_Manual.md",
