@@ -17,7 +17,10 @@ reference:
 		- [[#1.1 Kubernetes 란?#1.1.1 Kubernetes의 역사|1.1.1 Kubernetes의 역사]]
 		- [[#1.1 Kubernetes 란?#1.1.2 쿠버네티스의 핵심 역할|1.1.2 쿠버네티스의 핵심 역할]]
 - [[#2 쿠버네티스 클러스터의 구성|2 쿠버네티스 클러스터의 구성]]
-	- [[#2 쿠버네티스 클러스터의 구성#2.1.1 Control Plane|2.1.1 Control Plane]]
+	- [[#2 쿠버네티스 클러스터의 구성#2.1 Control Plane|2.1 Control Plane]]
+		- [[#2.1 Control Plane#2.1.1 Kubernetes API server|2.1.1 Kubernetes API server]]
+
+
 ---
 
 ![[쿠버네티스.jpeg]]
@@ -75,13 +78,18 @@ podman exec ubuntu-dev /bin/bash ls
 
 위 사진은 가장 기본적인 쿠버네티스 구성이다. API서버는 CM(컨트롤매니저), kubelet 등의 명령을 받은 다음 etcd에 변동사항을 저장하고 Worker Node의 kubelet에 명령을 전달합니다. kubelet은 컨테이너 런타임을 동작시켜 Pod를 관리합니다. 노드별로 자세하게 어떻게 동작하는지 알아보겠습니다.
 
-### 2.1.1 Control Plane
+### 2.1 Control Plane
 
 컨트롤 플레인 컴포넌트는 쿠버네티스 클러스터의 전반적인 결정을 수행하고 클러스터 이벤트를 감지하고 반응합니다. 컨트롤 플레인의 컴포넌트들은 어떤 노드에서도 Pod 형태로 구동될 수 있습니다. 구성요소는 아래와 같습니다.
 
-Master Ndoe 
+**Master Node**
 - kubernetes API server
 - Scheduler
 - etcd
 - control manager
-- 
+
+각 컴포넌트의 기능에 대해서 알아보겠습니다.
+
+#### 2.1.1 Kubernetes API server
+
+쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. 

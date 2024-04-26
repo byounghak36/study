@@ -11,13 +11,8 @@
             "id": "94c8daeb54db170a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/k8s/K8S_개념정리.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -181,9 +172,9 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "Study/k8s/K8S_개념정리.md",
     "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스_구성_요소.png",
-    "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
     "Study/k8s/K8S_architecture.md",
