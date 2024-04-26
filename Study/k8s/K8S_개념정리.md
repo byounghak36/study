@@ -18,8 +18,13 @@ reference:
 		- [[#1.1 Kubernetes 란?#1.1.2 쿠버네티스의 핵심 역할|1.1.2 쿠버네티스의 핵심 역할]]
 - [[#2 쿠버네티스 클러스터의 구성|2 쿠버네티스 클러스터의 구성]]
 	- [[#2 쿠버네티스 클러스터의 구성#2.1 Control Plane|2.1 Control Plane]]
+		- [[#2.1 Control Plane#2.1.1 kubernetes API server|2.1.1 kubernetes API server]]
+		- [[#2.1 Control Plane#2.1.2 Scheduler|2.1.2 Scheduler]]
+		- [[#2.1 Control Plane#2.1.3 etcd|2.1.3 etcd]]
+		- [[#2.1 Control Plane#2.1.4 control manager|2.1.4 control manager]]
 	- [[#2 쿠버네티스 클러스터의 구성#2.2 Worker node|2.2 Worker node]]
-
+		- [[#2.2 Worker node#2.2.1 Worker nodekubelet|2.2.1 Worker nodekubelet]]
+		- [[#2.2 Worker node#2.2.1 쿠버네티스 서비스 프록시|2.2.1 쿠버네티스 서비스 프록시]]
 
 ---
 
@@ -84,10 +89,17 @@ podman exec ubuntu-dev /bin/bash ls
 
 컨트롤 플레인 컴포넌트는 쿠버네티스 클러스터의 전반적인 결정을 수행하고 클러스터 이벤트를 감지하고 반응합니다. 컨트롤 플레인의 컴포넌트들은 어떤 노드에서도 Pod 형태로 구동될 수 있습니다. 구성 요소와 기능은 아래와 같습니다.
 
-- **kubernetes API server** : 쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다. 노드간 API server 가 특별한 일을 하는것은 아닙니다. API 서버는 kubernetes 환경을 위해 배포된 컨트롤러 매니저가 리소스를 etcd 에 저장하고 타 리소스의 변경 사항을 클라이언트에 통보하는것 외에 다른 일을 하지 않습니다. 
-- **Scheduler** : Pod 가 생성될 때 노드에 할당되지 않은 상태에서 만들어진 Pod 를 감시하고, Pod가 배치될 적절한 노드를 탐색하여 배치합니다. 기본적으로 기본 Scheduler인 kube-scheduler 의 룰을 따르되 필요 따라 관리자가 scheduler 를 새로이 만들고 설계할 수 있습니다. *(참고 : https://kubernetes.io/ko/docs/concepts/scheduling-eviction/kube-scheduler/)* 
-- **etcd** : 모든 오브젝트(Pod, Replicas, Service, Secret 등) 는 API 서버가 다시 시작되거나 실패하더라도 유지하기 위해 매니페스트가 영구적으로 저장될 필요가 있습니다. 이를 위해 쿠버네티스는 빠르고, 분산되어 저장되며, 키-값 구조의 저장소를 제공하는 etcd 를 사용합니다. **쿠버네티스 API 서버만이 etcd와 직접적으로 통신하는 유일한 구성 요소 입니다.** 다른 구성 요소는 API 서버로 간접적으로 데이터에 접근합니다. 이를통해 *"낙관적 잠금 시스템(Optimistic Concurrency Contro)"*  뿐만 아니라 유효성 검사를 하는 등의 이점을 얻습니다. 쿠버네티스가 클러스터 상태와 메타데이터를 저장하는 유일한 장소가 etcd 라는 것은 매우 중요한 정보입니다.(참조 : [[K8S_architecture_etcd]])
-- **control manager** : 시스템을 관리자가 원하는 모습으로 구성되도록 하는 컨트롤러의 집합입니다. 각 컨트롤러는 관리자의 의도대로 수정할 수 있습니다. 종류는 아래와 같습니다.
+#### 2.1.1 kubernetes API server
+쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다. 노드간 API server 가 특별한 일을 하는것은 아닙니다. API 서버는 kubernetes 환경을 위해 배포된 컨트롤러 매니저가 리소스를 etcd 에 저장하고 타 리소스의 변경 사항을 클라이언트에 통보하는것 외에 다른 일을 하지 않습니다. 
+
+#### 2.1.2 Scheduler
+Pod 가 생성될 때 노드에 할당되지 않은 상태에서 만들어진 Pod 를 감시하고, Pod가 배치될 적절한 노드를 탐색하여 배치합니다. 기본적으로 기본 Scheduler인 kube-scheduler 의 룰을 따르되 필요 따라 관리자가 scheduler 를 새로이 만들고 설계할 수 있습니다. *(참고 : https://kubernetes.io/ko/docs/concepts/scheduling-eviction/kube-scheduler/)* 
+
+#### 2.1.3 etcd
+모든 오브젝트(Pod, Replicas, Service, Secret 등) 는 API 서버가 다시 시작되거나 실패하더라도 유지하기 위해 매니페스트가 영구적으로 저장될 필요가 있습니다. 이를 위해 쿠버네티스는 빠르고, 분산되어 저장되며, 키-값 구조의 저장소를 제공하는 etcd 를 사용합니다. **쿠버네티스 API 서버만이 etcd와 직접적으로 통신하는 유일한 구성 요소 입니다.** 다른 구성 요소는 API 서버로 간접적으로 데이터에 접근합니다. 이를통해 *"낙관적 잠금 시스템(Optimistic Concurrency Contro)"*  뿐만 아니라 유효성 검사를 하는 등의 이점을 얻습니다. 쿠버네티스가 클러스터 상태와 메타데이터를 저장하는 유일한 장소가 etcd 라는 것은 매우 중요한 정보입니다.(참조 : [[K8S_architecture_etcd]])
+
+#### 2.1.4 control manager
+시스템을 관리자가 원하는 모습으로 구성되도록 하는 컨트롤러의 집합입니다. 각 컨트롤러는 관리자의 의도대로 수정할 수 있습니다. 종류는 아래와 같습니다.
 	- Replication Manager, Replicaset
 	- DaemonSet (데몬셋), Job Controller (잡컨트롤러)
 	- Deployment Controller (디플로이먼트 컨트롤러)
@@ -106,6 +118,9 @@ podman exec ubuntu-dev /bin/bash ls
 	허나 컨트롤 플레인은 쿠버네티스 시스템 운영의 한 부분만을 처리하기 때문에 쿠버네티스 클러스터 안에서 어떤 일이 벌어지는지 이해하기 위해서는 Kubelet과 쿠버네티스 서비스 프록시의 기능을 이해해야 합니다.
 
 ### 2.2 Worker node
-쿠버네티스 컨트롤 플레인 일부로써 마스터 노드에서 실행되는 다른 컨트롤러와 달리, Kubelet과 서비스 프록시는 실제 파드 실행되고있는 워커 노드에서 실행됩니다. 또 
+쿠버네티스 컨트롤 플레인 일부로써 마스터 노드에서 실행되는 다른 컨트롤러와 달리, Kubelet과 서비스 프록시는 실제 파드 실행되고있는 워커 노드에서 실행됩니다. 또 타 구성요소는 Pod로 실행이 가능하지만 kubelet 과 서비스 프록시는 데몬으로만 실행이 가능합니다.
 
-- kubelet : 워커 노드에서 실행하는 모든 것을 담당하는 구성 요소입니다. 실행 중인 노드를 노드 리소스로 만들어서 API 서버에 등록한뒤 지속적으로 모니터링하여 노드에 파드가 스케줄링되면, 파드의 컨테이너를 실행합니다(이때 지정된 컨테이너 런타임을 사용한다). 이후 컨테이너의 상태, 이벤트, 리소스 사용량을 API 서버로 보냅ㄴ디ㅏ.
+#### 2.2.1 Worker nodekubelet
+워커 노드에서 실행하는 모든 것을 담당하는 구성 요소입니다. 실행 중인 노드를 노드 리소스로 만들어서 API 서버에 등록한뒤 지속적으로 모니터링하여 노드에 파드가 스케줄링되면, 파드의 컨테이너를 실행합니다(이때 지정된 컨테이너 런타임을 사용한다). 이후 컨테이너의 상태, 이벤트, 리소스 사용량을 API 서버로 보냅니다.
+
+#### 2.2.1 쿠버네티스 서비스 프록시
