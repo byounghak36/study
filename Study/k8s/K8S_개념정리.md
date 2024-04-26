@@ -19,7 +19,9 @@ reference:
 - [[#2 쿠버네티스 클러스터의 구성|2 쿠버네티스 클러스터의 구성]]
 	- [[#2 쿠버네티스 클러스터의 구성#2.1 Control Plane|2.1 Control Plane]]
 		- [[#2.1 Control Plane#2.1.1 Kubernetes API server|2.1.1 Kubernetes API server]]
-
+		- [[#2.1 Control Plane#2.1.2 Scheduler|2.1.2 Scheduler]]
+		- [[#2.1 Control Plane#2.1.3 etcd|2.1.3 etcd]]
+		- [[#2.1 Control Plane#2.1.4 control manager|2.1.4 control manager]]
 
 ---
 
@@ -91,5 +93,7 @@ podman exec ubuntu-dev /bin/bash ls
 각 컴포넌트의 기능에 대해서 알아보겠습니다.
 
 #### 2.1.1 Kubernetes API server
-
-쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. 
+쿠버네티스 시스템 구성 요소는 오직 API 서버하고만 통신합니다. 서로 직접 통신하지는 않습니다. API 를 통해서 각 노드에 오브젝트(ex. Pod)를 조작할 수 있습니다. 기본적으로 K8s 사용자는 kubectl 을 이용하여 K8s 환경을 조작합니다.
+#### 2.1.2 Scheduler
+#### 2.1.3 etcd
+#### 2.1.4 control manager
