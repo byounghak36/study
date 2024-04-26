@@ -28,8 +28,9 @@ _출처 : https://www.redhat.com/ko/topics/containers/whats-a-linux-container
 
 운영자 입장에서는 이렇게 잘게 나눈 컨테이너를 효과적으로 관리하기 위한 새로운 가이드라인이 필요했습니다.
 ```bash
-podman run -ti --name ubuntu-dev ubuntu:latest
+podman run -it --name ubuntu-dev ubuntu:latest
 podman delete ubuntu-dev
+podman exec -it ubuntu-dev /binb/ash
 ```
 매번 이런 명령어를 치면서 인프라를 관리 할 수 없으니까요.
 
@@ -39,8 +40,11 @@ podman delete ubuntu-dev
 #### 1.1.1 Kubernetes의 역사
 오랜 시간 동안 구글은 보그(Borg 이후 Omega로 바뀐 시스템)라는 내부 시스템을 개발해 개발자와 관리자가 수천 개의 서비스를 관리하는데 사용했습니다. 개발자와 관리자를 위한 시스템인 만큼 개발과 관리의 단순화, 인프라 활용률을 중요시하게 생각했죠. 구글은 10년간 보그와 오메가를 비밀로 유지하다가 2014년에 그동안의 노하우를 기반으로 하는 쿠버네티스를 출시 했습니다.
 
-#### 1.1.2 쿠버네티스의 핵심적인 기능
+#### 1.1.2 쿠버네티스의 핵심 역할
 
 - 개발자의 편의성
-	- 쿠버네티스는 
+	- 개발자가 인프라 서비스를 구현하지 않아도 됩니다. 관리자가 사전에 만들어둔 정책으로 리소스 분배, 스케일링, 복구, 다중화, 네트워크 등을 쿠버네티스는 자동적으로 수행합니다. 따라서 개발자는 어플리케이션의 실제 기능을 구현하는데 온전히 집중할 수 있죠.
+
+- 관리자의 리소스 컨트롤
+	- 
 
