@@ -108,3 +108,52 @@ apt-get update -qq && apt-get install -y \
 ```
 참고 : https://togomi.tistory.com/58
 (그냥 소스설치하는게 편한거같다...)
+
+```bash
+Your Kubernetes control-plane has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \
+        --discovery-token-ca-cert-hash sha256:f80c29152843fddf6a4c1664030c2b8af232f4f65bb8f87e141e5690513c4af7
+```
+
+``
+
+당신의 쿠버네티스 제어 평면은 성공적으로 초기화되었습니다!
+
+클러스터를 사용하려면 다음을 일반 사용자로 실행해야합니다:
+
+```
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
+
+또는 root 사용자이면 다음을 실행할 수 있습니다:
+
+export KUBECONFIG=/etc/kubernetes/admin.conf
+
+이제 클러스터에 파드 네트워크를 배포해야합니다. 다음 중 하나의 옵션을 사용하여 "kubectl apply -f [podnetwork].yaml"를 실행하십시오: [https://kubernetes.io/docs/concepts/cluster-administration/addons/](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
+
+그런 다음 각각의 워커 노드에서 다음을 root로 실행하여 워커 노드를 원하는만큼 추가할 수 있습니다:
+
+sql
+
+Copy code
+
+`kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \         --discovery-token-ca-cert-hash sha256:f80c29152843fddf6a4c1664030c2b8af232f4f65bb8f87e141e569051`
