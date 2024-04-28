@@ -77,7 +77,13 @@ sudo sysctl --system
 OS=xUbuntu_22.04
 CRIO_VERSION=1.28:1.28.4
 
+# repo 등록
+echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/ /"|sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
+echo "deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable:/cri-o:/$CRIO_VERSION/$OS/ /"|sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable:cri-o:$CRIO_VERSION.list
 
+# import GPG key
+curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$CRIO_VERSION/$OS/Release.key | sudo apt-key add -
+curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | sudo apt-key add -
 
 apt-get update -qq && apt-get install -y \
   libbtrfs-dev \
@@ -101,3 +107,4 @@ apt-get update -qq && apt-get install -y \
   make
 ```
 참고 : https://togomi.tistory.com/58
+(그냥 소스설치하는게 편한거같다...)
