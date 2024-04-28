@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_install.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md"
+                "file": "Study/k8s/K8S_install.md"
               }
             }
           }
@@ -182,6 +182,9 @@
   },
   "active": "94c8daeb54db170a",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "Study/k8s/K8S_install.md",
+    "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_architecture_etcd.md",
     "Study/k8s/image/쿠버네티스_구성_요소.png",
     "Study/k8s/image/쿠버네티스 기본 구성.png",
@@ -203,7 +206,6 @@
     "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox/무제 파일 1.md",
-    "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/_error_vault.md",
     "_Inbox",
     "Templetes",
@@ -225,7 +227,6 @@
     "Study/k8s/image/Pasted image 20240417093348.png",
     "Study/k8s/image",
     "Study/k8s",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/ceph/ceph-ansible",
     "Study/ceph",
     "k8s/무제 파일.canvas",
