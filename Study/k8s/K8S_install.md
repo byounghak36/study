@@ -44,5 +44,30 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo systemctl enable --now kubelet
 ```
 
-### 2. cgroup 선택
-참고 : cgroup 이란
+### 2. cgroup 드라이버 구성 (CRI-O)
+참고 : cgroup 이란 cgroups(control groups의 약자)는 프로세스들의 자원의 사용(CPU, 메모리, 디스크 입출력, 네트워크 등)을 제한하고 격리시키는 리눅스 커널 기능입니다.
+
+#### 2.1 cri-o 및 의존성 패키지 설치 
+```bash
+apt-get update -qq && apt-get install -y \
+  libbtrfs-dev \
+  containers-common \
+  git \
+  libassuan-dev \
+  libdevmapper-dev \
+  libglib2.0-dev \
+  libc6-dev \
+  libgpgme-dev \
+  libgpg-error-dev \
+  libseccomp-dev \
+  libsystemd-dev \
+  libselinux1-dev \
+  pkg-config \
+  go-md2man \
+  cri-o-runc \
+  libudev-dev \
+  software-properties-common \
+  gcc \
+  make
+```
+
