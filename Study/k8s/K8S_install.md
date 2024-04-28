@@ -51,9 +51,7 @@ sudo systemctl enable --now kubelet
 
 `lsmod | grep br_netfilter`를 실행하여 `br_netfilter` 모듈이 로드되었는지 확인한다.
 
-명시적으로 로드하려면, `sudo modprobe br_netfilter`를 실행한다.
-
-리눅스 노드의 iptables가 브리지된 트래픽을 올바르게 보기 위한 요구 사항으로, `sysctl` 구성에서 `net.bridge.bridge-nf-call-iptables`가 1로 설정되어 있는지 확인한다. 예를 들어,
+명시적으로 로드하려면, `sudo modprobe br_netfilter`를 실행한다. 리눅스 노드의 iptables가 브리지된 트래픽을 올바르게 보기 위한 요구 사항으로, `sysctl` 구성에서 `net.bridge.bridge-nf-call-iptables`가 1로 설정되어 있는지 확인한다. 예를 들어,
 
 ```bash
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
@@ -76,6 +74,11 @@ sudo sysctl --system
 ```
 
 ```bash
+OS=xUbuntu_22.04
+CRIO_VERSION=1.28:1.28.4
+
+
+
 apt-get update -qq && apt-get install -y \
   libbtrfs-dev \
   containers-common \
