@@ -48,6 +48,33 @@ sudo systemctl enable --now kubelet
 참고 : cgroup 이란 cgroups(control groups의 약자)는 프로세스들의 자원의 사용(CPU, 메모리, 디스크 입출력, 네트워크 등)을 제한하고 격리시키는 리눅스 커널 기능입니다.
 
 #### 2.1 cri-o 및 의존성 패키지 설치 
+
+`lsmod | grep br_netfilter`를 실행하여 `br_netfilter` 모듈이 로드되었는지 확인한다.
+
+명시적으로 로드하려면, `sudo modprobe br_netfilter`를 실행한다.
+
+리눅스 노드의 iptables가 브리지된 트래픽을 올바르게 보기 위한 요구 사항으로, `sysctl` 구성에서 `net.bridge.bridge-nf-call-iptables`가 1로 설정되어 있는지 확인한다. 예를 들어,
+
+```bash
+cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
+overlay
+br_netfilter
+EOF
+
+sudo modprobe overlay
+sudo modprobe br_netfilter
+
+# 필요한 sysctl 파라미터를 설정하면, 재부팅 후에도 값이 유지된다.
+cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
+net.bridge.bridge-nf-call-iptables  = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.ipv4.ip_forward                 = 1
+EOF
+
+# 재부팅하지 않고 sysctl 파라미터 적용하기
+sudo sysctl --system
+```
+
 ```bash
 apt-get update -qq && apt-get install -y \
   libbtrfs-dev \
@@ -70,14 +97,4 @@ apt-get update -qq && apt-get install -y \
   gcc \
   make
 ```
-
-```
-rm /etc/apt/sources.list.d/devel:kubic:libcontainers:stable:cri-o:$VERSION.list
-
-echo "deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable:/cri-o:/$VERSION/$OS/ /" > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable:cri-o:$VERSION.list
-
-curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$VERSION/$OS/Release.key | apt-key add -
-
-apt update
-apt install cri-o cri-o-runc
-```
+참고 : https://togomi.tistory.com/58
