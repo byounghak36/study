@@ -44,5 +44,5 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo systemctl enable --now kubelet
 ```
 
-
-
+### 2. cgroup 선택
+참고 : cgroup 이란
