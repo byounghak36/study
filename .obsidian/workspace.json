@@ -21,20 +21,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "5742e34d06742701",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "94c8daeb54db170a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -46,7 +32,7 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 51.742160278745644,
+        "dimension": 42.94425087108014,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -78,7 +64,7 @@
       {
         "id": "bc5c850f5353d618",
         "type": "tabs",
-        "dimension": 48.257839721254356,
+        "dimension": 17.421602787456447,
         "children": [
           {
             "id": "840f8c3ed3e11ac2",
@@ -89,10 +75,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "2db2d746f36f8635",
+        "type": "tabs",
+        "dimension": 39.63414634146341,
+        "children": [
+          {
+            "id": "94c8daeb54db170a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.5110321044922
+    "width": 477.5110321044922
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -109,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/k8s/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/k8s/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/k8s/K8S_개념정리.md"
+              }
             }
           }
         ],
@@ -189,7 +194,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "94c8daeb54db170a",
+  "active": "47c1a92ceac46122",
   "lastOpenFiles": [
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_install.md",
