@@ -11,13 +11,8 @@
             "id": "ef45b6ccd269e57b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -93,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 477.5110321044922
+    "width": 258.5110321044922
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -110,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/k8s/K8S_개념정리.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -181,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 466.5
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
