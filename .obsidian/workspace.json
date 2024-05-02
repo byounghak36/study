@@ -11,8 +11,13 @@
             "id": "ef45b6ccd269e57b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Templetes/manaual_templetes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Templetes/manaual_templetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Templetes/manaual_templetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Templetes/manaual_templetes.md"
+              }
             }
           }
         ],
@@ -188,6 +197,7 @@
   "active": "ef45b6ccd269e57b",
   "lastOpenFiles": [
     "Study/k8s/K8S_개념정리.md",
+    "Templetes/manaual_templetes.md",
     "Study/k8s/K8S_install.md",
     "Study/k8s/K8S_architecture.md",
     "Study/k8s/K8S_GPU_Container.md",
@@ -210,7 +220,6 @@
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
     "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/image/photo_2024-04-17_09-34-07.jpg",
-    "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox/무제 파일 1.md",
     "Study/k8s/image/_error_vault.md",
