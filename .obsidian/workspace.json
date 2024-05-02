@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Study/k8s/K8S_개념정리.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -196,8 +196,8 @@
   },
   "active": "ef45b6ccd269e57b",
   "lastOpenFiles": [
-    "Templetes/manaual_templetes.md",
     "Study/k8s/K8S_개념정리.md",
+    "Templetes/manaual_templetes.md",
     "Study/k8s/K8S_install.md",
     "Study/k8s/K8S_architecture.md",
     "Study/k8s/K8S_GPU_Container.md",
