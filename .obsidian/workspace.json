@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md"
+                "file": "Study/k8s/K8S_Service_OBJ-ClusterIP.md"
               }
             }
           }
@@ -210,6 +210,8 @@
   },
   "active": "d69aed4ee661d516",
   "lastOpenFiles": [
+    "Study/k8s/image/Pasted image 20240417103730.png",
+    "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240426111808.png",
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/쿠버네티스 기본 구성.png",
@@ -252,8 +254,6 @@
     "Study/openstack/1. openstack_install_환경설정.md",
     "Study/openstack",
     "Study/k8s/image/nodeport_image.png",
-    "Study/k8s/image/Pasted image 20240417103730.png",
-    "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
     "Study/0.Linux_ETC/pdns/pictures/master_serv_record.png",
     "k8s/무제 파일.canvas",
