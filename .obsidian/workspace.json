@@ -11,13 +11,27 @@
             "id": "ef45b6ccd269e57b",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/k8s/K8S_개념정리.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d69aed4ee661d516",
+            "type": "leaf",
+            "state": {
               "type": "image",
               "state": {
-                "file": "Study/k8s/image/쿠버네티스.jpeg"
+                "file": "Study/k8s/image/Pasted image 20240426111808.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5110321044922
+    "width": 413.5110321044922
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -107,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/image/쿠버네티스.jpeg",
+                "file": "Study/k8s/image/Pasted image 20240426111808.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/image/쿠버네티스.jpeg",
+                "file": "Study/k8s/image/Pasted image 20240426111808.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/image/쿠버네티스.jpeg"
+                "file": "Study/k8s/image/Pasted image 20240426111808.png"
               }
             }
           }
@@ -191,9 +205,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ef45b6ccd269e57b",
+  "active": "d69aed4ee661d516",
   "lastOpenFiles": [
     "Study/k8s/K8S_개념정리.md",
+    "Study/k8s/image/쿠버네티스 기본 구성.png",
+    "Study/k8s/image/쿠버네티스.jpeg",
     "Templetes/manaual_templetes.md",
     "Study/k8s/K8S_install.md",
     "Study/k8s/K8S_architecture.md",
@@ -206,11 +222,9 @@
     "Study/k8s/image/쿠버네티스_구성_요소.png",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
-    "Study/k8s/image/쿠버네티스 기본 구성.png",
     "Study/k8s/image/Pasted image 20240426111808.png",
     "Study/k8s/image/data-center-isometric-flowchart.zip",
     "Study/k8s/image/미확인 916698.crdownload",
-    "Study/k8s/image/쿠버네티스.jpeg",
     "Study/k8s/image/쿠버네티스.jpeg.crdownload",
     "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
     "Study/k8s/K8S_Service_OBJ-ExternalName.md",
@@ -238,7 +252,6 @@
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/0.Linux_ETC/pdns/pictures/master_serv_record.png",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
