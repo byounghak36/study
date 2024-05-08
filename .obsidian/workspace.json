@@ -24,9 +24,12 @@
             "id": "d69aed4ee661d516",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Study/k8s/image/Pasted image 20240426111808.png"
+                "file": "Study/k8s/K8S_개념정리.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/image/Pasted image 20240426111808.png",
+                "file": "Study/k8s/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/image/Pasted image 20240426111808.png",
+                "file": "Study/k8s/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/image/Pasted image 20240426111808.png"
+                "file": "Study/k8s/K8S_개념정리.md"
               }
             }
           }
@@ -207,6 +210,7 @@
   },
   "active": "d69aed4ee661d516",
   "lastOpenFiles": [
+    "Study/k8s/image/Pasted image 20240426111808.png",
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/image/쿠버네티스 기본 구성.png",
     "Study/k8s/image/쿠버네티스.jpeg",
@@ -222,7 +226,6 @@
     "Study/k8s/image/쿠버네티스_구성_요소.png",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
-    "Study/k8s/image/Pasted image 20240426111808.png",
     "Study/k8s/image/data-center-isometric-flowchart.zip",
     "Study/k8s/image/미확인 916698.crdownload",
     "Study/k8s/image/쿠버네티스.jpeg.crdownload",
