@@ -11,12 +11,9 @@
             "id": "ef45b6ccd269e57b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Study/k8s/image/쿠버네티스.jpeg"
               }
             }
           }
@@ -110,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/image/쿠버네티스.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
+                "file": "Study/k8s/image/쿠버네티스.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_개념정리.md"
+                "file": "Study/k8s/image/쿠버네티스.jpeg"
               }
             }
           }
