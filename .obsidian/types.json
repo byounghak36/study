@@ -14,6 +14,7 @@
     "book_page": "number",
     "date_daily": "text",
     "Modify_Date": "date",
-    "title": "text"
+    "title": "text",
+    "link": "multitext"
   }
 }
