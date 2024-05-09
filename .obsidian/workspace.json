@@ -157,8 +157,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8eb0b263d5845279",
@@ -211,8 +210,10 @@
   },
   "active": "d69aed4ee661d516",
   "lastOpenFiles": [
-    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
+    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
+    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
     "Study/k8s/K8S_개념정리.md",
+    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
     "Study/k8s/K8S_Service_OBJ.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
@@ -232,8 +233,6 @@
     "Study/k8s/image/data-center-isometric-flowchart.zip",
     "Study/k8s/image/미확인 916698.crdownload",
     "Study/k8s/image/쿠버네티스.jpeg.crdownload",
-    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
-    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
     "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/image/photo_2024-04-17_09-34-07.jpg",
