@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 431.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,9 +211,9 @@
   },
   "active": "d69aed4ee661d516",
   "lastOpenFiles": [
+    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_Service_OBJ.md",
-    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240426111808.png",
