@@ -94,7 +94,7 @@ podman exec ubuntu-dev /bin/bash ls
 Pod 가 생성될 때 노드에 할당되지 않은 상태에서 만들어진 Pod 를 감시하고, Pod가 배치될 적절한 노드를 탐색하여 배치합니다. 기본적으로 기본 Scheduler인 kube-scheduler 의 룰을 따르되 필요 따라 관리자가 scheduler 를 새로이 만들고 설계할 수 있습니다. *(참고 : https://kubernetes.io/ko/docs/concepts/scheduling-eviction/kube-scheduler/)* 
 
 #### 2.1.3 etcd
-모든 오브젝트(Pod, Replicas, Service, Secret 등) 는 API 서버가 다시 시작되거나 실패하더라도 유지하기 위해 매니페스트가 영구적으로 저장될 필요가 있습니다. 이를 위해 쿠버네티스는 빠르고, 분산되어 저장되며, 키-값 구조의 저장소를 제공하는 etcd 를 사용합니다. **쿠버네티스 API 서버만이 etcd와 직접적으로 통신하는 유일한 구성 요소 입니다.** 다른 구성 요소는 API 서버로 간접적으로 데이터에 접근합니다. 이를통해 *"낙관적 잠금 시스템(Optimistic Concurrency Contro)"*  뿐만 아니라 유효성 검사를 하는 등의 이점을 얻습니다. 쿠버네티스가 클러스터 상태와 메타데이터를 저장하는 유일한 장소가 etcd 라는 것은 매우 중요한 정보입니다.(참조 : [[K8S_architecture_etcd]])
+모든 오브젝트(Pod, Replicas, Service, Secret 등) 는 API 서버가 다시 시작되거나 실패하더라도 유지하기 위해 매니페스트가 영구적으로 저장될 필요가 있습니다. 이를 위해 쿠버네티스는 빠르고, 분산되어 저장되며, 키-값 구조의 저장소를 제공하는 etcd 를 사용합니다. **쿠버네티스 API 서버만이 etcd와 직접적으로 통신하는 유일한 구성 요소 입니다.** 다른 구성 요소는 API 서버로 간접적으로 데이터에 접근합니다. 이를통해 *"낙관적 잠금 시스템(Optimistic Concurrency Contro)"*  뿐만 아니라 유효성 검사를 하는 등의 이점을 얻습니다. 쿠버네티스가 클러스터 상태와 메타데이터를 저장하는 유일한 장소가 etcd 라는 것은 매우 중요한 정보입니다.
 
 #### 2.1.4 control manager
 시스템을 관리자가 원하는 모습으로 구성되도록 하는 컨트롤러의 집합입니다. 각 컨트롤러는 관리자의 의도대로 수정할 수 있습니다. 종류는 아래와 같습니다.
@@ -103,12 +103,6 @@ Pod 가 생성될 때 노드에 할당되지 않은 상태에서 만들어진 Po
 	- Deployment Controller (디플로이먼트 컨트롤러)
 	- Statefulset Contorller (스테이트풀셋 컨트롤러)
 	- Node Controler (노드 컨트롤러)
-	- Service Controler (서비스 컨틀롤러)
-	  [[K8S_Service_OBJ]]
-	  [[K8S_Service_OBJ-ClusterIP]]
-	  [[K8S_Service_OBJ-NodePort]]
-	  [[K8S_Service_OBJ-LoadBalancer]]
-	  [[K8S_Service_OBJ-ExternalName]]
 	- Endpoint Controler (엔드포인트 컨트롤러)
 	- Namespaced Controler (네임스페이스 컨트롤러)
 	- PhysicalVolumeControler (이하 PVC, 피지컬볼륨 컨트롤러)

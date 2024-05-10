@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5dff06fe9c4bab30",
+        "id": "7ff0c22884fe1902",
         "type": "tabs",
         "children": [
           {
-            "id": "ef45b6ccd269e57b",
+            "id": "9d45ab9ed1841f11",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/k8s/K8S_배포전략.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rook-ceph",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/k8s/K8S_배포전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/k8s/K8S_배포전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/k8s/K8S_배포전략.md"
+              }
             }
           }
         ]
@@ -170,12 +179,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "ef45b6ccd269e57b",
+  "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
+    "Study/k8s/K8S_개념정리.md",
+    "Study/k8s/K8S_배포전략.md",
     "_Inbox/무제 파일.md",
     "Study/k8s/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Study/k8s/K8S_개념정리.md",
     "Templetes/manaual_templetes.md",
     "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
@@ -197,7 +207,6 @@
     "Study/0.Linux_ETC/grep_option/grep옵션.md",
     "Study/0.Linux_ETC/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
     "Study/0.Linux_ETC/galera/갈레라설치.md",
-    "Study/0.Linux_ETC/apache/apache_install.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240426111808.png",
