@@ -1,3 +1,14 @@
+---
+title: apache_install
+tags:
+  - apache
+  - linux
+date: <% tp.file.creation_date("YYYY_MM_DD") %>
+Modify_Date: 
+reference: 
+link:
+---
+
 1) apr-1.7.0
 /usr/local# wget http://mirror.navercorp.com/apache//apr/apr-1.7.0.tar.gz
 

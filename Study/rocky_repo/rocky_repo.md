@@ -1,3 +1,12 @@
+---
+title: rocky_repo
+tags:
+  - linux
+date: 
+Modify_Date: 
+reference: 
+link:
+---
 
 # Rocky9 local Yum Repository 생성
 ## Yum 구성

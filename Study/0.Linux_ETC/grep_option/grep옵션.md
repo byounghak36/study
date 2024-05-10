@@ -1,3 +1,15 @@
+---
+title: grep옵션
+tags:
+  - grep
+  - linux
+date: <% tp.file.creation_date("YYYY_MM_DD") %>
+Modify_Date: 
+reference: 
+link:
+---
+
+
 # grep 명령어
      
 리눅스에서 grep 명령어는 특정 파일에서 원하는 문자열 또는 정규표현식을 포함한 행을 출력해주는 명렁어다. tail, ls, cat 등 다양한 명령어와 조합되어 응용되는 경우가 많고, 유용한 옵션이 많이 있어 매우 유용한 명령어다.

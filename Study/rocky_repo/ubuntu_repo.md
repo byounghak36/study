@@ -1,12 +1,12 @@
 ---
-title: <% tp.file.title %>
-tags: 
-date: <% tp.file.creation_date("YYYY_MM_DD") %>
+title: ubuntu_repo
+tags:
+  - linux
+date: 
 Modify_Date: 
 reference: 
 link:
 ---
-
 
 ## Ubuutnu 22.04 repo 서버 구축
 

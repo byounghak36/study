@@ -1,3 +1,15 @@
+---
+title: Galera Cluster & MySQL 5.7 설치_v1.4
+tags:
+  - galera
+  - DB
+  - replication
+date: <% tp.file.creation_date("YYYY_MM_DD") %>
+Modify_Date: 
+reference: 
+link:
+---
+
 # Galera Cluster & MySQL 8.0 설치
 
 구성 서버 정보

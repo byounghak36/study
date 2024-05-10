@@ -1,3 +1,14 @@
+---
+title: Ceph-ansible
+tags:
+  - ansible
+  - rook-ceph
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
 ***Ceph 및 Ceph-Ansible 소개***
 
 ------
