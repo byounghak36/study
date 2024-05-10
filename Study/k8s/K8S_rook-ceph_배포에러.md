@@ -8,11 +8,9 @@ date: 2024_05_10
 Modify_Date: 
 reference: 
 link:
+  - https://rook.io/docs/rook/v1.9/Storage-Configuration/ceph-teardown/?fbclid=IwZXh0bgNhZW0CMTAAAR1MwR7KdPVXFbqBLxvYnsx4kEH5Cz_h9etKIMeABGpcTrujWxH-7w3KUpM_aem_Aem4mNqbuopEEdpQNwcM-LJw2_gA1i3ULm4lkncpMfNuTZS1b_cQ7bpqiMmgeX-20otSl-V0jYIThbuQuvXXjLTn#cleaning-up-a-cluster
 ---
   
-안녕하세요 개방형 클라우드 플랫폼 센터입니다.
-
-문의 사항에 대해 답변드립니다.
 
 1) 에러나는 rook-ceph 파드에 대해서 삭제 진행해 주시기 바랍니다. 
 삭제시 rook-ceph-osd-prepare-master01-*****, rook-ceph-osd-prepare-master02-***** init 컨테이너부터 차례대로 제대로 올라오는지 확인 부탁드립니다.
@@ -39,7 +37,7 @@ $ chmod +x uninstall-cp-source-control.sh
 $ ./uninstall-cp-source-control.sh
 ```
 
-# 컨테이너 플랫폼 포털 사용할 경우
+### 컨테이너 플랫폼 포털 사용할 경우
 
 ```bash
 $ cd ~/workspace/container-platform/cp-portal-deployment/script
@@ -48,7 +46,7 @@ $ ./uninstall-cp-portal.sh
 
 ```
 
-# Rook-Ceph 삭제
+### Rook-Ceph 삭제
 
 ```bash
 $ kubectl -n rook-ceph patch cephcluster rook-ceph --type merge -p '{"spec":{"cleanupPolicy":{"confirmation":"yes-really-destroy-data"}}}'
@@ -58,19 +56,19 @@ $ kubectl delete -f ~/cp-deployment/applications/rook-1.12.3/deploy/examples/com
 $ kubectl delete -f ~/cp-deployment/applications/rook-1.12.3/deploy/examples/crds.yaml
 ```
 
-# 디스크 확인
+### 디스크 확인
 
 ```bash
 lsblk -f
 ```
 
-# ceph_bluestore 설정된 디스크 확인
+### ceph_bluestore 설정된 디스크 확인
 
 ```bash
 vdb     ceph_bluestore
 ```
 
-# 초기화 (추가 볼륨이 할당된 모든 인스턴스에서 실행)
+### 초기화 (추가 볼륨이 할당된 모든 인스턴스에서 실행)
 
 ```bash
 $ DISK="/dev/<<<DATADIR NAME으로 수정>>>"
@@ -80,7 +78,7 @@ $ blkdiscard $DISK
 $ partprobe $DISK
 ```
 
-# 파일 생성
+### 파일 생성
 
 ```bash
 $ vi ~/cp-deployment/standalone/playbooks/cluster-storage.yml
@@ -93,11 +91,10 @@ $ vi ~/cp-deployment/standalone/playbooks/cluster-storage.yml
     - { role: cp/storage }
 ```
 
-# 배포 실행
+### 배포 실행
 
 ```bash
 $ cd ~/cp-deployment/standalone
 $ ansible-playbook -i inventory/mycluster/hosts.yaml  --become --become-user=root playbooks/cluster-storage.yml
 ```
 
-재배포 후에도 이슈 발생 시 재문의 요청 바랍니다. 감사합니다.
