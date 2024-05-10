@@ -10,7 +10,7 @@ reference:
 link:
   - https://rook.io/docs/rook/v1.9/Storage-Configuration/ceph-teardown/?fbclid=IwZXh0bgNhZW0CMTAAAR1MwR7KdPVXFbqBLxvYnsx4kEH5Cz_h9etKIMeABGpcTrujWxH-7w3KUpM_aem_Aem4mNqbuopEEdpQNwcM-LJw2_gA1i3ULm4lkncpMfNuTZS1b_cQ7bpqiMmgeX-20otSl-V0jYIThbuQuvXXjLTn#cleaning-up-a-cluster
 ---
-  -=432`
+  
 
 1) 에러나는 rook-ceph 파드에 대해서 삭제 진행해 주시기 바랍니다. 
 삭제시 rook-ceph-osd-prepare-master01-*****, rook-ceph-osd-prepare-master02-***** init 컨테이너부터 차례대로 제대로 올라오는지 확인 부탁드립니다.
