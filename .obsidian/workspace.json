@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_rook-ceph_배포에러.md",
+                "file": "Study/rocky_repo/ubuntu_repo.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#K-PaaS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_rook-ceph_배포에러.md",
+                "file": "Study/rocky_repo/ubuntu_repo.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_rook-ceph_배포에러.md",
+                "file": "Study/rocky_repo/ubuntu_repo.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_rook-ceph_배포에러.md"
+                "file": "Study/rocky_repo/ubuntu_repo.md.md"
               }
             }
           }
@@ -210,8 +210,10 @@
   },
   "active": "d69aed4ee661d516",
   "lastOpenFiles": [
-    "Study/k8s/K8S_Service_OBJ_ingress-nginx-contorller.md",
+    "Templetes/manaual_templetes.md",
+    "Study/rocky_repo/rocky_repo.md.md",
     "Study/k8s/K8S_rook-ceph_배포에러.md",
+    "Study/k8s/K8S_Service_OBJ_ingress-nginx-contorller.md",
     "_Inbox/무제 파일 1.md",
     "_Inbox/무제 파일.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
@@ -220,7 +222,6 @@
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_architecture.md",
     "Study/k8s/K8S_architecture_etcd.md",
-    "Templetes/manaual_templetes.md",
     "Study/k8s/테스트파일.md",
     "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
     "Study/k8s/K8S_Service_OBJ-ExternalName.md",
@@ -245,7 +246,6 @@
     "_Inbox",
     "Templetes",
     "Study/rocky_repo/ubuntu_repo.md.md",
-    "Study/rocky_repo/rocky_repo.md.md",
     "Study/rocky_repo",
     "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
     "Study/openstack/subnet생성후 붙이기",
