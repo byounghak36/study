@@ -17,13 +17,16 @@
     {
       "folder": "Study",
       "template": "Templetes/manaual_templetes.md"
+    },
+    {
+      "folder": "_Inbox",
+      "template": "Templetes/manaual_templetes.md"
     }
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templetes/manaual_templetes.md",
-    ""
+    "Templetes/manaual_templetes.md"
   ],
   "startup_templates": [
     ""

@@ -2,7 +2,7 @@
 title: Ceph-ansible
 tags:
   - ansible
-  - rook-ceph
+  - ceph
 date: 
 Modify_Date: 
 reference: 

@@ -11,25 +11,11 @@
             "id": "ef45b6ccd269e57b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/k8s/K8S_개념정리.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d69aed4ee661d516",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -41,7 +27,6 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 72.02797202797203,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -59,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#kubernetes",
+                "query": "tag:#rook-ceph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,15 +60,7 @@
               "type": "graph",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "bc5c850f5353d618",
-        "type": "tabs",
-        "dimension": 27.972027972027977,
-        "children": [
+          },
           {
             "id": "840f8c3ed3e11ac2",
             "type": "leaf",
@@ -193,17 +170,20 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "840f8c3ed3e11ac2",
+  "active": "ef45b6ccd269e57b",
   "lastOpenFiles": [
+    "_Inbox/무제 파일.md",
+    "Study/k8s/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Study/k8s/K8S_개념정리.md",
+    "Templetes/manaual_templetes.md",
     "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/K8S_Service_OBJ-NodePort.md",
     "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
     "Study/k8s/K8S_Service_OBJ-ExternalName.md",
     "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
     "Study/k8s/K8S_Service_OBJ.md",
-    "Study/k8s/K8S_rook-ceph_배포에러.md",
     "Study/k8s/K8S_GPU_Container.md",
-    "Study/k8s/K8S_개념정리.md",
     "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
     "Study/0.Linux_ETC/pdns/pdns_install.md",
     "Study/0.Linux_ETC/pdns/dns_record.md",
@@ -218,9 +198,6 @@
     "Study/0.Linux_ETC/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
     "Study/0.Linux_ETC/galera/갈레라설치.md",
     "Study/0.Linux_ETC/apache/apache_install.md",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Study/rocky_repo/ubuntu_repo.md",
-    "Study/rocky_repo/rocky_repo.md",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240426111808.png",

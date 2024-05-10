@@ -1,9 +1,10 @@
 ---
-title: K8S_rook-ceph_배포에러
+title: K8S_rook-ceph_배포에러(디스크초기화)
 tags:
   - kubernetes
   - K-PaaS
   - rook-ceph
+  - ceph
 date: 2024_05_10
 Modify_Date: 
 reference: 
