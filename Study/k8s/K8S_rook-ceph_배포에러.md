@@ -87,13 +87,9 @@ $ vi ~/cp-deployment/standalone/playbooks/cluster-storage.yml
   any_errors_fatal: "{{ any_errors_fatal | default(true) }}"
 
   environment: "{{ proxy_disable_env }}"
-
   roles:
-
     - { role: kubespray-defaults }
-
     - { role: cp/storage }
-
 # 배포 실행
 
 $ cd ~/cp-deployment/standalone
