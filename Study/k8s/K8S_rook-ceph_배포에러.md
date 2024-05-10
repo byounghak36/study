@@ -71,13 +71,10 @@ vdb     ceph_bluestore
 
 $ DISK="/dev/<<<DATADIR NAME으로 수정>>>"
 
-$ sgdisk --zap-all $DISK
-
-$ dd if=/dev/zero of="$DISK" bs=1M count=100 oflag=direct,dsync
-
-$ blkdiscard $DISK
-
-$ partprobe $DISK
+$ sudo sgdisk --zap-all $DISK
+sudo dd if=/dev/zero of="$DISK" bs=1M count=100 oflag=direct,dsync
+sudo blkdiscard $DISK
+sudo partprobe $DISK
 
 # 파일 생성
 
