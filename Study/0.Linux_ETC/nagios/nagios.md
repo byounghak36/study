@@ -1,3 +1,12 @@
+---
+title: <% tp.file.title %>
+tags: 
+date: <% tp.file.creation_date("YYYY_MM_DD") %>
+Modify_Date: 
+reference: 
+link:
+---
+
 idchowto 참고 글
 
 https://idchowto.com/nagios-%ed%85%94%eb%a0%88%ea%b7%b8%eb%9e%a8-%eb%b6%84%eb%a6%ac/

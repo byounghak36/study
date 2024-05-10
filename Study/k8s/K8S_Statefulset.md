@@ -2,7 +2,6 @@
 title: K8S_Statefulset
 tags:
   - kubernetes
-  - K-PaaS
 date: 2024_04_21
 Modify_Date: 
 reference:

@@ -1,3 +1,14 @@
+---
+title: pdns_install
+tags:
+  - pdns
+  - dns
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
 # PDNS 설치 및 설정 메뉴얼
 
 본 메뉴얼은 기존에 아래와 같이 패키지가 설치가 되어있는 환경에서 작성되었음.

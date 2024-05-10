@@ -1,3 +1,13 @@
+---
+title: dns_record
+tags:
+  - dns
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
 # DNS 레코드란?
     
 DNS Record는 DNS 서버가 수행할 작업을 문자열로써 작성해둔 일련의 텍스트 파일이며, 기록된 내용을 토대로 DNS 서버에 요청된 패킷을 처리한다.

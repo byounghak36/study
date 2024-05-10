@@ -1,3 +1,14 @@
+---
+title: vim_단축키
+tags:
+  - linux
+  - vim
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
 1. 저장 / 종료
 :w                   - 저장
 :w file.txt          - file.txt 파일로 저장

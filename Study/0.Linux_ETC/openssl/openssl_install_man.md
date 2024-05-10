@@ -1,3 +1,15 @@
+---
+title: openssl_install_man
+tags:
+  - openssl
+  - linux
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
+
 # OpenSSL 이란?
 OpenSSL은 네트워크를 통한 데이터 통신에 쓰이는 프로토콜인 SSL/TLS의 오픈 소스 구현판이다. C 언어로 작성되어 있는 중심 라이브러리 안에는, 기본적인 암호화 기능 및 여러 유틸리티 함수들이 구현되어 있다.
 

@@ -1,3 +1,16 @@
+---
+title: "[DB] MySQL Replication, MHA 구성"
+tags:
+  - DB
+  - mariadb
+  - mysql
+  - replication
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
 ## DB Replication 이란?
 DB Replication(복제)는 2대이상의 DBMS를 사용하여 데이터를 저장하는 방법이며 Master/Slave 구조로 사용됩니다.
 각 노드별 역할은 다음과 같습니다.

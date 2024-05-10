@@ -1,3 +1,15 @@
+---
+title: regular_expression
+tags:
+  - regex
+  - linux
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
+
 ![사진1](regular-expression.gif)
 
 # 정규 표현식(regular expression, regexp, regex)이란?  

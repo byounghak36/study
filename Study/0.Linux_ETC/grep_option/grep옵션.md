@@ -3,12 +3,11 @@ title: grep옵션
 tags:
   - grep
   - linux
-date: <% tp.file.creation_date("YYYY_MM_DD") %>
+date: 
 Modify_Date: 
 reference: 
 link:
 ---
-
 
 # grep 명령어
      

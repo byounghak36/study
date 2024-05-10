@@ -1,3 +1,15 @@
+---
+title: mariadb_install
+tags:
+  - DB
+  - mariadb
+date: 
+Modify_Date: 
+reference: 
+link:
+---
+
+
 https://victorydntmd.tistory.com/215 (참고)
 
 error #1 패키지 정리 필요
