@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac3fcf60d85cedd4",
+        "id": "7ff0c22884fe1902",
         "type": "tabs",
         "children": [
           {
-            "id": "47c1a92ceac46122",
+            "id": "9d45ab9ed1841f11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md",
+                "file": "Study/k8s/K8S_배포전략.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -32,7 +32,6 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 71.13997113997114,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -50,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#kubernetes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,14 +65,7 @@
               "type": "graph",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "bc5c850f5353d618",
-        "type": "tabs",
-        "dimension": 28.860028860028862,
-        "children": [
+          },
           {
             "id": "840f8c3ed3e11ac2",
             "type": "leaf",
@@ -86,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 413.5110321044922
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -104,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md",
+                "file": "Study/k8s/K8S_배포전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md",
+                "file": "Study/k8s/K8S_배포전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,12 +124,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md"
+                "file": "Study/k8s/K8S_배포전략.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8eb0b263d5845279",
@@ -175,69 +165,69 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 431.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "digitalgarden:Digital Garden Publication Center": false,
       "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "47c1a92ceac46122",
+  "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
-    "Study/k8s/K8S_배포전략.md",
     "Study/k8s/CKA/무제 파일.md",
     "Study/k8s/CKA",
-    "Study/k8s/K8S_GPU_Container.md",
-    "Study/openstack/5. openstack_install_placement.md",
-    "Study/openstack/1. openstack_install_환경설정.md",
     "Study/k8s/K8S_개념정리.md",
-    "Study/k8s/image/idchowto_운영_평가_및_업추비_산정(24.03).ods",
-    "Study/k8s/image/idchowto_운영_평가_및_업추비_산정(24.02).ods",
-    "Study/k8s/image/idchowto_운영_평가_및_업추비_산정(24.01).ods",
-    "Study/k8s/image/calico_cni.png",
+    "Study/k8s/K8S_배포전략.md",
+    "_Inbox/무제 파일.md",
     "Study/k8s/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/k8s/K8S_Service_OBJ_ingress-nginx-contorller.md",
-    "Study/k8s/K8S_install.md",
-    "Study/k8s/K8S_architecture.md",
-    "Study/k8s/K8S_architecture_etcd.md",
-    "무제 파일.canvas",
-    "Study/k8s/K8S_Service_OBJ.md",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Templetes/manaual_templetes.md",
+    "Study/k8s/K8S_Statefulset.md",
+    "Study/k8s/K8S_Service_OBJ-NodePort.md",
+    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
+    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
     "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
-    "Study/k8s/_Readme_K8S_Manual.md",
+    "Study/k8s/K8S_Service_OBJ.md",
+    "Study/k8s/K8S_GPU_Container.md",
+    "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
+    "Study/0.Linux_ETC/pdns/pdns_install.md",
+    "Study/0.Linux_ETC/pdns/dns_record.md",
+    "Study/0.Linux_ETC/openssl/ssl_communication_process.md",
+    "Study/0.Linux_ETC/openssl/openssl_install_man.md",
+    "Study/0.Linux_ETC/nagios/nagios.md",
+    "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "Study/0.Linux_ETC/mariadb/mariadb_install.md",
+    "Study/0.Linux_ETC/linux/regular_expression.md",
+    "Study/0.Linux_ETC/linux/디스크마운트.md",
+    "Study/0.Linux_ETC/grep_option/grep옵션.md",
+    "Study/0.Linux_ETC/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
+    "Study/k8s/image/Pasted image 20240417103730.png",
+    "Study/k8s/image/Pasted image 20240417093436.png",
+    "Study/k8s/image/Pasted image 20240426111808.png",
+    "Study/k8s/image/쿠버네티스 기본 구성.png",
+    "Study/k8s/image/쿠버네티스.jpeg",
+    "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스_구성_요소.png",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
-    "Study/k8s/image/쿠버네티스 기본 구성.png",
-    "Study/k8s/image/Pasted image 20240426111808.png",
     "Study/k8s/image/data-center-isometric-flowchart.zip",
     "Study/k8s/image/미확인 916698.crdownload",
-    "Study/k8s/image/쿠버네티스.jpeg",
     "Study/k8s/image/쿠버네티스.jpeg.crdownload",
-    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
-    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
-    "Study/k8s/K8S_Service_OBJ-NodePort.md",
-    "Study/k8s/K8S_Statefulset.md",
     "Study/k8s/image/photo_2024-04-17_09-34-07.jpg",
-    "Templetes/manaual_templetes.md",
-    "_Inbox/무제 파일.md",
-    "_Inbox/무제 파일 1.md",
-    "Study/k8s/image/_error_vault.md",
     "_Inbox",
-    "Study/rocky_repo/ubuntu_repo.md.md",
-    "Study/rocky_repo/rocky_repo.md.md",
-    "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
-    "Study/openstack/6. openstack_install_nova.md",
+    "Templetes",
+    "Study/rocky_repo",
+    "Study/openstack/subnet생성후 붙이기",
     "Study/k8s/image/nodeport_image.png",
-    "Study/k8s/image/Pasted image 20240417103730.png",
-    "Study/k8s/image/Pasted image 20240417093436.png",
     "Study/k8s/image/Pasted image 20240417093348.png",
+    "Study/0.Linux_ETC/pdns/pictures/master_serv_record.png",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]
