@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md",
+                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md",
+                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md",
+                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/CKA/무제 파일.md"
+                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md"
               }
             }
           }
@@ -192,7 +192,7 @@
   "active": "47c1a92ceac46122",
   "lastOpenFiles": [
     "Study/k8s/K8S_배포전략.md",
-    "Study/k8s/CKA/무제 파일.md",
+    "Study/k8s/CKA/Dcker와 Containerd 차이.md",
     "Study/k8s/CKA",
     "Study/k8s/K8S_GPU_Container.md",
     "Study/openstack/5. openstack_install_placement.md",
