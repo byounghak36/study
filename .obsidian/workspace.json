@@ -27,7 +27,7 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 71.13997113997115,
+        "dimension": 71.13997113997114,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -62,13 +62,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "bc5c850f5353d618",
         "type": "tabs",
-        "dimension": 28.860028860028866,
+        "dimension": 28.860028860028862,
         "children": [
           {
             "id": "840f8c3ed3e11ac2",
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 368.5,
+    "collapsed": true
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -170,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -179,7 +180,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ab76b76854309008",
+  "active": "80c75579a66211b0",
   "lastOpenFiles": [
     "Study/k8s/K8S_개념정리.md",
     "Study/k8s/K8S_배포전략.md",
