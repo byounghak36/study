@@ -30,7 +30,7 @@ Kubernetes에서는 여러 유형의 서비스를 제공합니다.
 - Service를 생성하면, label selector에서 특정 label을 가진 Pod들만 탐지한다. Service는 이렇게 필터된 Pod의 IP들을 엔드포인트로 묶어 관리하게 된다. 그래서 하나의 Service를 통해 여러 Pod에 로드밸런싱이 이루어질 수 있는 것이다.
 - 그리고 Service를 생성하면 Service 이름으로 DNS가 생성되는데, 해당 DNS 이름으로 트래픽이 들어오면 여러 Pod의 엔드포인트로 로드밸런싱된다.
 
-### 2) Service 타입
+### Service 타입
 
 #### (1) ClusterIP 
 - 가장 기본이 되는 Service 타입이며, 클러스터 내부 통신만 가능하고 외부 트래픽은 받을 수 없다.
