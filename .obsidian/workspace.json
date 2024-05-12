@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b8ecf4e510172e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/CKA/Dcker와 Containerd 차이.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -189,10 +203,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "47c1a92ceac46122",
+  "active": "6b8ecf4e510172e1",
   "lastOpenFiles": [
-    "Study/k8s/K8S_배포전략.md",
     "Study/k8s/CKA/Dcker와 Containerd 차이.md",
+    "conflict-files-obsidian-git.md",
+    "Study/k8s/K8S_배포전략.md",
     "Study/k8s/CKA",
     "Study/k8s/K8S_GPU_Container.md",
     "Study/openstack/5. openstack_install_placement.md",
@@ -233,7 +248,6 @@
     "Study/rocky_repo/ubuntu_repo.md.md",
     "Study/rocky_repo/rocky_repo.md.md",
     "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
-    "Study/openstack/6. openstack_install_nova.md",
     "Study/k8s/image/nodeport_image.png",
     "Study/k8s/image/Pasted image 20240417103730.png",
     "Study/k8s/image/Pasted image 20240417093436.png",
