@@ -11,8 +11,13 @@
             "id": "47c1a92ceac46122",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/k8s/CKA/ETCD - Commands.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -99,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/k8s/CKA/ETCD - Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/k8s/CKA/ETCD - Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/k8s/CKA/ETCD - Commands.md"
+              }
             }
           }
         ],
@@ -182,6 +190,7 @@
   },
   "active": "47c1a92ceac46122",
   "lastOpenFiles": [
+    "Study/k8s/CKA/ETCD - Commands.md",
     "Study/k8s/CKA/ETCD란 무엇인가.md",
     "_Files/Pasted image 20240512151954.png",
     "_Files/Pasted image 20240512151243.png",
