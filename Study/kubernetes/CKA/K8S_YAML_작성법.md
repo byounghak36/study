@@ -24,4 +24,10 @@ spec:
 
 각 설명을 하자면
 - apiVersion : 생성할 때 사용할 쿠버네티스 API 버전을 입력합니다. 각 오브젝트별로 api 버전이 다릅니다.
-- 
+  ![[Pasted image 20240513161457.png]]
+- kind : 오브젝트 유형을 나타냅니다. Pod, Replica, Deployment, Serivce 등을 입력합니다.
+- metadata : 이름과 라벨등 하위 집합체를 입력합니다.
+  ![[Pasted image 20240513161644.png]]
+- spec : 생성하려는 오브젝트의 정보를 입력합니다. pod 를 생성한다면 아래와 비슷한 구조로 입력하게 됩니다.
+  ![[Pasted image 20240513161736.png]]
+  

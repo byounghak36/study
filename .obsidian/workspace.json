@@ -11,13 +11,8 @@
             "id": "9d45ab9ed1841f11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/CKA/K8S_YAML_작성법.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_YAML_작성법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_YAML_작성법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/kubernetes/CKA/K8S_YAML_작성법.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -181,7 +172,13 @@
   },
   "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_YAML_작성법.md",
+    "_Files/Pasted image 20240513161736.png",
+    "_Files/Pasted image 20240513161644.png",
+    "_Files/Pasted image 20240513161621.png",
+    "_Files/Pasted image 20240513161608.png",
+    "_Files/Pasted image 20240513161457.png",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
@@ -205,7 +202,6 @@
     "_Files/Pasted image 20240512151954.png",
     "_Files/Pasted image 20240512151243.png",
     "_Files/Pasted image 20240512151030.png",
-    "_Files/Pasted image 20240512150728.png",
     "_Files",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
@@ -217,11 +213,6 @@
     "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "Study/kubernetes/K8S/K8S_GPU_Container.md",
-    "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
-    "Study/kubernetes/_image/Pasted image 20240417103730.png",
-    "Study/kubernetes/_image/Pasted image 20240417093436.png",
-    "Study/kubernetes/_image/Pasted image 20240426111808.png",
-    "Study/kubernetes/_image/쿠버네티스 기본 구성.png",
     "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
