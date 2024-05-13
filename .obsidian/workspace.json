@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/CKA/ETCD_Commands.md",
+                "file": "Study/kubernetes/ETCD/ETCD_Commands.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -37,13 +37,8 @@
             "id": "c332bf3fdd8f2f9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Inbox/K8S_Pod-YAML_작성법.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -122,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Inbox/K8S_Pod-YAML_작성법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Inbox/K8S_Pod-YAML_작성법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Inbox/K8S_Pod-YAML_작성법.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -209,11 +200,13 @@
   "active": "c332bf3fdd8f2f9d",
   "lastOpenFiles": [
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
+    "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
+    "Study/kubernetes/ETCD",
+    "Study/kubernetes/무제 파일.md",
+    "_Inbox/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
-    "_Inbox/K8S_Pod-YAML_작성법.md",
-    "Study/kubernetes/CKA/K8S_ETCD_backup.md",
-    "Study/kubernetes/CKA/ETCD란 무엇인가.md",
-    "Study/kubernetes/CKA/ETCD_Commands.md",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "_Files/Pasted image 20240513161736.png",
     "_Files/Pasted image 20240513161644.png",
@@ -247,14 +240,11 @@
     "Study/kubernetes/CKA",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/kubernetes/K8S/K8S_Statefulset.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
     "Study/kubernetes/_image/data-center-isometric-flowchart.zip",
     "Study/k8s/image/미확인 916698.crdownload",
-    "Study/k8s/image/쿠버네티스.jpeg.crdownload",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]

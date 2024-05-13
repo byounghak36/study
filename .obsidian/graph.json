@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#kubernetes",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 9.70199857244825,
   "linkStrength": 0.502230549607423,
   "linkDistance": 304,
-  "scale": 1.612759869339042,
+  "scale": 0.27288300084709105,
   "close": true
 }
