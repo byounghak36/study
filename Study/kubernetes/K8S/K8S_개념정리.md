@@ -3,7 +3,7 @@ title: K8S_개념정리
 tags:
   - kubernetes
 date: 2024_04_22
-Modify_Date: 
+Modify_Date: 2024-05-02
 reference:
 ---
 # K8S_개념정리
