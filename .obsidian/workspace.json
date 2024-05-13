@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
+                "file": "Study/kubernetes/CKA/ETCD란 무엇인가.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
+                "file": "Study/kubernetes/CKA/ETCD란 무엇인가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
+                "file": "Study/kubernetes/CKA/ETCD란 무엇인가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md"
+                "file": "Study/kubernetes/CKA/ETCD란 무엇인가.md"
               }
             }
           }
@@ -181,20 +181,21 @@
   },
   "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/ETCD - Commands.md",
+    "Study/kubernetes/CKA/ETCD란 무엇인가.md",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
     "Study/k8s/무제 파일.md",
     "Study/k8s/image/_error_vault.md",
-    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Study/kubernetes/_image/K8S Service 오브젝트란.png",
     "Study/kubernetes/_image/clusterIP예시이미지.png",
-    "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/0.Linux_ETC/apt/무제 파일.md",
-    "Study/kubernetes/CKA/ETCD란 무엇인가.md",
     "conflict-files-obsidian-git.md",
     "_Files/Pasted image 20240512151954.png",
     "_Files/Pasted image 20240512151243.png",
@@ -202,7 +203,6 @@
     "_Files/Pasted image 20240512150728.png",
     "_Files",
     "Study/kubernetes/CKA/K8S_YAML_작성법.md",
-    "Study/kubernetes/CKA/ETCD - Commands.md",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
     "Study/k8s/CKA/무제 파일.md",
