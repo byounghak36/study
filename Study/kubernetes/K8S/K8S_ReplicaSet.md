@@ -8,10 +8,14 @@ Modify_Date:
 reference: 
 link:
 ---
+목차
+
+---
 # K8S_ReplicaSet
 ReplicaSet의 목적은 언제든지 실행되는 안정적인 복제본 Pod 세트를 유지하는 것입니다. 따라서 지정된 수의 동일한 Pod의 가용성을 보장하는 데 자주 사용됩니다.
 
-## ReplicaSet의 작동 방식[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#how-a-replicaset-works)
+---
+## ReplicaSet의 작동 방식
 
 ReplicaSet은 획득할 수 있는 Pod를 식별하는 방법을 지정하는 selector, 유지해야 하는 Pod 수를 나타내는 복제본 수, 숫자를 충족하기 위해 생성해야 하는 새 Pod의 데이터를 지정하는 Pod template을 포함한 필드로 정의됩니다. 복제본 기준. 그런 다음 ReplicaSet는 원하는 수에 도달하기 위해 필요에 따라 Pod를 생성 및 삭제하여 목적을 달성합니다. ReplicaSet는 새 Pod를 생성해야 할 때 Pod template을 사용합니다.
 
@@ -19,16 +23,17 @@ ReplicaSet는 현재 object가 소유한 리소스를 지정하는 Pod의 [Met
 
 ReplicaSet는 selector를 사용하여 획득할 새 Pod를 식별합니다. OwnerReference가 없는 Pod가 있거나 OwnerReference가 아닌 경우[제어 장치](https://kubernetes.io/docs/concepts/architecture/controller/)ReplicaSet의 selector와 일치하면 해당 ReplicaSet에 의해 즉시 획득됩니다.
 
-## ReplicaSet을 사용해야 하는 경우[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#when-to-use-a-replicaset)
+---
+## ReplicaSet을 사용해야 하는 경우
 
 ReplicaSet은 특정 시간에 지정된 수의 Pod 복제본이 실행되도록 보장합니다. 그러나 Deployment는 ReplicaSet를 관리하고 다른 많은 유용한 기능과 함께 Pod에 대한 선언적 업데이트를 제공하는 더 높은 수준의 개념입니다. 따라서 사용자 지정 업데이트 오케스트레이션이 필요하지 않거나 업데이트가 전혀 필요하지 않은 경우가 아니면 ReplicaSet를 직접 사용하는 대신 Deployment를 사용하는 것이 좋습니다.
 
 이는 실제로 ReplicaSet object를 조작할 필요가 전혀 없다는 의미입니다. 대신 Deployment를 사용하고 사양 섹션에서 애플리케이션을 정의하세요.
 
-## 예[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example)
+---
+## 예시[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example)
 
-[`controllers/frontend.yaml`](https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/controllers/frontend.yaml) ![](https://kubernetes.io/images/copycode.svg "Controller/frontend.yaml을 클립보드에 복사")
-
+controllers/frontend.yaml
 ```yaml
 apiVersion: apps/v1
 kind: ReplicaSet
@@ -53,21 +58,14 @@ spec:
         image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
 ```
 
-이 manifest를 `frontend.yaml`Kubernetes 클러스터에 저장하고 제출하면 정의된 ReplicaSet과 이를 관리하는 Pod가 생성됩니다.
+이 manifest를 `frontend.yaml`Kubernetes 클러스터에 저장하고 apply 하면 정의된 ReplicaSet과 이를 관리하는 Pod가 생성됩니다.
 
 ```shell
-kubectl apply -f https://kubernetes.io/examples/controllers/frontend.yaml
+$ kubectl apply -f https://kubernetes.io/examples/controllers/frontend.yaml
 ```
-
-그런 다음 현재 ReplicaSet를 Deployment할 수 있습니다.
 
 ```shell
-kubectl get rs
-```
-
-그리고 생성한 프런트엔드를 확인하세요.
-
-```
+$ kubectl get rs
 NAME       DESIRED   CURRENT   READY   AGE
 frontend   3         3         3       6s
 ```
@@ -75,12 +73,7 @@ frontend   3         3         3       6s
 ReplicaSet의 상태를 확인할 수도 있습니다.
 
 ```shell
-kubectl describe rs/frontend
-```
-
-그러면 다음과 유사한 출력이 표시됩니다.
-
-```
+$ kubectl describe rs/frontend
 Name:         frontend
 Namespace:    default
 Selector:     tier=frontend
@@ -110,27 +103,19 @@ Events:
 마지막으로 가져온 Pod를 확인할 수 있습니다.
 
 ```shell
-kubectl get pods
-```
+$ kubectl get pods
 
-다음과 유사한 Pod 정보가 표시됩니다.
-
-```
 NAME             READY   STATUS    RESTARTS   AGE
 frontend-gbgfx   1/1     Running   0          10m
 frontend-rwz57   1/1     Running   0          10m
 frontend-wkl7w   1/1     Running   0          10m
 ```
 
-또한 이러한 Pod의 소유자 참조가 프런트엔드 ReplicaSet으로 설정되어 있는지 확인할 수도 있습니다. 이렇게 하려면 실행 중인 Pod 중 하나의 yaml을 가져옵니다.
+또한 이러한 Pod의 소유자 참조가 프런트엔드 ReplicaSet으로 설정되어 있는지 확인할 수도 있습니다. 이렇게 하려면 실행 중인 Pod 중 하나의 yaml을 가져옵니다. 메타데이터의 ownerReferences 필드에 forntend- ReplicaSet 정보가 설정된 경우 출력은 다음과 유사합니다.
 
 ```shell
 kubectl get pods frontend-gbgfx -o yaml
-```
 
-메타데이터의 ownerReferences 필드에 프런트엔드 ReplicaSet 정보가 설정된 경우 출력은 다음과 유사합니다.
-
-```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -150,9 +135,10 @@ metadata:
 ...
 ```
 
-## 비template Pod 획득[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#non-template-pod-acquisitions)
+---
+## Non-Template Pod 획득[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#non-template-pod-acquisitions)
 
-문제 없이 베어 Pod를 생성할 수 있지만 베어 Pod에 ReplicaSet 중 하나의 selector와 일치하는 라벨이 없는지 확인하는 것이 좋습니다. 그 이유는 ReplicaSet가 template에 지정된 Pod 소유에만 국한되지 않고 이전 섹션에서 지정한 방식으로 다른 Pod를 획득할 수 있기 때문입니다.
+문제 없이 Pod를 생성할 수 있지만 Pod에 ReplicaSet 중 하나의 selector와 일치하는 라벨이 없는지 확인하는 것이 좋습니다. 그 이유는 ReplicaSet가 template에 지정된 Pod 소유에만 국한되지 않고 이전 섹션에서 지정한 방식으로 다른 Pod를 획득할 수 있기 때문입니다.
 
 이전 프런트엔드 ReplicaSet 예시와 다음 manifest에 지정된 Pod를 살펴보겠습니다.
 
