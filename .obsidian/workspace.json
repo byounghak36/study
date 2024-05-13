@@ -203,12 +203,12 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "_Files/Pasted image 20240513165514.png",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/_image/K8S_replication_yaml.png",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",

@@ -51,9 +51,7 @@ ReplicaSet은 특정 시간에 지정된 수의 Pod 복제본이 실행되도록
 
 이는 실제로 ReplicaSet object를 조작할 필요가 전혀 없다는 의미입니다. 대신 Deployment를 사용하고 사양 섹션에서 애플리케이션을 정의하세요.
 
----
 ## 예시
-
 controllers/frontend.yaml
 ```yaml
 apiVersion: apps/v1
@@ -273,8 +271,9 @@ ReplicaSet에서는 `.spec.template.metadata.labels`일치해야 합니다 `sp
 
 **참고:** 동일 `.spec.selector`하지만 서로 다른 필드 `.spec.template.metadata.labels`를 지정하는 2개의 ReplicaSet의 경우 `.spec.template.spec`각 ReplicaSet는 다른 ReplicaSet에서 생성된 Pod를 무시합니다.
 
-> [NOTE!]
-> 복제본을 설정하여 동시에 실행해야 하는 Pod 수를 지정할 수 있습니다 `.spec.replicas`. ReplicaSet는 이 숫자와 일치하도록 Pod를 생성/삭제합니다.
+> [!NOTE] ReplicaSet을 1개만 설정하는 경우
+> 복제본을 설정하여 동시에 실행해야 하는 Pod 수를 지정할 수 있습니다 `.spec.replicas`. ReplicaSet는 이 숫자와 일치하도록 Pod를 생성/삭제합니다. 1개만 생성하게되면 해당 Pod가 종료되더라도 다른 Node에서 유지합니다.
+
 
 를 지정하지 않으면 `.spec.replicas`기본값은 1입니다.
 
