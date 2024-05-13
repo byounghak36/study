@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md"
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md"
               }
             }
           }
@@ -208,15 +208,15 @@
   },
   "active": "c332bf3fdd8f2f9d",
   "lastOpenFiles": [
-    "Study/kubernetes/_image/K8S_replication_yaml.png",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/_image/K8S_replication_yaml.png",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/ETCD",
     "Study/kubernetes/무제 파일.md",
-    "_Inbox/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "_Files/Pasted image 20240513161736.png",
     "_Files/Pasted image 20240513161644.png",
@@ -242,7 +242,6 @@
     "conflict-files-obsidian-git.md",
     "_Files/Pasted image 20240512151954.png",
     "_Files/Pasted image 20240512151243.png",
-    "_Files/Pasted image 20240512151030.png",
     "_Files",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
