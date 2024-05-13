@@ -1,8 +1,9 @@
 {
   "accentColor": "#3377ff",
-  "cssTheme": "GitHub Theme",
+  "cssTheme": "",
   "interfaceFontFamily": "D2Coding",
   "nativeMenus": true,
   "baseFontSize": 17,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSizeAction": true
 }

@@ -22,6 +22,14 @@ Error: context deadline exceeded
 ## 해결방법
 
 etcdctl 명령을 사용하려면 etcd의 버전, 엔드포인트, 그리고 인증 정보를 함께 제공해야 합니다.
+필요한 매개변수는 총 4가지며 etcdctl 의 api 버전도 명시하는 것이 좋습니다.
+```
+--endpoints=https://{MASTER_IP}:2379
+--cacert={ETCDCTL_CACERT}
+--cert={ETCDCTL_KEY}
+--key={ETCDCTL_CERT}
+```
+
 구성한 클러스터의 `/etc/etcd.env`를 참고하여 아래의 명령어를 통해 etcdctl 별칭을 등록 후 사용하면 됩니다.
 
 ```bash
@@ -29,5 +37,11 @@ alias etcdctl='ETCDCTL_API=3 etcdctl \
 --endpoints=https://{MASTER_IP}:2379 \
 --cacert={ETCDCTL_CACERT} \
 --cert={ETCDCTL_KEY} \
---key={ETCDCTL_CERT} '
+--key={ETCDCTL_CERT}'
+
+# 정상 출력된 모습
+ubuntu@master1:~$ etcdctl member list
+3a5f909065b7dabe, started, etcd1, https://10.101.0.3:2380, https://10.101.0.3:2379,https://10.101.0.5:2379,https://10.101.0.7:2379, false
+b04d497e00c54e90, started, etcd3, https://10.101.0.7:2380, https://10.101.0.3:2379,https://10.101.0.5:2379,https://10.101.0.7:2379, false
+db420d2de1406a60, started, etcd2, https://10.101.0.5:2380, https://10.101.0.3:2379,https://10.101.0.5:2379,https://10.101.0.7:2379, false
 ```
