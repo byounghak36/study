@@ -11,7 +11,10 @@ link:
 ---
 ## 작성방법
 
+## ReplicationController
 기본적인 작성방법은 Pod 작성할때와 동일하다.[[K8S_Pod-YAML_작성법]]
 kind 를 ReplicationController로 변경한 후 spec.template 하위에 Pod의 metadata, spec을 기입한다.
 
 ![[K8S_replication_yaml.png]]
+
+> 위의 경우는 ReplicationController로 현재는 ReplicaSet 으로 변경되었다. 

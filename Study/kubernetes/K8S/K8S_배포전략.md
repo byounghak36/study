@@ -2,7 +2,6 @@
 title: 무제 파일
 tags:
   - kubernetes
-  - deploy
 date: 2024_05_10
 Modify_Date: 
 reference: 
