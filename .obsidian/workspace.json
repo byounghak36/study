@@ -181,6 +181,7 @@
   },
   "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/K8S_YAML_작성법.md",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
@@ -206,7 +207,6 @@
     "_Files/Pasted image 20240512151030.png",
     "_Files/Pasted image 20240512150728.png",
     "_Files",
-    "Study/kubernetes/CKA/K8S_YAML_작성법.md",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
     "Study/k8s/CKA/무제 파일.md",
