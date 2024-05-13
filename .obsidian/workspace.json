@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/k8s/K8S_배포전략.md",
+                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/k8s/K8S_배포전략.md",
+                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/k8s/K8S_배포전략.md",
+                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/k8s/K8S_배포전략.md"
+                "file": "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md"
               }
             }
           }
@@ -181,53 +181,52 @@
   },
   "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
-    "Study/k8s/K8S_개념정리.md",
+    "Study/kubernetes/K8S/K8S_개념정리.md",
+    "Study/kubernetes/K8S/K8S_배포전략.md",
+    "Study/kubernetes/K8S",
+    "Study/kubernetes/KPaas",
+    "Study/k8s/무제 파일.md",
     "Study/k8s/image/_error_vault.md",
-    "Study/k8s/CKA/Dcker와 Containerd 차이.md",
-    "Study/k8s/K8S_Service_OBJ-NodePort.md",
-    "Study/k8s/K8S_Service_OBJ-ClusterIP.md",
-    "Study/k8s/image/K8S Service 오브젝트란.png",
-    "Study/k8s/image/clusterIP예시이미지.png",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
+    "Study/kubernetes/_image/K8S Service 오브젝트란.png",
+    "Study/kubernetes/_image/clusterIP예시이미지.png",
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/0.Linux_ETC/apt/무제 파일.md",
-    "Study/k8s/CKA/ETCD란 무엇인가.md",
+    "Study/kubernetes/CKA/ETCD란 무엇인가.md",
     "conflict-files-obsidian-git.md",
     "_Files/Pasted image 20240512151954.png",
     "_Files/Pasted image 20240512151243.png",
     "_Files/Pasted image 20240512151030.png",
     "_Files/Pasted image 20240512150728.png",
     "_Files",
-    "Study/k8s/CKA/K8S_YAML_작성법.md",
-    "Study/k8s/CKA/ETCD - Commands.md",
+    "Study/kubernetes/CKA/K8S_YAML_작성법.md",
+    "Study/kubernetes/CKA/ETCD - Commands.md",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
-    "Study/k8s/K8S_배포전략.md",
     "Study/k8s/CKA/무제 파일.md",
-    "Study/k8s/CKA",
+    "Study/kubernetes/CKA",
     "_Inbox/무제 파일.md",
-    "Study/k8s/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Templetes/manaual_templetes.md",
-    "Study/k8s/K8S_Statefulset.md",
-    "Study/k8s/K8S_Service_OBJ-LoadBalancer.md",
-    "Study/k8s/K8S_Service_OBJ-ExternalName.md",
-    "Study/k8s/K8S_Service_OBJ.md",
-    "Study/k8s/K8S_GPU_Container.md",
+    "Study/kubernetes/K8S/K8S_Statefulset.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
+    "Study/kubernetes/K8S/K8S_GPU_Container.md",
     "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
-    "Study/0.Linux_ETC/pdns/pdns_install.md",
-    "Study/0.Linux_ETC/pdns/dns_record.md",
-    "Study/k8s/image/Pasted image 20240417103730.png",
-    "Study/k8s/image/Pasted image 20240417093436.png",
-    "Study/k8s/image/Pasted image 20240426111808.png",
-    "Study/k8s/image/쿠버네티스 기본 구성.png",
+    "Study/kubernetes/_image/Pasted image 20240417103730.png",
+    "Study/kubernetes/_image/Pasted image 20240417093436.png",
+    "Study/kubernetes/_image/Pasted image 20240426111808.png",
+    "Study/kubernetes/_image/쿠버네티스 기본 구성.png",
     "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
-    "Study/k8s/image/data-center-isometric-flowchart.zip",
+    "Study/kubernetes/_image/data-center-isometric-flowchart.zip",
     "Study/k8s/image/미확인 916698.crdownload",
     "Study/k8s/image/쿠버네티스.jpeg.crdownload",
-    "_Inbox",
-    "Templetes",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]
