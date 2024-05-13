@@ -7,5 +7,6 @@
   "trashOption": "local",
   "newFileLocation": "folder",
   "attachmentFolderPath": "_Files",
-  "newFileFolderPath": "_Inbox"
+  "newFileFolderPath": "_Inbox",
+  "showUnsupportedFiles": true
 }
