@@ -64,8 +64,7 @@ kubernetes               ClusterIP   10.233.0.1     <none>        443/TCP    48d
 ```
 
 서비스가 생성돼 있는것을 확인후 이 서비스를 접근하기 위해서는 위 출력 내용중 CLUSTER-IP 항목의 IP와 PORT(S) 항목의 포트를 통해 요청을 보내면 됩니다.
-
-![[Pasted image 20240417093348.png]]
+![[clusterIP예시이미지.png]]
 
 ```bash
 $ kubectl run -i --tty --rm debug --image=alicek106/ubuntu:curl --restart=Naver -- bash
