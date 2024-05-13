@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
+                "file": "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
+                "file": "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
+                "file": "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md"
+                "file": "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md"
               }
             }
           }
@@ -181,8 +181,8 @@
   },
   "active": "9d45ab9ed1841f11",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/CKA/ETCD란 무엇인가.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
