@@ -203,8 +203,8 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "_Files/Pasted image 20240513165514.png",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",

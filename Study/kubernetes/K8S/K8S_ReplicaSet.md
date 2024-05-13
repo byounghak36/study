@@ -8,21 +8,22 @@ Modify_Date:
 reference: 
 link:
 ---
+# K8S_ReplicaSet
 ReplicaSet의 목적은 언제든지 실행되는 안정적인 복제본 Pod 세트를 유지하는 것입니다. 따라서 지정된 수의 동일한 Pod의 가용성을 보장하는 데 자주 사용됩니다.
 
 ## ReplicaSet의 작동 방식[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#how-a-replicaset-works)
 
-ReplicaSet은 획득할 수 있는 Pod를 식별하는 방법을 지정하는 선택기, 유지해야 하는 Pod 수를 나타내는 복제본 수, 숫자를 충족하기 위해 생성해야 하는 새 Pod의 데이터를 지정하는 Pod 템플릿을 포함한 필드로 정의됩니다. 복제본 기준. 그런 다음 ReplicaSet는 원하는 수에 도달하기 위해 필요에 따라 Pod를 생성 및 삭제하여 목적을 달성합니다. ReplicaSet는 새 Pod를 생성해야 할 때 Pod 템플릿을 사용합니다.
+ReplicaSet은 획득할 수 있는 Pod를 식별하는 방법을 지정하는 selector, 유지해야 하는 Pod 수를 나타내는 복제본 수, 숫자를 충족하기 위해 생성해야 하는 새 Pod의 데이터를 지정하는 Pod template을 포함한 필드로 정의됩니다. 복제본 기준. 그런 다음 ReplicaSet는 원하는 수에 도달하기 위해 필요에 따라 Pod를 생성 및 삭제하여 목적을 달성합니다. ReplicaSet는 새 Pod를 생성해야 할 때 Pod template을 사용합니다.
 
-ReplicaSet는 현재 객체가 소유한 리소스를 지정하는 Pod의 [Metadata.ownerReferences](https://kubernetes.io/docs/concepts/architecture/garbage-collection/#owners-dependents) 필드를 통해 Pod에 연결됩니다. ReplicaSet이 획득한 모든 Pod는 ownerReferences 필드 내에 소유한 ReplicaSet의 식별 정보를 가지고 있습니다. 이 링크를 통해 ReplicaSet는 유지 관리 중인 Pod의 상태를 알고 그에 따라 계획을 세웁니다.
+ReplicaSet는 현재 object가 소유한 리소스를 지정하는 Pod의 [Metadata.ownerReferences](https://kubernetes.io/docs/concepts/architecture/garbage-collection/#owners-dependents) 필드를 통해 Pod에 연결됩니다. ReplicaSet이 획득한 모든 Pod는 ownerReferences 필드 내에 소유한 ReplicaSet의 식별 정보를 가지고 있습니다. 이 링크를 통해 ReplicaSet는 유지 관리 중인 Pod의 상태를 알고 그에 따라 계획을 세웁니다.
 
-ReplicaSet는 선택기를 사용하여 획득할 새 Pod를 식별합니다. OwnerReference가 없는 Pod가 있거나 OwnerReference가 아닌 경우[제어 장치](https://kubernetes.io/docs/concepts/architecture/controller/)ReplicaSet의 선택기와 일치하면 해당 ReplicaSet에 의해 즉시 획득됩니다.
+ReplicaSet는 selector를 사용하여 획득할 새 Pod를 식별합니다. OwnerReference가 없는 Pod가 있거나 OwnerReference가 아닌 경우[제어 장치](https://kubernetes.io/docs/concepts/architecture/controller/)ReplicaSet의 selector와 일치하면 해당 ReplicaSet에 의해 즉시 획득됩니다.
 
 ## ReplicaSet을 사용해야 하는 경우[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#when-to-use-a-replicaset)
 
-ReplicaSet은 특정 시간에 지정된 수의 Pod 복제본이 실행되도록 보장합니다. 그러나 배포는 ReplicaSet를 관리하고 다른 많은 유용한 기능과 함께 Pod에 대한 선언적 업데이트를 제공하는 더 높은 수준의 개념입니다. 따라서 사용자 지정 업데이트 오케스트레이션이 필요하지 않거나 업데이트가 전혀 필요하지 않은 경우가 아니면 ReplicaSet를 직접 사용하는 대신 배포를 사용하는 것이 좋습니다.
+ReplicaSet은 특정 시간에 지정된 수의 Pod 복제본이 실행되도록 보장합니다. 그러나 Deployment는 ReplicaSet를 관리하고 다른 많은 유용한 기능과 함께 Pod에 대한 선언적 업데이트를 제공하는 더 높은 수준의 개념입니다. 따라서 사용자 지정 업데이트 오케스트레이션이 필요하지 않거나 업데이트가 전혀 필요하지 않은 경우가 아니면 ReplicaSet를 직접 사용하는 대신 Deployment를 사용하는 것이 좋습니다.
 
-이는 실제로 ReplicaSet 객체를 조작할 필요가 전혀 없다는 의미입니다. 대신 배포를 사용하고 사양 섹션에서 애플리케이션을 정의하세요.
+이는 실제로 ReplicaSet object를 조작할 필요가 전혀 없다는 의미입니다. 대신 Deployment를 사용하고 사양 섹션에서 애플리케이션을 정의하세요.
 
 ## 예[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example)
 
@@ -52,13 +53,13 @@ spec:
         image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
 ```
 
-이 매니페스트를 `frontend.yaml`Kubernetes 클러스터에 저장하고 제출하면 정의된 ReplicaSet과 이를 관리하는 Pod가 생성됩니다.
+이 manifest를 `frontend.yaml`Kubernetes 클러스터에 저장하고 제출하면 정의된 ReplicaSet과 이를 관리하는 Pod가 생성됩니다.
 
 ```shell
 kubectl apply -f https://kubernetes.io/examples/controllers/frontend.yaml
 ```
 
-그런 다음 현재 ReplicaSet를 배포할 수 있습니다.
+그런 다음 현재 ReplicaSet를 Deployment할 수 있습니다.
 
 ```shell
 kubectl get rs
@@ -149,11 +150,11 @@ metadata:
 ...
 ```
 
-## 비템플릿 Pod 획득[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#non-template-pod-acquisitions)
+## 비template Pod 획득[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#non-template-pod-acquisitions)
 
-문제 없이 베어 Pod를 생성할 수 있지만 베어 Pod에 ReplicaSet 중 하나의 선택기와 일치하는 라벨이 없는지 확인하는 것이 좋습니다. 그 이유는 ReplicaSet가 템플릿에 지정된 Pod 소유에만 국한되지 않고 이전 섹션에서 지정한 방식으로 다른 Pod를 획득할 수 있기 때문입니다.
+문제 없이 베어 Pod를 생성할 수 있지만 베어 Pod에 ReplicaSet 중 하나의 selector와 일치하는 라벨이 없는지 확인하는 것이 좋습니다. 그 이유는 ReplicaSet가 template에 지정된 Pod 소유에만 국한되지 않고 이전 섹션에서 지정한 방식으로 다른 Pod를 획득할 수 있기 때문입니다.
 
-이전 프런트엔드 ReplicaSet 예시와 다음 매니페스트에 지정된 Pod를 살펴보겠습니다.
+이전 프런트엔드 ReplicaSet 예시와 다음 manifest에 지정된 Pod를 살펴보겠습니다.
 
 [`pods/pod-rs.yaml`](https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/pod-rs.yaml) ![](https://kubernetes.io/images/copycode.svg "Pods/pod-rs.yaml을 클립보드에 복사")
 
@@ -183,9 +184,9 @@ spec:
     image: gcr.io/google-samples/hello-app:1.0
 ```
 
-해당 Pod에는 소유자 참조로 컨트롤러(또는 객체)가 없고 프런트엔드 ReplicaSet의 선택기와 일치하므로 즉시 획득됩니다.
+해당 Pod에는 소유자 참조로 컨트롤러(또는 object)가 없고 프런트엔드 ReplicaSet의 selector와 일치하므로 즉시 획득됩니다.
 
-프런트엔드 ReplicaSet이 배포되고 복제본 수 요구 사항을 충족하도록 초기 Pod 복제본을 설정한 후에 Pod를 생성한다고 가정해 보겠습니다.
+프런트엔드 ReplicaSet이 Deployment되고 복제본 수 요구 사항을 충족하도록 초기 Pod 복제본을 설정한 후에 Pod를 생성한다고 가정해 보겠습니다.
 
 ```shell
 kubectl apply -f https://kubernetes.io/examples/pods/pod-rs.yaml
@@ -239,23 +240,23 @@ pod2             1/1     Running   0          36s
 
 이러한 방식으로 ReplicaSet은 비동질적인 Pod 세트를 소유할 수 있습니다.
 
-## ReplicaSet 매니페스트 작성[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#writing-a-replicaset-manifest)
+## ReplicaSet manifest 작성[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#writing-a-replicaset-manifest)
 
-다른 모든 Kubernetes API 객체와 마찬가지로 ReplicaSet에는 `apiVersion`, `kind`및 `metadata`필드가 필요합니다. ReplicaSet의 경우 `kind`항상 ReplicaSet입니다.
+다른 모든 Kubernetes API object와 마찬가지로 ReplicaSet에는 `apiVersion`, `kind`및 `metadata`필드가 필요합니다. ReplicaSet의 경우 `kind`항상 ReplicaSet입니다.
 
 컨트롤 플레인이 ReplicaSet에 대한 새 Pod를 생성할 때 `.metadata.name`ReplicaSet의 는 해당 Pod 이름을 지정하는 기반의 일부입니다. ReplicaSet의 이름은 유효한 [DNS 하위 도메인](https://kubernetes.io/docs/concepts/overview/working-with-objects/names#dns-subdomain-names) 값이어야 하지만 이로 인해 Pod 호스트 이름에 대해 예상치 못한 결과가 발생할 수 있습니다. 최상의 호환성을 위해 이름은 [DNS 레이블](https://kubernetes.io/docs/concepts/overview/working-with-objects/names#dns-label-names) 에 대한 보다 제한적인 규칙을 따라야 합니다 .
 
 ReplicaSet에는 [`.spec`섹션](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status) 도 필요합니다 .
 
-### Pod 템플릿[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#pod-template)
+### Pod template[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#pod-template)
 
-이는 레이블을 배치하는 데 필요한 [Pod 템플릿](https://kubernetes.io/docs/concepts/workloads/pods/#pod-templates)`.spec.template` 입니다 . 이 예에서는 하나의 라벨이 있었습니다: . 다른 컨트롤러의 선택기와 겹치지 않도록 주의하세요. 그들이 이 Pod를 채택하려고 하지 않도록 하세요.[](https://kubernetes.io/docs/concepts/workloads/pods/#pod-templates)`frontend.yaml``tier: frontend`
+이는 레이블을 배치하는 데 필요한 [Pod template](https://kubernetes.io/docs/concepts/workloads/pods/#pod-templates)`.spec.template` 입니다 . 이 예에서는 하나의 라벨이 있었습니다: . 다른 컨트롤러의 selector와 겹치지 않도록 주의하세요. 그들이 이 Pod를 채택하려고 하지 않도록 하세요.[](https://kubernetes.io/docs/concepts/workloads/pods/#pod-templates)`frontend.yaml``tier: frontend`
 
-템플릿의 [다시 시작 정책](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy) 필드에 `.spec.template.spec.restartPolicy`허용되는 유일한 값은 `Always`기본값인 입니다.
+template의 [다시 시작 정책](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy) 필드에 `.spec.template.spec.restartPolicy`허용되는 유일한 값은 `Always`기본값인 입니다.
 
-### Pod 선택기[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#pod-selector)
+### Pod selector[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#pod-selector)
 
-필드 는 [라벨 선택기](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)`.spec.selector` 입니다 . [앞에서](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#how-a-replicaset-works) 설명한 것처럼 이는 획득할 잠재적인 Pod를 식별하는 데 사용되는 라벨입니다. 이 예에서 선택자는 다음과 같습니다.[](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#how-a-replicaset-works)`frontend.yaml`
+필드 는 [라벨 selector](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)`.spec.selector` 입니다 . [앞에서](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#how-a-replicaset-works) 설명한 것처럼 이는 획득할 잠재적인 Pod를 식별하는 데 사용되는 라벨입니다. 이 예에서 선택자는 다음과 같습니다.[](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#how-a-replicaset-works)`frontend.yaml`
 
 ```yaml
 matchLabels:
@@ -298,7 +299,7 @@ curl -X DELETE  'localhost:8080/apis/apps/v1/namespaces/default/replicasets/fron
   -H "Content-Type: application/json"
 ```
 
-원본이 삭제되면 새 ReplicaSet을 생성하여 교체할 수 있습니다. 기존 Pod와 새 Pod가 `.spec.selector`동일한 한 새 Pod는 기존 Pod를 채택합니다. 그러나 기존 Pod를 새로운 다른 Pod 템플릿과 일치시키려는 노력은 하지 않습니다. 제어된 방식으로 Pod를 새 사양으로 업데이트하려면 [배포를](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment) 사용하세요 . ReplicaSet는 롤링 업데이트를 직접 지원하지 않기 때문입니다.
+원본이 삭제되면 새 ReplicaSet을 생성하여 교체할 수 있습니다. 기존 Pod와 새 Pod가 `.spec.selector`동일한 한 새 Pod는 기존 Pod를 채택합니다. 그러나 기존 Pod를 새로운 다른 Pod template과 일치시키려는 노력은 하지 않습니다. 제어된 방식으로 Pod를 새 사양으로 업데이트하려면 [Deployment를](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment) 사용하세요 . ReplicaSet는 롤링 업데이트를 직접 지원하지 않기 때문입니다.
 
 ### ReplicaSet에서 Pod 격리[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#isolating-pods-from-a-replicaset)
 
@@ -306,7 +307,7 @@ curl -X DELETE  'localhost:8080/apis/apps/v1/namespaces/default/replicasets/fron
 
 ### ReplicaSet 확장[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#scaling-a-replicaset)
 
-ReplicaSet은 단순히 필드를 업데이트하여 쉽게 확장하거나 축소할 수 있습니다 `.spec.replicas`. ReplicaSet 컨트롤러는 일치하는 라벨 선택기가 있는 원하는 수의 Pod가 사용 가능하고 작동하는지 확인합니다.
+ReplicaSet은 단순히 필드를 업데이트하여 쉽게 확장하거나 축소할 수 있습니다 `.spec.replicas`. ReplicaSet 컨트롤러는 일치하는 라벨 selector가 있는 원하는 수의 Pod가 사용 가능하고 작동하는지 확인합니다.
 
 축소할 때 ReplicaSet 컨트롤러는 다음 일반 알고리즘에 따라 Pod 축소 우선 순위를 지정하기 위해 사용 가능한 Pod를 정렬하여 삭제할 Pod를 선택합니다.
 
@@ -336,7 +337,7 @@ ReplicaSet은 단순히 필드를 업데이트하여 쉽게 확장하거나 축�
 
 #### 사용 사례 예시[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example-use-case)
 
-애플리케이션의 다양한 Pod는 활용도 수준이 다를 수 있습니다. 규모를 축소할 경우 애플리케이션은 사용률이 낮은 Pod를 제거하는 것을 선호할 수 있습니다. Pod를 자주 업데이트하지 않으려면 `controller.kubernetes.io/pod-deletion-cost`축소를 실행하기 전에 애플리케이션을 한 번 업데이트해야 합니다 (주석을 Pod 활용도 수준에 비례하는 값으로 설정). 이는 애플리케이션 자체가 축소를 제어하는 ​​경우 작동합니다. 예를 들어 Spark 배포의 드라이버 Pod입니다.
+애플리케이션의 다양한 Pod는 활용도 수준이 다를 수 있습니다. 규모를 축소할 경우 애플리케이션은 사용률이 낮은 Pod를 제거하는 것을 선호할 수 있습니다. Pod를 자주 업데이트하지 않으려면 `controller.kubernetes.io/pod-deletion-cost`축소를 실행하기 전에 애플리케이션을 한 번 업데이트해야 합니다 (주석을 Pod 활용도 수준에 비례하는 값으로 설정). 이는 애플리케이션 자체가 축소를 제어하는 ​​경우 작동합니다. 예를 들어 Spark Deployment의 드라이버 Pod입니다.
 
 ### 수평형 Pod Autoscaler 대상인 ReplicaSet[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#replicaset-as-a-horizontal-pod-autoscaler-target)
 
@@ -358,7 +359,7 @@ spec:
   targetCPUUtilizationPercentage: 50
 ```
 
-이 매니페스트를 `hpa-rs.yaml`Kubernetes 클러스터에 저장하고 제출하면 복제된 Pod의 CPU 사용량에 따라 대상 ReplicaSet를 자동 확장하는 정의된 HPA가 생성되어야 합니다.
+이 manifest를 `hpa-rs.yaml`Kubernetes 클러스터에 저장하고 제출하면 복제된 Pod의 CPU 사용량에 따라 대상 ReplicaSet를 자동 확장하는 정의된 HPA가 생성되어야 합니다.
 
 ```shell
 kubectl apply -f https://k8s.io/examples/controllers/hpa-rs.yaml
@@ -372,9 +373,9 @@ kubectl autoscale rs frontend --max=10 --min=3 --cpu-percent=50
 
 ## ReplicaSet의 대안[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#alternatives-to-replicaset)
 
-### 배포(권장)[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#deployment-recommended)
+### Deployment(권장)[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#deployment-recommended)
 
-[`Deployment`](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)ReplicaSet를 소유하고 선언적 서버 측 롤링 업데이트를 통해 ReplicaSet과 Pod를 업데이트할 수 있는 객체입니다. ReplicaSet는 독립적으로 사용할 수 있지만 현재는 주로 배포에서 Pod 생성, 삭제, 업데이트를 조정하는 메커니즘으로 사용됩니다. 배포를 사용하면 배포가 생성하는 ReplicaSet 관리에 대해 걱정할 필요가 없습니다. 배포는 ReplicaSet를 소유하고 관리합니다. 따라서 ReplicaSet을 원할 때는 배포를 사용하는 것이 좋습니다.
+[`Deployment`](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)ReplicaSet를 소유하고 선언적 서버 측 롤링 업데이트를 통해 ReplicaSet과 Pod를 업데이트할 수 있는 object입니다. ReplicaSet는 독립적으로 사용할 수 있지만 현재는 주로 Deployment에서 Pod 생성, 삭제, 업데이트를 조정하는 메커니즘으로 사용됩니다. Deployment를 사용하면 Deployment가 생성하는 ReplicaSet 관리에 대해 걱정할 필요가 없습니다. Deployment는 ReplicaSet를 소유하고 관리합니다. 따라서 ReplicaSet을 원할 때는 Deployment를 사용하는 것이 좋습니다.
 
 ### 베어 Pod[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#bare-pods)
 
@@ -390,4 +391,4 @@ ReplicaSet은 사용자가 직접 Pod를 생성한 경우와 달리 노드 장�
 
 ### 복제 컨트롤러[](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#replicationcontroller)
 
-[ReplicaSets는 ReplicationControllers](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/) 의 후속 제품입니다 . 두 가지 모두 동일한 목적으로 사용되며 유사하게 작동합니다. 단, ReplicationController는 [레이블 사용자 가이드](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors) 에 설명된 대로 세트 기반 선택기 요구 사항을 지원하지 않습니다 . 따라서 ReplicaSet는 ReplicationController보다 선호됩니다.
+[ReplicaSets는 ReplicationControllers](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/) 의 후속 제품입니다 . 두 가지 모두 동일한 목적으로 사용되며 유사하게 작동합니다. 단, ReplicationController는 [레이블 사용자 가이드](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors) 에 설명된 대로 세트 기반 selector 요구 사항을 지원하지 않습니다 . 따라서 ReplicaSet는 ReplicationController보다 선호됩니다.
