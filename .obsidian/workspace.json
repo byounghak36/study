@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "7ff0c22884fe1902",
+        "id": "79e89d48588328cd",
         "type": "tabs",
         "children": [
           {
-            "id": "9d45ab9ed1841f11",
+            "id": "73203081d9c07584",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/CKA/ETCD_Commands.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfb7135b4d15fed2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/CKA/K8S_ETCD_backup.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "etcd_back",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/kubernetes/CKA/K8S_ETCD_backup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/kubernetes/CKA/K8S_ETCD_backup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/kubernetes/CKA/K8S_ETCD_backup.md"
+              }
             }
           }
         ]
@@ -170,8 +193,12 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "9d45ab9ed1841f11",
+  "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/ETCD란 무엇인가.md",
+    "Study/kubernetes/CKA/ETCD_Commands.md",
+    "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
+    "Study/kubernetes/CKA/K8S_ETCD_backup.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_YAML_작성법.md",
     "_Files/Pasted image 20240513161736.png",
@@ -179,14 +206,11 @@
     "_Files/Pasted image 20240513161621.png",
     "_Files/Pasted image 20240513161608.png",
     "_Files/Pasted image 20240513161457.png",
-    "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
-    "Study/kubernetes/CKA/ETCD란 무엇인가.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Templetes/manaual_templetes.md",
-    "Study/kubernetes/CKA/ETCD - Commands.md",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/kubernetes/K8S",
@@ -207,7 +231,6 @@
     "Study/0.Linux_ETC/apt",
     "Study/k8s/CKA/무제 파일.md",
     "Study/kubernetes/CKA",
-    "_Inbox/무제 파일.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/kubernetes/K8S/K8S_Statefulset.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",

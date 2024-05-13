@@ -3,7 +3,6 @@ title: ETCD - Commands
 tags:
   - etcd
   - kubernetes
-  - CKA
 date: 2024_05_12
 Modify_Date: 
 reference: 

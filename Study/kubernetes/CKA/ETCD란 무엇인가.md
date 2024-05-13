@@ -2,7 +2,6 @@
 title: ETCD란 무엇인가
 tags:
   - kubernetes
-  - openstack
   - etcd
 date: 2024_05_12
 Modify_Date: 
