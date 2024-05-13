@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md"
+                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md"
               }
             }
           }
@@ -203,11 +203,13 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+    "_Files/Pasted image 20240513165514.png",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/_image/K8S_replication_yaml.png",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Study/kubernetes/ETCD/ETCD_Commands.md",
@@ -236,7 +238,6 @@
     "Study/0.Linux_ETC/apt/무제 파일.md",
     "conflict-files-obsidian-git.md",
     "_Files/Pasted image 20240512151954.png",
-    "_Files/Pasted image 20240512151243.png",
     "_Files",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
