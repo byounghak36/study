@@ -53,7 +53,7 @@ spec:
 - `port`대시보드가 ​​제공되는 포트는 설정을 사용하여 기본값에서 변경할 수 있습니다 `port`. 포트를 노출하는 해당 K8s 서비스가 자동으로 업데이트됩니다.
 - `ssl``ssl`옵션을 false로 설정하면 대시보드가 ​​SSL 없이 제공될 수 있습니다(SSL을 사용하여 이미 제공되는 프록시 뒤에 대시보드를 배포할 때 유용함) .
 
-## Ceph Dashboard 노드 포트
+## Ceph Dashboard 노드포트 형식
 서비스를 노출하는 가장 간단한 방법은 NodePort를 사용하여 호스트가 액세스할 수 있는 VM에서 포트를 여는 것입니다. 
 아래와 같이 생성할 수 있습니다.
 ```yaml
@@ -92,4 +92,4 @@ rook-ceph-mon-b                          ClusterIP   10.233.27.133   <none>     
 rook-ceph-mon-d                          ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d22h
 ```
 
-## Ceph Dashboard 로드 밸런서
+## Ceph Dashboard 로드밸런서 형식
