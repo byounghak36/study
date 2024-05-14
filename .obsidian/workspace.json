@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md"
               }
             }
           }
@@ -185,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "kr-book-info-plugin:Add Book Info": false,
       "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -197,11 +198,15 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "도서_리뷰/_나의 서재.md",
+    "프로그램",
+    "기타",
+    "도서_리뷰/데미안.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "conflict-files-obsidian-git.md",
     "도서_리뷰/무제 파일.md",
     "도서_리뷰",
     "_Files/Pasted image 20240514162718.png",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
@@ -234,16 +239,11 @@
     "Study/kubernetes/ETCD",
     "Study/kubernetes/무제 파일.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
-    "Study/k8s/무제 파일.md",
-    "Study/k8s/image/_error_vault.md",
     "_Files",
     "Study/0.Linux_ETC/apt",
-    "Study/kubernetes/CKA",
     "무제 파일.canvas",
-    "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]
