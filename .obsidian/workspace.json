@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#kubernetes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5110321044922,
-    "collapsed": true
+    "width": 413.5110321044922
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
+                "file": "Study/kubernetes/K8S/K8S_개념정리.md"
               }
             }
           }
@@ -198,8 +197,9 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
-    "Study/kubernetes/Rook-Ceph/K8S_Pluging_rook-ceph_Dashbaord.md",
+    "Templetes/manaual_templetes.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Pluging_rook-ceph_Dashbaord.md",
     "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/_image/Pasted image 20240513165514.png",
     "Study/kubernetes/_image/Pasted image 20240513161736.png",
@@ -212,7 +212,6 @@
     "Study/kubernetes/_image/Pasted image 20240512150728.png",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/_image/Pasted image 20240514150241.png",
-    "Templetes/manaual_templetes.md",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",

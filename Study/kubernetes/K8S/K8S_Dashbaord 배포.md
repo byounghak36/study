@@ -8,7 +8,7 @@ reference:
   - https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
 link:
 ---
-## Dashboard UI 배포
+## 1. Dashboard UI 배포
 > [!NOTE]
 > Kubernetes 대시보드는 현재 Helm 기반 설치만 지원합니다. 더 빠르고 대시보드 실행에 필요한 모든 종속성을 더 효과적으로 제어할 수 있기 때문입니다.
 
@@ -59,3 +59,6 @@ kubernetes-dashboard-metrics-scraper   ClusterIP   10.233.25.88    <none>       
 kubernetes-dashboard-web               ClusterIP   10.233.47.209   <none>        8000/TCP                        74s
 
 ```
+정상적으로 배포가 완료된것을 확인할 수 있습니다.
+
+## 2. Dashboard 접속
