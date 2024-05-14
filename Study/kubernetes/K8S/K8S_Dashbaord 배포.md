@@ -9,6 +9,7 @@ reference:
   - https://park-hw.tistory.com/entry/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C-%EC%A0%81%EC%9A%A9
 link: []
 ---
+![[Pasted image 20240514162718.png]]
 ## 1. Dashboard UI 배포
 > [!NOTE]
 > Kubernetes 대시보드는 현재 Helm 기반 설치만 지원합니다. 더 빠르고 대시보드 실행에 필요한 모든 종속성을 더 효과적으로 제어할 수 있기 때문입니다.
@@ -60,4 +61,13 @@ kubernetes-dashboard-web               ClusterIP   10.233.47.209   <none>       
 정상적으로 배포가 완료된것을 확인할 수 있습니다.
 
 ## 2. Dashboard 접속
+kubernetes Dashboard는 두가지 접속방식을 지원 합니다. proxy를 통한 접속, service를 통한 접속 각각의 방법에 대해서 설명하겠습니다.
+### 2.1 proxy 접속
+노드에서 `kubectl proxy` 명령어를 실행함으로써 대시보드로의 접속을 활성화할 수 있습니다.
+```bash
 
+ubuntu@master01:~$ netstat -tnlp | grep kubectl
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+tcp        0      0 127.0.0.1:8001          0.0.0.0:*               LISTEN      1159415/kubectl
+```
