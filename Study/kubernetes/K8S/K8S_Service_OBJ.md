@@ -6,6 +6,15 @@ date: 2024_04_21
 Modify_Date: 
 reference:
 ---
+- [[#K8S Service 오브젝트의 역할|K8S Service 오브젝트의 역할]]
+- [[#Service 유형|Service 유형]]
+- [[#Service의 원리|Service의 원리]]
+- [[#Service 타입|Service 타입]]
+	- [[#Service 타입#(1) ClusterIP|(1) ClusterIP]]
+	- [[#Service 타입#(2) NodePort|(2) NodePort]]
+	- [[#Service 타입#(3) LoadBalancer|(3) LoadBalancer]]
+	- [[#Service 타입#(4) ExternalName|(4) ExternalName]]
+---
 # K8S Service 오브젝트 
 ### K8S Service 오브젝트의 역할
 - **논리적인 그룹화(Logical grouping)** : Service는 백엔드 Pod 그룹을 논리적으로 그룹화하고, 이 그룹에 대해 단일 진입점을 제공합니다. 이로써 Client 는 서비스 이름을 통해 여러 Pod에 분산되어 있는 애플리케이션 인스턴스에 접근할 수 있습니다.

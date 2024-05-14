@@ -6,7 +6,8 @@ date: 2024_05_14
 Modify_Date: 
 reference:
   - https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
-link:
+  - https://park-hw.tistory.com/entry/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C-%EC%A0%81%EC%9A%A9
+link: []
 ---
 ## 1. Dashboard UI 배포
 > [!NOTE]
@@ -44,10 +45,8 @@ NOTE: In case port-forward command does not work, make sure that kong service na
 
 Dashboard will be available at:
   https://localhost:8443
-
 ```
 출력된 메시지에 따라서 `kubectl -n kubernetes-dashboard get svc`을 입력해 봅니다.
-
 ```bash
 ubuntu@master01:~$ kubectl -n kubernetes-dashboard get svc
 NAME                                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)                         AGE
@@ -57,8 +56,8 @@ kubernetes-dashboard-kong-manager      NodePort    10.233.8.145    <none>       
 kubernetes-dashboard-kong-proxy        ClusterIP   10.233.21.95    <none>        443/TCP                         74s
 kubernetes-dashboard-metrics-scraper   ClusterIP   10.233.25.88    <none>        8000/TCP                        74s
 kubernetes-dashboard-web               ClusterIP   10.233.47.209   <none>        8000/TCP                        74s
-
 ```
 정상적으로 배포가 완료된것을 확인할 수 있습니다.
 
 ## 2. Dashboard 접속
+

@@ -1,5 +1,5 @@
 ---
-title: K8S_Pluging_rook-ceph_Dashbaord
+title: K8S_Plugin_rook-ceph_Dashbaord
 tags:
   - kubernetes
   - kubernetes-plugin
@@ -33,7 +33,6 @@ rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,330
 ```
 
 ### 로그인 계정 확인
-
 ```bash
 ubuntu@master01:~$ kubectl -n rook-ceph get secret rook-ceph-dashboard-password -o jsonpath="{['data']['password']}" | base64 --decode && echo
 6q*VX!M$R+&@JolWbj#R
