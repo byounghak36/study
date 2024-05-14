@@ -20,7 +20,7 @@ helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 # Deploy a Helm Release named "kubernetes-dashboard" using the kubernetes-dashboard chart
 helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
 ```
-인스톨을 진행하면 아래와 같은 메시지가 출력됩니다.
+인스톨을 진행하면 아래와 같은 메시지가 출력 됩니다.
 ```bash
 Release "kubernetes-dashboard" does not exist. Installing it now.
 NAME: kubernetes-dashboard

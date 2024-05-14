@@ -24,8 +24,13 @@
             "id": "dfb7135b4d15fed2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -104,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
+              }
             }
           }
         ],
