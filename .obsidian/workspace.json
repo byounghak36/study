@@ -26,19 +26,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+                "file": "Study/kubernetes/Rook-Ceph/무제 파일.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "c332bf3fdd8f2f9d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -117,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+                "file": "Study/kubernetes/Rook-Ceph/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+                "file": "Study/kubernetes/Rook-Ceph/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md"
+                "file": "Study/kubernetes/Rook-Ceph/무제 파일.md"
               }
             }
           }
@@ -203,6 +195,9 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/Rook-Ceph/무제 파일.md",
+    "Study/kubernetes/Rook-Ceph",
+    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/_image/K8S Service nodport.png",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
@@ -215,7 +210,6 @@
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "_Files/Pasted image 20240513165514.png",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
@@ -248,7 +242,6 @@
     "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
-    "Study/kubernetes/_image/data-center-isometric-flowchart.zip",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]
