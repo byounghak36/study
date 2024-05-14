@@ -55,6 +55,41 @@ spec:
 
 ## Ceph Dashboard 노드 포트
 서비스를 노출하는 가장 간단한 방법은 NodePort를 사용하여 호스트가 액세스할 수 있는 VM에서 포트를 여는 것입니다. 
-아래와 같이 생성
+아래와 같이 생성할 수 있습니다.
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: rook-ceph-mgr-dashboard-external-https
+  namespace: rook-ceph
+  labels:
+    app: rook-ceph-mgr
+    rook_cluster: rook-ceph
+spec:
+  ports:
+  - name: dashboard
+    port: 8443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: rook-ceph-mgr
+    rook_cluster: rook-ceph
+    mgr_role: active
+  sessionAffinity: None
+  type: NodePort
+```
+위와 같이 생성한 yaml을 적용하면 아래처럼 service 가 생성된 것을 확인할 수 있다.
+```bash
+ubuntu@master01:~/yaml/rook-dashboard$ kubectl apply -f dashbaord-nodeport.yaml 
+service/rook-ceph-mgr-dashboard-external-https created
+ubuntu@master01:~/yaml/rook-dashboard$ kubectl get svc -n rook-ceph 
+NAME                                     TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)             AGE
+rook-ceph-mgr                            ClusterIP   10.233.50.74    <none>        9283/TCP            3d22h
+rook-ceph-mgr-dashboard                  ClusterIP   10.233.6.181    <none>        8443/TCP            3d22h
+rook-ceph-mgr-dashboard-external-https   NodePort    10.233.38.105   <none>        8443:30848/TCP      5s
+rook-ceph-mon-a                          ClusterIP   10.233.5.250    <none>        6789/TCP,3300/TCP   3d23h
+rook-ceph-mon-b                          ClusterIP   10.233.27.133   <none>        6789/TCP,3300/TCP   3d23h
+rook-ceph-mon-d                          ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d22h
+```
 
 ## Ceph Dashboard 로드 밸런서
