@@ -18,4 +18,14 @@ dashboard:
 	enabled: true
 	ssl: false
 ```
-rook-ceph 설치시 dashboard 란을 true로 설정하였다면 
+rook-ceph 설치시 dashboard 란을 true로 설정하였다면 service 조회시 dashboard가 보입니다.
+
+```bash
+ubuntu@master01:~$ kubectl get svc -n rook-ceph 
+NAME                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)             AGE
+rook-ceph-mgr             ClusterIP   10.233.50.74    <none>        9283/TCP            3d21h
+rook-ceph-mgr-dashboard   ClusterIP   10.233.6.181    <none>        8443/TCP            3d21h
+rook-ceph-mon-a           ClusterIP   10.233.5.250    <none>        6789/TCP,3300/TCP   3d21h
+rook-ceph-mon-b           ClusterIP   10.233.27.133   <none>        6789/TCP,3300/TCP   3d21h
+rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d21h
+```
