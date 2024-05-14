@@ -77,4 +77,4 @@ tcp        0      0 127.0.0.1:8001          0.0.0.0:*               LISTEN      
 이후 로컬호스트에서 url을 통하여 접속할 수 있습니다.
  [http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/)
 
-### 2.2 service를 활용하여 접속
+### 2.2 Service를 활용하여 접속
