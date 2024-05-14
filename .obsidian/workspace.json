@@ -203,6 +203,7 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/_image/K8S Service nodport.png",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
@@ -244,7 +245,6 @@
     "_Files",
     "Study/0.Linux_ETC/apt/ubuntu 패키지 문제로 apt 미작동.md",
     "Study/0.Linux_ETC/apt",
-    "Study/k8s/CKA/무제 파일.md",
     "Study/kubernetes/CKA",
     "무제 파일.canvas",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
