@@ -11,10 +11,10 @@ reference:
   - https://rook.io/docs/rook/latest-release/Storage-Configuration/Monitoring/ceph-dashboard/
 link:
 ---
-## Ceph Dashboard
+## Ceph Dashboard 란
 Ceph Dashboard는 전반적인 Status, mon quorum 상태, mgr, osd 및 기타 Ceph 데몬 상태, 풀 및 PG 상태 보기, 로그 표시 등 Ceph 클러스터 상태에 대한 개요를 제공하는 도구입니다.
 
-## 설치 과정
+## Ceph Dashboard 활성화
 ```yaml
 dashboard:
 	enabled: true
@@ -32,3 +32,6 @@ rook-ceph-mon-b           ClusterIP   10.233.27.133   <none>        6789/TCP,330
 rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d21h
 ```
 기본
+
+### 로그인 계정 생성
+## Ceph Dashboard 
