@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md"
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md"
               }
             }
           }
@@ -203,19 +203,19 @@
   },
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "_Files/Pasted image 20240513165514.png",
-    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/_image/K8S_replication_yaml.png",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
-    "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/ETCD",
     "Study/kubernetes/무제 파일.md",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
@@ -249,7 +249,6 @@
     "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "Study/k8s/image/쿠버네티스 기본 구성.png.crswap",
     "Study/kubernetes/_image/data-center-isometric-flowchart.zip",
-    "Study/k8s/image/미확인 916698.crdownload",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]
