@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac3fcf60d85cedd4",
+        "id": "79e89d48588328cd",
         "type": "tabs",
         "children": [
           {
-            "id": "47c1a92ceac46122",
+            "id": "73203081d9c07584",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도서_리뷰/_나의 서재.md",
+                "file": "Study/kubernetes/ETCD/ETCD_Commands.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "301354d0ebbc6e9e",
+            "id": "dfb7135b4d15fed2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -46,7 +46,6 @@
       {
         "id": "b8d1997c45b1e67a",
         "type": "tabs",
-        "dimension": 71.13997113997114,
         "children": [
           {
             "id": "80c75579a66211b0",
@@ -64,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#replication",
+                "query": "tag:#kubernetes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,14 +79,7 @@
               "type": "graph",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "bc5c850f5353d618",
-        "type": "tabs",
-        "dimension": 28.860028860028862,
-        "children": [
+          },
           {
             "id": "840f8c3ed3e11ac2",
             "type": "leaf",
@@ -100,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 413.5110321044922
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -117,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,12 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8eb0b263d5845279",
@@ -188,11 +180,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 431.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "digitalgarden:Digital Garden Publication Center": false,
       "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -200,58 +192,58 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "301354d0ebbc6e9e",
+  "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
-    "도서_리뷰/_나의 서재.md",
     "conflict-files-obsidian-git.md",
-    "도서_리뷰/데미안.md",
-    "무제 파일.md",
-    "영화_리뷰",
+    "도서_리뷰/무제 파일.md",
     "도서_리뷰",
-    "Study/kubernetes/_image/쿠버네티스_구성_요소.png",
-    "Study/kubernetes/_image/쿠버네티스 기본 구성.png",
-    "Study/kubernetes/_image/쿠버네티스.jpeg",
-    "Study/kubernetes/_image/photo_2024-04-17_09-34-07.jpg",
-    "Study/kubernetes/_image/nodeport_image.png",
-    "Study/kubernetes/_image/idchowto_운영_평가_및_업추비_산정(24.03).ods",
-    "Study/kubernetes/_image/idchowto_운영_평가_및_업추비_산정(24.02).ods",
-    "Study/kubernetes/_image/idchowto_운영_평가_및_업추비_산정(24.01).ods",
-    "Study/k8s/K8S_Service_OBJ.md",
-    "Study/kubernetes/_image/data-center-isometric-flowchart.zip",
-    "Study/kubernetes/_image/clusterIP예시이미지.png",
-    "Study/kubernetes/_image/calico_cni.png",
-    "Study/kubernetes/_image/Pasted image 20240514150241.png",
+    "_Files/Pasted image 20240514162718.png",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/K8S/K8S_개념정리.md",
+    "Templetes/manaual_templetes.md",
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/_image/Pasted image 20240513165514.png",
     "Study/kubernetes/_image/Pasted image 20240513161736.png",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/K8S/K8S_개념정리.md",
-    "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/kubernetes/K8S/K8S_install.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_Statefulset.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ_ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
-    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
-    "Study/kubernetes/K8S/K8S_GPU_Container.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/_image/Pasted image 20240513161644.png",
+    "Study/kubernetes/_image/Pasted image 20240513161621.png",
+    "Study/kubernetes/_image/Pasted image 20240513161608.png",
+    "Study/kubernetes/_image/Pasted image 20240512151954.png",
+    "Study/kubernetes/_image/Pasted image 20240512151243.png",
+    "Study/kubernetes/_image/Pasted image 20240512151030.png",
+    "Study/kubernetes/_image/Pasted image 20240512150728.png",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
-    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
-    "Study/kubernetes/ETCD/ETCD_Commands.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/_image",
     "Study/kubernetes/Rook-Ceph",
-    "Study/kubernetes/KPaas",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
+    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Study/kubernetes/K8S/K8S_배포전략.md",
+    "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
+    "Study/kubernetes/ETCD",
+    "Study/kubernetes/무제 파일.md",
+    "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/kubernetes/K8S",
+    "Study/kubernetes/KPaas",
+    "Study/k8s/무제 파일.md",
+    "Study/k8s/image/_error_vault.md",
+    "_Files",
+    "Study/0.Linux_ETC/apt",
+    "Study/kubernetes/CKA",
     "무제 파일.canvas",
+    "Study/k8s/image/쿠버네티스 기본 구성.png.crdownload",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
   ]
