@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도서_리뷰/무제 파일.md",
+                "file": "도서_리뷰/_나의 서재.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "도서_리뷰/무제 파일.md",
+                "file": "도서_리뷰/_나의 서재.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "도서_리뷰/무제 파일.md",
+                "file": "도서_리뷰/_나의 서재.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "도서_리뷰/무제 파일.md"
+                "file": "도서_리뷰/_나의 서재.md"
               }
             }
           }
@@ -191,8 +191,9 @@
   },
   "active": "47c1a92ceac46122",
   "lastOpenFiles": [
+    "도서_리뷰/데미안.md",
+    "도서_리뷰/_나의 서재.md",
     "무제 파일.md",
-    "도서_리뷰/무제 파일.md",
     "영화_리뷰",
     "도서_리뷰",
     "Study/kubernetes/_image/쿠버네티스_구성_요소.png",
@@ -232,7 +233,6 @@
     "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
-    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/_image",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/KPaas",
