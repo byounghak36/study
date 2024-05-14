@@ -31,7 +31,6 @@ rook-ceph-mon-a           ClusterIP   10.233.5.250    <none>        6789/TCP,330
 rook-ceph-mon-b           ClusterIP   10.233.27.133   <none>        6789/TCP,3300/TCP   3d21h
 rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d21h
 ```
-기본
 
 ### 로그인 계정 확인
 
@@ -78,7 +77,7 @@ spec:
   sessionAffinity: None
   type: NodePort
 ```
-위와 같이 생성한 yaml을 적용하면 아래처럼 service 가 생성된 것을 확인할 수 있다.
+위와 같이 생성한 yaml을 적용하면 아래처럼 service 가 생성된 것을 확인할 수 있습니다.
 ```bash
 ubuntu@master01:~/yaml/rook-dashboard$ kubectl apply -f dashbaord-nodeport.yaml 
 service/rook-ceph-mgr-dashboard-external-https created
@@ -93,3 +92,15 @@ rook-ceph-mon-d                          ClusterIP   10.233.28.197   <none>     
 ```
 
 ## Ceph Dashboard 로드밸런서 형식
+로드밸런서 형식은 NodePort와 크게 다르지 않습니다. type을 로드밸런서로 변경하면 됩니다.
+```
+spec:
+[...]
+	type: LoadBalancer
+```
+
+이후 `kubectl get svc -n rook-ceph` 를 통해서 확인된 LB IP 로 접속하면 됩니다.
+
+
+> 접속 후 이미지
+![[Pasted image 20240514150241.png]]
