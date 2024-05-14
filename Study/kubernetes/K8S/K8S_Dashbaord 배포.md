@@ -65,9 +65,16 @@ kubernetes Dashboard는 두가지 접속방식을 지원 합니다. proxy를 통
 ### 2.1 proxy 접속
 노드에서 `kubectl proxy` 명령어를 실행함으로써 대시보드로의 접속을 활성화할 수 있습니다.
 ```bash
+ubuntu@master01:~$ kubectl proxy
+Starting to serve on 127.0.0.1:8001
 
 ubuntu@master01:~$ netstat -tnlp | grep kubectl
 (Not all processes could be identified, non-owned process info
  will not be shown, you would have to be root to see it all.)
 tcp        0      0 127.0.0.1:8001          0.0.0.0:*               LISTEN      1159415/kubectl
 ```
+명령어를 실행하면 8001 이 127.0.0.1 로컬호스트로 열린것을 확인할 수 있습니다.
+이후 로컬호스트에서 url을 통하여 접속할 수 있습니다.
+ [http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/)
+
+### 2.2 service를 활용하여 접속
