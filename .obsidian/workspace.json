@@ -24,9 +24,12 @@
             "id": "dfb7135b4d15fed2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/_image/Pasted image 20240514150241.png"
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -89,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5110321044922
+    "width": 413.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -106,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/_image/Pasted image 20240514150241.png",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/_image/Pasted image 20240514150241.png",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,11 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/_image/Pasted image 20240514150241.png"
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8eb0b263d5845279",
@@ -176,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 431.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,8 +196,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "80c75579a66211b0",
+  "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Study/kubernetes/Rook-Ceph/K8S_Pluging_rook-ceph_Dashbaord.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/_image/Pasted image 20240513165514.png",
     "Study/kubernetes/_image/Pasted image 20240513161736.png",
     "Study/kubernetes/_image/Pasted image 20240513161644.png",
@@ -202,14 +211,11 @@
     "Study/kubernetes/_image/Pasted image 20240512151030.png",
     "Study/kubernetes/_image/Pasted image 20240512150728.png",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Pluging_rook-ceph_Dashbaord.md",
     "Study/kubernetes/_image/Pasted image 20240514150241.png",
-    "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Templetes/manaual_templetes.md",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
-    "Study/kubernetes/_image/K8S Service nodport.png",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
