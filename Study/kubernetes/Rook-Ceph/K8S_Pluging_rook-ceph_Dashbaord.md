@@ -33,5 +33,28 @@ rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,330
 ```
 기본
 
-### 로그인 계정 생성
-## Ceph Dashboard 
+### 로그인 계정 확인
+
+```bash
+ubuntu@master01:~$ kubectl -n rook-ceph get secret rook-ceph-dashboard-password -o jsonpath="{['data']['password']}" | base64 --decode && echo
+6q*VX!M$R+&@JolWbj#R
+
+```
+### Rook Ceph 설정 지원
+Rook Ceph 에서는 아래 설정이 지원 됩니다.
+```yaml
+spec:
+  dashboard:
+    urlPrefix: /ceph-dashboard
+    port: 8443
+    ssl: true
+```
+- `urlPrefix`역방향 프록시를 통해 대시보드에 액세스하는 경우 URL 접두사로 대시보드를 제공할 수 있습니다. 대시보드에서 접두사가 포함된 하이퍼링크를 사용하도록 하려면 설정을 지정하면 됩니다 `urlPrefix`.
+- `port`대시보드가 ​​제공되는 포트는 설정을 사용하여 기본값에서 변경할 수 있습니다 `port`. 포트를 노출하는 해당 K8s 서비스가 자동으로 업데이트됩니다.
+- `ssl``ssl`옵션을 false로 설정하면 대시보드가 ​​SSL 없이 제공될 수 있습니다(SSL을 사용하여 이미 제공되는 프록시 뒤에 대시보드를 배포할 때 유용함) .
+
+## Ceph Dashboard 노드 포트
+서비스를 노출하는 가장 간단한 방법은 NodePort를 사용하여 호스트가 액세스할 수 있는 VM에서 포트를 여는 것입니다. 
+아래와 같이 생성
+
+## Ceph Dashboard 로드 밸런서
