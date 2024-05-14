@@ -6,5 +6,6 @@
   "calendar",
   "obsidian-plugin-toc",
   "digitalgarden",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-pandoc"
 ]
