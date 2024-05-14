@@ -6,11 +6,13 @@ tags:
   - rook-ceph
 date: 2024_05_14
 Modify_Date: 
-reference: https://mokpolar.tistory.com/10
-link: []
+reference:
+  - https://mokpolar.tistory.com/10
+  - https://rook.io/docs/rook/latest-release/Storage-Configuration/Monitoring/ceph-dashboard/
+link:
 ---
 ## Ceph Dashboard
-Ceph 대시보드는 클러스터의 리소스를 검사하고 관리하는 데 사용할 수 있는 웹 기반 Ceph 관리 및 모니터링 도구입니다. [Ceph Manager Daemon](https://docs.ceph.com/en/latest/mgr/#ceph-manager-daemon) 모듈 로 구현됩니다. rook-ceph 도 당연히 이를 지원하고 외부에서 접속 가능하도록 service 를 생성해야 합니다.
+Ceph Dashboard는 전반적인 Status, mon quorum 상태, mgr, osd 및 기타 Ceph 데몬 상태, 풀 및 PG 상태 보기, 로그 표시 등 Ceph 클러스터 상태에 대한 개요를 제공하는 도구입니다.
 
 ## 설치 과정
 ```yaml
@@ -29,3 +31,4 @@ rook-ceph-mon-a           ClusterIP   10.233.5.250    <none>        6789/TCP,330
 rook-ceph-mon-b           ClusterIP   10.233.27.133   <none>        6789/TCP,3300/TCP   3d21h
 rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d21h
 ```
+기본
