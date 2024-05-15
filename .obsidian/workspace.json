@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md"
+                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md"
               }
             }
           }
@@ -185,14 +185,14 @@
   },
   "active": "ba54ef8972aa279d",
   "lastOpenFiles": [
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/_image/쿠버네티스.jpeg",
     "Study/kubernetes/K8S/K8S_OBJ_Service.md",
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ClusterIP.md",
