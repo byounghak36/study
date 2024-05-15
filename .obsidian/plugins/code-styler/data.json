@@ -311,8 +311,8 @@
       "header": {
         "title": {
           "textFont": "",
-          "textBold": false,
-          "textItalic": true
+          "textBold": true,
+          "textItalic": false
         },
         "languageTag": {
           "display": "always",
@@ -351,7 +351,7 @@
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": false,
         "languageBorderWidth": 5,
-        "iconSize": 25
+        "iconSize": 19
       }
     },
     "colours": {
@@ -366,20 +366,20 @@
           "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "#42547D",
+          "backgroundColour": "--code-background",
           "title": {
             "textColour": "--code-comment"
           },
           "languageTag": {
             "backgroundColour": "--code-background",
-            "textColour": "--code-comment"
+            "textColour": "#A0C9FF"
           },
           "externalReference": {
             "displayRepositoryColour": "#00FFFF",
             "displayVersionColour": "#FF00FF",
             "displayTimestampColour": "#808080"
           },
-          "lineColour": "--color-base-30"
+          "lineColour": "#AEFFBC"
         },
         "highlights": {
           "activeCodeblockLineColour": "--color-base-30",
@@ -409,20 +409,20 @@
           "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "#42547D",
+          "backgroundColour": "--code-background",
           "title": {
             "textColour": "--code-comment"
           },
           "languageTag": {
             "backgroundColour": "--code-background",
-            "textColour": "--code-comment"
+            "textColour": "#A0C9FF"
           },
           "externalReference": {
             "displayRepositoryColour": "#00FFFF",
             "displayVersionColour": "#FF00FF",
             "displayTimestampColour": "#808080"
           },
-          "lineColour": "--color-base-30"
+          "lineColour": "#AEFFBC"
         },
         "highlights": {
           "activeCodeblockLineColour": "--color-base-30",
