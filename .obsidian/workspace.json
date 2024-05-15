@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "79e89d48588328cd",
+        "id": "ff821c0c8c32da18",
         "type": "tabs",
         "children": [
           {
-            "id": "464b670b49539c5a",
+            "id": "e9bd8bd61a4c0b67",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
-              "state": {
-                "file": "Study/kubernetes/K8S/_K8S_mindmap.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/_K8S_mindmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/_K8S_mindmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -120,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/kubernetes/K8S/_K8S_mindmap.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -180,12 +174,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "464b670b49539c5a",
+  "active": "e9bd8bd61a4c0b67",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/_K8S_mindmap.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ_ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ_ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "프로그램/Obsidian_plugins-Excalidraw.md",
