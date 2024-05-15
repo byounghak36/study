@@ -11,9 +11,12 @@
             "id": "ba54ef8972aa279d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md"
               }
             }
           }
