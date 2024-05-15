@@ -11,12 +11,9 @@
             "id": "83e1881eca4d5783",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "프로그램/Obsidian_plugins-Excalidraw.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
               }
             }
           }
@@ -95,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로그램/Obsidian_plugins-Excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로그램/Obsidian_plugins-Excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로그램/Obsidian_plugins-Excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
               }
             }
           }
@@ -185,8 +182,8 @@
   },
   "active": "83e1881eca4d5783",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/K8S_개념정리.md",
     "프로그램/Obsidian_plugins-Excalidraw.md",
+    "Study/kubernetes/K8S/K8S_개념정리.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
