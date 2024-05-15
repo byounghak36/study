@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3003d94eedc3b807",
+        "id": "9bd50367280ed0ba",
         "type": "tabs",
         "children": [
           {
-            "id": "83e1881eca4d5783",
+            "id": "d9c08bfb8a170933",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#kubernetes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md"
               }
             }
           }
@@ -180,10 +183,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "83e1881eca4d5783",
+  "active": "d9c08bfb8a170933",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "프로그램/Obsidian_plugins-Excalidraw.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",

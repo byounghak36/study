@@ -3,6 +3,7 @@ title: ETCD란 무엇인가
 tags:
   - kubernetes
   - etcd
+  - DB
 date: 2024_05_12
 Modify_Date: 
 reference: 
