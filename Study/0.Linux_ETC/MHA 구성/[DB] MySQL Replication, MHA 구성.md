@@ -2,8 +2,6 @@
 title: "[DB] MySQL Replication, MHA 구성"
 tags:
   - DB
-  - mariadb
-  - mysql
   - replication
 date: 
 Modify_Date: 
