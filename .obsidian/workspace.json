@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c9fc17a24891f9d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_ReplicaSet.md"
+                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md"
               }
             }
           }
@@ -193,11 +203,17 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dfb7135b4d15fed2",
+  "active": "5c9fc17a24891f9d",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
+    "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
+    "Excalidraw",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
+    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
@@ -211,7 +227,6 @@
     "도서_리뷰",
     "_Files/Pasted image 20240514162718.png",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
@@ -228,8 +243,6 @@
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
@@ -242,7 +255,6 @@
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
     "_Files",
-    "Study/0.Linux_ETC/apt",
     "무제 파일.canvas",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
