@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/0.Linux_ETC/linux/디스크마운트.md",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/0.Linux_ETC/linux/디스크마운트.md",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/0.Linux_ETC/linux/디스크마운트.md",
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/0.Linux_ETC/linux/디스크마운트.md"
+                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
               }
             }
           }
@@ -185,10 +185,11 @@
   },
   "active": "ba54ef8972aa279d",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_배포전략.md",
+    "Study/0.Linux_ETC/linux/디스크마운트.md",
     "Study/0.Linux_ETC/galera/갈레라설치.md",
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service.md",
@@ -212,7 +213,6 @@
     "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
-    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "_Files/Excalidraw_5.png",
     "_Files/Excalidraw_4.png",
     "_Files/kubernetes_dashboard.png",

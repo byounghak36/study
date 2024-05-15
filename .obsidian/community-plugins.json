@@ -9,5 +9,6 @@
   "kr-book-info-plugin",
   "obsidian-excalidraw-plugin",
   "obsidian-mind-map",
-  "code-styler"
+  "code-styler",
+  "cm-editor-syntax-highlight-obsidian"
 ]

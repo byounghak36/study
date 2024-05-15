@@ -47,7 +47,9 @@ NOTE: In case port-forward command does not work, make sure that kong service na
 Dashboard will be available at:
   https://localhost:8443
 ```
+
 출력된 메시지에 따라서 `kubectl -n kubernetes-dashboard get svc`을 입력해 봅니다.
+
 ```shell
 ubuntu@master01:~$ kubectl -n kubernetes-dashboard get svc
 NAME                                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)                         AGE
