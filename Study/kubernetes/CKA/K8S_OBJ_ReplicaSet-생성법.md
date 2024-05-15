@@ -52,7 +52,34 @@ ReplicaSet을 생성시 가장 중요한부분이 spec 부분이다. 해당 설�
 #### spec.selector.matchLables
 이 부분이 ReplicationController 와 가장 큰 차이이다. 기존의 ReplicationController는 selector를 지정하지 않고 spec 에 기입된 Pod를 복제하였지만, ReplicaSet은 selector를 통해 선택된 Pod만 복제한다. 따라서 spec.template.metadata.labels 값을 잘 지정하는것도 중요하다.
 #### spec.template
+이 부분에 Pod를 생성할때 넣었던 metadata 및 spec을 기입한다. 실제로 생성될 Pod다. 만약 이부분을 생략하고 ReplicaSet을 생성한다면, 복제된 Pod는 없이 ReplicaSet만 생성된다.(이것도 필요에 따라 활용하기 좋다. 기존의 생성된 Pod를 복제하는 등...)
+
+## 예시 적용
 
 
+```shell
+ubuntu@master01:~/yaml$ kubectl apply -f test-replicaset.yaml
+ubuntu@master01:~/yaml$ kubectl get ReplicaSet -o wide
+NAME       DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES   SELECTOR
+frontend   3         3         3       26s   nginx-pod    nginx    app=nginx
 
+# -l 옵션을 활용하여서 검색시 selector를 지정할 수 있다.
+ubuntu@master01:~/yaml$ kubectl get pod -l app=nginx
+NAME             READY   STATUS    RESTARTS   AGE
+frontend-7bk4s   1/1     Running   0          13m
+frontend-rhzhr   1/1     Running   0          13m
+frontend-wlg8h   1/1     Running   0          13m
 
+```
+
+해당 파일을 apply 해보았다. 정상적으로 3개의 Pod가 생성된 모습이다.
+
+만약 생성된 ReplicaSet의 Pod 개수를 조정하고 싶다면 어떻게 할까?
+
+### ReplicaSet Pod 개수 조정
+
+몇가지 방법이 있다. kubectl edit 을 활용하여 실행중인 ReplicaSet의 yaml을 수정하거나 kubectl 명령어를 통해서 조정할 수 있다. 해당 글에서는 kubectl명령어를 통한 조정방법을 설명하겠다.
+
+```shell
+
+```
