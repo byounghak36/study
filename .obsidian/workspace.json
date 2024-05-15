@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md"
               }
             }
           }
@@ -185,9 +185,12 @@
   },
   "active": "d9c08bfb8a170933",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/K8S_GPU_Container.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/K8S/K8S_install.md",
+    "Study/kubernetes/K8S/K8S_GPU_Container.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service_-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_OBJ_Statefulset.md",
@@ -195,11 +198,8 @@
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S/K8S_install.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "프로그램/Obsidian_plugins-Excalidraw.md",

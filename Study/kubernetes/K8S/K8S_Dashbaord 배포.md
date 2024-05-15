@@ -10,106 +10,71 @@ reference:
 link: []
 ---
 ![[kubernetes_dashboard.png]]
-## Ceph Dashboard 란
+## 1. Dashboard UI 배포
+> [!NOTE]
+> Kubernetes 대시보드는 현재 Helm 기반 설치만 지원합니다. 더 빠르고 대시보드 실행에 필요한 모든 종속성을 더 효과적으로 제어할 수 있기 때문입니다.
 
-Ceph Dashboard는 전반적인 Status, mon quorum 상태, mgr, osd 및 기타 Ceph 데몬 상태, 풀 및 PG 상태 보기, 로그 표시 등 Ceph 클러스터 상태에 대한 개요를 제공하는 도구입니다.
-
-## Ceph Dashboard 활성화
-
-```yaml
-dashboard:
-    enabled: true
-    ssl: false
-```
-
-rook-ceph 설치시 dashboard 란을 true로 설정하였다면 service 조회시 dashboard가 보입니다.
-
+배포를 진행하기 위해, helm repo 추가 및 install 을 진행합니다.
 ```shell
-ubuntu@master01:~$ kubectl get svc -n rook-ceph 
-NAME                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)             AGE
-rook-ceph-mgr             ClusterIP   10.233.50.74    <none>        9283/TCP            3d21h
-rook-ceph-mgr-dashboard   ClusterIP   10.233.6.181    <none>        8443/TCP            3d21h
-rook-ceph-mon-a           ClusterIP   10.233.5.250    <none>        6789/TCP,3300/TCP   3d21h
-rook-ceph-mon-b           ClusterIP   10.233.27.133   <none>        6789/TCP,3300/TCP   3d21h
-rook-ceph-mon-d           ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d21h
+# Add kubernetes-dashboard repository
+helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+# Deploy a Helm Release named "kubernetes-dashboard" using the kubernetes-dashboard chart
+helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
 ```
-### 로그인 계정 확인
-
+인스톨을 진행하면 아래와 같은 메시지가 출력 됩니다.
 ```shell
-ubuntu@master01:~$ kubectl -n rook-ceph get secret rook-ceph-dashboard-password -o jsonpath="{['data']['password']}" | base64 --decode && echo
-6q*VX!M$R+&@JolWbj#R
+Release "kubernetes-dashboard" does not exist. Installing it now.
+NAME: kubernetes-dashboard
+LAST DEPLOYED: Tue May 14 15:53:53 2024
+NAMESPACE: kubernetes-dashboard
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+*************************************************************************************************
+*** PLEASE BE PATIENT: Kubernetes Dashboard may need a few minutes to get up and become ready ***
+*************************************************************************************************
+
+Congratulations! You have just installed Kubernetes Dashboard in your cluster.
+
+To access Dashboard run:
+  kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard-kong-proxy 8443:443
+
+NOTE: In case port-forward command does not work, make sure that kong service name is correct.
+      Check the services in Kubernetes Dashboard namespace using:
+        kubectl -n kubernetes-dashboard get svc
+
+Dashboard will be available at:
+  https://localhost:8443
 ```
-### Rook Ceph 설정 지원
-
-Rook Ceph 에서는 아래 설정이 지원 됩니다.
-
-```yaml
-spec:
-  dashboard:
-    urlPrefix: /ceph-dashboard
-    port: 8443
-    ssl: true
-```
-
-- `urlPrefix`역방향 프록시를 통해 대시보드에 액세스하는 경우 URL 접두사로 대시보드를 제공할 수 있습니다. 대시보드에서 접두사가 포함된 하이퍼링크를 사용하도록 하려면 설정을 지정하면 됩니다 `urlPrefix`.
-- `port`대시보드가 ​​제공되는 포트는 설정을 사용하여 기본값에서 변경할 수 있습니다 `port`. 포트를 노출하는 해당 K8s 서비스가 자동으로 업데이트됩니다.
-- `ssl``ssl`옵션을 false로 설정하면 대시보드가 ​​SSL 없이 제공될 수 있습니다(SSL을 사용하여 이미 제공되는 프록시 뒤에 대시보드를 배포할 때 유용함) .
-
-## Ceph Dashboard 노드포트 형식
-
-서비스를 노출하는 가장 간단한 방법은 NodePort를 사용하여 호스트가 액세스할 수 있는 VM에서 포트를 여는 것입니다.  
-아래와 같이 생성할 수 있습니다.
-
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: rook-ceph-mgr-dashboard-external-https
-  namespace: rook-ceph
-  labels:
-    app: rook-ceph-mgr
-    rook_cluster: rook-ceph
-spec:
-  ports:
-  - name: dashboard
-    port: 8443
-    protocol: TCP
-    targetPort: 8443
-  selector:
-    app: rook-ceph-mgr
-    rook_cluster: rook-ceph
-    mgr_role: active
-  sessionAffinity: None
-  type: NodePort
-```
-
-위와 같이 생성한 yaml을 적용하면 아래처럼 service 가 생성된 것을 확인할 수 있습니다.
-
+출력된 메시지에 따라서 `kubectl -n kubernetes-dashboard get svc`을 입력해 봅니다.
 ```shell
-ubuntu@master01:~/yaml/rook-dashboard$ kubectl apply -f dashbaord-nodeport.yaml 
-service/rook-ceph-mgr-dashboard-external-https created
-ubuntu@master01:~/yaml/rook-dashboard$ kubectl get svc -n rook-ceph 
-NAME                                     TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)             AGE
-rook-ceph-mgr                            ClusterIP   10.233.50.74    <none>        9283/TCP            3d22h
-rook-ceph-mgr-dashboard                  ClusterIP   10.233.6.181    <none>        8443/TCP            3d22h
-rook-ceph-mgr-dashboard-external-https   NodePort    10.233.38.105   <none>        8443:30848/TCP      5s
-rook-ceph-mon-a                          ClusterIP   10.233.5.250    <none>        6789/TCP,3300/TCP   3d23h
-rook-ceph-mon-b                          ClusterIP   10.233.27.133   <none>        6789/TCP,3300/TCP   3d23h
-rook-ceph-mon-d                          ClusterIP   10.233.28.197   <none>        6789/TCP,3300/TCP   3d22h
+ubuntu@master01:~$ kubectl -n kubernetes-dashboard get svc
+NAME                                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)                         AGE
+kubernetes-dashboard-api               ClusterIP   10.233.62.36    <none>        8000/TCP                        74s
+kubernetes-dashboard-auth              ClusterIP   10.233.22.195   <none>        8000/TCP                        74s
+kubernetes-dashboard-kong-manager      NodePort    10.233.8.145    <none>        8002:30596/TCP,8445:31723/TCP   74s
+kubernetes-dashboard-kong-proxy        ClusterIP   10.233.21.95    <none>        443/TCP                         74s
+kubernetes-dashboard-metrics-scraper   ClusterIP   10.233.25.88    <none>        8000/TCP                        74s
+kubernetes-dashboard-web               ClusterIP   10.233.47.209   <none>        8000/TCP                        74s
 ```
+정상적으로 배포가 완료된것을 확인할 수 있습니다.
 
-## Ceph Dashboard 로드밸런서 형식
+## 2. Dashboard 접속
+kubernetes Dashboard는 두가지 접속방식을 지원 합니다. proxy를 통한 접속, service를 통한 접속 각각의 방법에 대해서 설명하겠습니다.
+### 2.1 proxy 접속
+노드에서 `kubectl proxy` 명령어를 실행함으로써 대시보드로의 접속을 활성화할 수 있습니다.
+```shell
+ubuntu@master01:~$ kubectl proxy
+Starting to serve on 127.0.0.1:8001
 
-로드밸런서 형식은 NodePort와 크게 다르지 않습니다. type을 로드밸런서로 변경하면 됩니다.
+ubuntu@master01:~$ netstat -tnlp | grep kubectl
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+tcp        0      0 127.0.0.1:8001          0.0.0.0:*               LISTEN      1159415/kubectl
+```
+명령어를 실행하면 8001 이 127.0.0.1 로컬호스트로 열린것을 확인할 수 있습니다.
+이후 로컬호스트에서 url을 통하여 접속할 수 있습니다.
+ [http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/)
 
-```yaml
-
-spec:
-[...]
-    type: LoadBalancer
-
-이후 `kubectl get svc -n rook-ceph` 를 통해서 확인된 LB IP 로 접속하면 됩니다.
-
-> 접속 후 이미지
-
-![](https://blog.kakaocdn.net/dn/udwFl/btsHocyP8xv/5xHQktCIw53ZmtcF2eyKZ0/img.png)
+### 2.2 Service를 활용하여 접속
