@@ -11,9 +11,12 @@
             "id": "464b670b49539c5a",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/Untitled mindmap.md"
+                "file": "Study/kubernetes/K8S/_K8S_mindmap.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Untitled mindmap.md",
+                "file": "Study/kubernetes/K8S/_K8S_mindmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Untitled mindmap.md",
+                "file": "Study/kubernetes/K8S/_K8S_mindmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Untitled mindmap.md"
+                "file": "Study/kubernetes/K8S/_K8S_mindmap.md"
               }
             }
           }
@@ -180,10 +183,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80c75579a66211b0",
+  "active": "464b670b49539c5a",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_Service_OBJ_ingress-nginx-contorller.md",
+    "Study/kubernetes/K8S/_K8S_mindmap.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
-    "Study/kubernetes/K8S/Untitled mindmap.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "프로그램/Obsidian_plugins-Excalidraw.md",
@@ -221,7 +225,6 @@
     "도서_리뷰",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/ETCD",
