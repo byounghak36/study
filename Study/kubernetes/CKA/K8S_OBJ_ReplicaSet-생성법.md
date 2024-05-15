@@ -22,16 +22,17 @@ kind: ReplicaSet
 metadata:
   name: frontend
   labels:
-    app: frontend
+    app: myapp
+    type: frontend
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: frontend
+      app: nginx
   template:
     metadata:
       labels:
-        app: frontend
+        app: nginx
     spec:
       containers:
       - name: nginx-pod
@@ -46,6 +47,12 @@ spec:
 Pod는 apiVersion을 v1으로 기입하였다. 또 ReplicaSet의 전신인 ReplicationController 또한 v1으로 기입하여 사용한다. 하지만 ReplicaSet은 apps/v1 에 포함되어 있기에 apiVersion을 꼭 apps/v1으로 기입하여야 한다.
 #### kind: ReplicaSet
 사용하고자 하는 object를 지정하는 곳이다. kind를 RecplicaSet으로 지정한다.
-#### metadata.labels.app: frontend
+#### spec.replicas
+ReplicaSet을 생성시 가장 중요한부분이 spec 부분이다. 해당 설정에서는 spec.replicas를 3으로 설정함으로서, 항상 3개의 Pod가 유지되도록 한다.
+#### spec.selector.matchLables
+이 부분이 ReplicationController 와 가장 큰 차이이다. 기존의 ReplicationController는 selector를 지정하지 않고 spec 에 기입된 Pod를 복제하였지만, ReplicaSet은 selector를 통해 선택된 Pod만 복제한다. 따라서 spec.template.metadata.labels 값을 잘 지정하는것도 중요하다.
+#### spec.template
+
+
 
 
