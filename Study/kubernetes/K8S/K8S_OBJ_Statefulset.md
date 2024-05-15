@@ -1,5 +1,5 @@
 ---
-title: K8S_Statefulset
+title: K8S_OBJ_Statefulset
 tags:
   - kubernetes
 date: 2024_04_21

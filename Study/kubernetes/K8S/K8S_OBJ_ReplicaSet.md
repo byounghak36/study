@@ -1,5 +1,5 @@
 ---
-title: K8S_ReplicaSet
+title: K8S_OBJ_ReplicaSet
 tags:
   - kubernetes
   - K8S_ReplicaSet
