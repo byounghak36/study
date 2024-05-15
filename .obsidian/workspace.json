@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로그램/무제 파일 1.md",
+                "file": "프로그램/Obsidian_plugins-Excalidraw.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로그램/무제 파일 1.md",
+                "file": "프로그램/Obsidian_plugins-Excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로그램/무제 파일 1.md",
+                "file": "프로그램/Obsidian_plugins-Excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로그램/무제 파일 1.md"
+                "file": "프로그램/Obsidian_plugins-Excalidraw.md"
               }
             }
           }
@@ -200,7 +200,7 @@
   "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
     "Templetes/manaual_templetes.md",
-    "프로그램/무제 파일 1.md",
+    "프로그램/Obsidian_plugins-Excalidraw.md",
     "Templetes/default_templetes.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "프로그램/무제 파일.md",
