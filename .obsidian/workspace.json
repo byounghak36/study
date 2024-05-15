@@ -37,8 +37,10 @@
             "id": "b0534df04662d68e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md"
+              }
             }
           }
         ],
@@ -117,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md"
+              }
             }
           }
         ],
@@ -203,9 +209,10 @@
   },
   "active": "b0534df04662d68e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
-    "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
@@ -245,7 +252,6 @@
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/ETCD",
-    "Study/kubernetes/무제 파일.md",
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
     "_Files",
