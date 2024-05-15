@@ -42,3 +42,15 @@ https://libraries.excalidraw.com/?target=_blank&referrer=app%3A%2F%2Fobsidian.md
 
 검색을 통해서 원하는 아이콘을 클릭하여 add to excalidraw 또는 download를 한뒤에, 적용을 하게되면 해당 아이콘을 사용할 수 있습니다.
 
+![[Excalidraw_6.png]]
+
+다운로드를 했다면, 우측 상단의 ... 을 클릭하여 열기를 통해서 적용하면 됩니다.
+
+# 3. 사용 후기
+---
+제가 전에 그렸던 Kubernetes 의 NodePort 구성도를 Excalidraw 를 통해서 그려 보겠습니다.
+![[K8S Service nodport.png]]
+
+위 사진은 draw.io 를 통해서 그린 구성도입니다.
+아래사진은 Excalidraw를 통해서 그렸습니다.
+
