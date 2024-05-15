@@ -53,7 +53,7 @@ sudo systemctl enable --now kubelet
 
 명시적으로 로드하려면, `sudo modprobe br_netfilter`를 실행한다. 리눅스 노드의 iptables가 브리지된 트래픽을 올바르게 보기 위한 요구 사항으로, `sysctl` 구성에서 `net.bridge.bridge-nf-call-iptables`가 1로 설정되어 있는지 확인한다. 예를 들어,
 
-```bash
+```shell
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
 br_netfilter
@@ -73,7 +73,7 @@ EOF
 sudo sysctl --system
 ```
 
-```bash
+```shell
 OS=xUbuntu_22.04
 CRIO_VERSION=1.28:1.28.4
 
@@ -109,7 +109,7 @@ apt-get update -qq && apt-get install -y \
 참고 : https://togomi.tistory.com/58
 (그냥 소스설치하는게 편한거같다...)
 
-```bash
+```shell
 Your Kubernetes control-plane has initialized successfully!
 
 To start using your cluster, you need to run the following as a regular user:
@@ -136,7 +136,7 @@ kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \
 
 클러스터를 사용하려면 다음을 일반 사용자로 실행해야합니다:
 
-```
+```shell
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
@@ -153,7 +153,7 @@ export KUBECONFIG=/etc/kubernetes/admin.conf
 sql
 
 Copy code
-```
+```shell
 kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \
 --discovery-token-ca-cert-hash sha256:f80c29152843fddf6a4c1664030c2b8af232f4f65bb8f87e141e569051
 ```
@@ -162,34 +162,28 @@ kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 ```
 
-> - **--pod-network-cidr**
->     - 클러스터에 사용할 `Pod 네트워크 CIDR`을 지정합니다.
->     - 이는 네트워킹 솔루션이 포드에 IP 주소를 할당하는 데 필요합니다.
->         - Ex) `--pod-network-cidr=10.244.0.0/16.`
-> 
-> - **--apiserver-advertise-address**
->     - API 서버가 퍼블릭 엔드포인트에 대해 알릴 IP 주소를 지정합니다.
->     - API 서버와 통신하도록 kubelet 및 기타 구성 요소를 구성하는 데 사용됩니다.
->         - Ex) `--apiserver-advertise-address=192.168.1.100.`
-> 
-> - **--control-plane-endpoint**
->     - 컨트롤 플레인 구성요소가 서로 통신하는 데 사용할 엔드포인트를 지정합니다.
->     - 컨트롤 플레인과 통신하도록 kubelet 및 기타 구성 요소를 구성하는 데 사용됩니다.
->         - Ex) `--control-plane-endpoint="k8s-control-plane:6443".`
-> 
-> - **--upload-certs**
->     - 구성 요소 간의 통신 보안에 사용되는 TLS 인증서를 생성하고 저장합니다
->     - 이 플래그가 설정되면 kubeadm은 새 인증서를 생성하고 이를 kubeadm-certs라는 Kubernetes 비밀에 저장합니다.
->     - 그런 다음 이 암호를 다른 노드에 복사하여 클러스터에 연결할 수 있습니다.
->         - Ex) `--upload-certs.`
-> 
-> - **--ignore-preflight-errors**
->     - 클러스터를 초기화하기 전에 발생할 수 있는 특정 `preflight` 오류를 무시합니다.
->     - 수행 중인 작업을 알고 있고 오류를 안전하게 무시할 수 있다고 확신하는 경우에만 이 플래그를 사용하십시오.
->         - Ex) `--ignore-preflight-errors=NumCPU.`
-> 
-> - **--config**
->     - kubeadm init 옵션을 지정하는 구성 파일의 경로를 지정합니다.
->     - 명령줄 인수를 지정하는 대신 사용할 수 있습니다.
->         - Ex) `--config=/path/to/kubeadm-config.yaml.`
-
+- **--pod-network-cidr**
+	- 클러스터에 사용할 `Pod 네트워크 CIDR`을 지정합니다.
+	- 이는 네트워킹 솔루션이 포드에 IP 주소를 할당하는 데 필요합니다.
+	- Ex) `--pod-network-cidr=10.244.0.0/16.`
+- **--apiserver-advertise-address**
+	- API 서버가 퍼블릭 엔드포인트에 대해 알릴 IP 주소를 지정합니다.
+	- API 서버와 통신하도록 kubelet 및 기타 구성 요소를 구성하는 데 사용됩니다.
+	- Ex) `--apiserver-advertise-address=192.168.1.100.`
+- **--control-plane-endpoint**
+	- 컨트롤 플레인 구성요소가 서로 통신하는 데 사용할 엔드포인트를 지정합니다.
+	- 컨트롤 플레인과 통신하도록 kubelet 및 기타 구성 요소를 구성하는 데 사용됩니다.
+	- Ex) `--control-plane-endpoint="k8s-control-plane:6443".`
+- **--upload-certs**
+	- 구성 요소 간의 통신 보안에 사용되는 TLS 인증서를 생성하고 저장합니다
+	- 이 플래그가 설정되면 kubeadm은 새 인증서를 생성하고 이를 kubeadm-certs라는 Kubernetes 비밀에 저장합니다.
+	- 그런 다음 이 암호를 다른 노드에 복사하여 클러스터에 연결할 수 있습니다.
+	- Ex) `--upload-certs.`
+- **--ignore-preflight-errors**
+	- 클러스터를 초기화하기 전에 발생할 수 있는 특정 `preflight` 오류를 무시합니다.
+	- 수행 중인 작업을 알고 있고 오류를 안전하게 무시할 수 있다고 확신하는 경우에만 이 플래그를 사용하십시오.
+	- Ex) `--ignore-preflight-errors=NumCPU.`
+- **--config**
+	- kubeadm init 옵션을 지정하는 구성 파일의 경로를 지정합니다.
+	- 명령줄 인수를 지정하는 대신 사용할 수 있습니다.
+	- Ex) `--config=/path/to/kubeadm-config.yaml.`

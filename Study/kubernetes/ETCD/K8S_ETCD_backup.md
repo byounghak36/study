@@ -13,8 +13,6 @@ link:
 참고 강의 [https://www.youtube.com/watch?v=dv_5WCYS5P8&list=PLApuRlvrZKojqx9-wIvWP3MPtgy2B372f&index=4](https://www.youtube.com/watch?v=dv_5WCYS5P8&list=PLApuRlvrZKojqx9-wIvWP3MPtgy2B372f&index=4)
 
 ## 문제
-
-  
 작업 시스템 : k8s-master  
 First, create a snapshot of the existing etcd instance running at **https://127.0.0.1:2379**, saving the snapshot to **/data/etcd-snapthot.db**  
 Next, restore an existing, previous snapshot located at **/data/etcd-snapshot-previous.db**  
@@ -25,8 +23,6 @@ Client certificate: /etc/kubernetes/pki/etcd/server.crt
 Client key: /etc/kubernetes/pki/etcd/server.key
 
 ## 이론
-
-  
 ETCD -> 쿠버네티스의 데이터 저장소  
 - 쿠버네티스 마스터 노드에 있음  
 - Kubernetes 의 모든 운영 정보를 가지고 있음  
