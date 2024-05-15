@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 438.5110321044922
   },
   "right": {
     "id": "a086ccdf14b7b7c9",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md"
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "20a49f0767ad9d6f",
   "lastOpenFiles": [
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
+    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_architecture.md"
   ]
 }
