@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md"
+                "file": "Study/kubernetes/K8S/K8S_배포전략.md"
               }
             }
           }
@@ -185,24 +185,26 @@
   },
   "active": "ba54ef8972aa279d",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_architecture.md",
+    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service-NodePort.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Statefulset.md",
+    "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
-    "프로그램/Obsidian_plugins-Excalidraw.md",
+    "_Files/Excalidraw_6.png",
     "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "_Files/Pasted image 20240515153935.png",
+    "프로그램/Obsidian_plugins-Excalidraw.md",
     "Study/rocky_repo/ubuntu_repo.md",
     "Study/rocky_repo/rocky_repo.md",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_install.md",
     "Study/kubernetes/K8S/K8S_GPU_Container.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service_-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Statefulset.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-NodePort.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
@@ -210,9 +212,7 @@
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
-    "_Files/Excalidraw_6.png",
     "_Files/Excalidraw_5.png",
-    "Study/kubernetes/K8S/_K8S_mindmap.md",
     "_Files/Excalidraw_4.png",
     "_Files/kubernetes_dashboard.png",
     "_Files/Excalidraw_3.png",
@@ -220,7 +220,6 @@
     "_Files/Excalidraw_1.png",
     "_Files/Pasted image 20240515120656.png",
     "_Files/Pasted image 20240515120316.png",
-    "Study/kubernetes/_image/K8S Service nodport.png",
     "Excalidraw",
     "프로그램",
     "기타",

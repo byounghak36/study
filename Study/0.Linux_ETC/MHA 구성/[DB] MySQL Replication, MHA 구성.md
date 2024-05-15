@@ -8,7 +8,7 @@ Modify_Date:
 reference: 
 link:
 ---
-
+![[Pasted image 20240515153935.png]]
 ## DB Replication 이란?
 DB Replication(복제)는 2대이상의 DBMS를 사용하여 데이터를 저장하는 방법이며 Master/Slave 구조로 사용됩니다.
 각 노드별 역할은 다음과 같습니다.
@@ -24,8 +24,6 @@ DB Replication(복제)는 2대이상의 DBMS를 사용하여 데이터를 저장
 
 ---
 ### Replication 동작 방식
-![db레플리케이션구성](https://github.com/byounghak36/byounghak36.github.io/assets/47982424/10c0402a-e4a3-4a63-98d5-3d3e26672b6e)
-
 DB Replication 은 보통 위의 구성으로 이루어집니다. 해당 순서를 자세히 설명하면 아래와 같습니다.
 
 1. 마스터 노드에 commit이 발생합니다.
