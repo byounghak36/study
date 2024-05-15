@@ -11,13 +11,8 @@
             "id": "ba54ef8972aa279d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -185,14 +176,20 @@
   },
   "active": "ba54ef8972aa279d",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/_image/쿠버네티스.jpeg",
+    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service-ClusterIP.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/0.Linux_ETC/linux/디스크마운트.md",
     "Study/0.Linux_ETC/galera/갈레라설치.md",
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-NodePort.md",
     "Study/kubernetes/K8S/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
@@ -206,13 +203,8 @@
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
     "Study/kubernetes/K8S/K8S_install.md",
     "Study/kubernetes/K8S/K8S_GPU_Container.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service_-ClusterIP.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/kubernetes/K8S/K8S_개념정리.md",
     "_Files/Excalidraw_5.png",
     "_Files/Excalidraw_4.png",
     "_Files/kubernetes_dashboard.png",
@@ -220,7 +212,6 @@
     "_Files/Excalidraw_2.png",
     "_Files/Excalidraw_1.png",
     "_Files/Pasted image 20240515120656.png",
-    "_Files/Pasted image 20240515120316.png",
     "Excalidraw",
     "프로그램",
     "기타",
