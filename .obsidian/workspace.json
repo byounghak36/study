@@ -11,12 +11,9 @@
             "id": "ba54ef8972aa279d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
               }
             }
           }
@@ -95,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md"
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
               }
             }
           }
@@ -185,12 +182,12 @@
   },
   "active": "ba54ef8972aa279d",
   "lastOpenFiles": [
-    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
-    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
     "Study/kubernetes/_image/쿠버네티스.jpeg",
     "Study/kubernetes/K8S/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
