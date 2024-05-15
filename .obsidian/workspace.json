@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/ETCD/ETCD란 무엇인가.md"
+                "file": "Study/kubernetes/ETCD/K8S_ETCD_backup.md"
               }
             }
           }
@@ -186,6 +186,8 @@
   "active": "d9c08bfb8a170933",
   "lastOpenFiles": [
     "프로그램/Obsidian_plugins-Excalidraw.md",
+    "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
+    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
@@ -219,11 +221,9 @@
     "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
     "Excalidraw",
-    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "프로그램",
     "기타",
     "도서_리뷰/데미안.md",
-    "conflict-files-obsidian-git.md",
     "도서_리뷰",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",

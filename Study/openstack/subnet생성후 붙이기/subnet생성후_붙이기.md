@@ -34,7 +34,6 @@
 +---------------------------+--------------------------------------+
 
 [root@con-250-2 (kimbh0132-rc): ~]# openstack port list | grep 37d05d3f-11de-414e-8fca-b41204bde9e6
-
 [root@con-250-2 (kimbh0132-rc): ~]# openstack router remove port aabafb22-474b-4e54-a44c-b83020c3b156 47f04538-adba-4a9d-b405-a362dc13854d
 # openstack router remove port 'router-id' 'port-id'
 [root@con-250-2 (kimbh0132-rc): ~]# openstack router show aabafb22-474b-4e54-a44c-b83020c3b156
