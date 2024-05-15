@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "79e89d48588328cd",
+        "id": "1e26c2a73e081979",
         "type": "tabs",
         "children": [
           {
-            "id": "73203081d9c07584",
+            "id": "bc61f696daf76a52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/ETCD/ETCD_Commands.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "dfb7135b4d15fed2",
+            "id": "c0215f4e1b444c1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Dashbaord 배포.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -185,6 +185,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "kr-book-info-plugin:Add Book Info": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -195,23 +197,25 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "dfb7135b4d15fed2",
+  "active": "c0215f4e1b444c1d",
   "lastOpenFiles": [
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw",
-    "conflict-files-obsidian-git.md",
     "도서_리뷰/무제 파일.md",
     "도서_리뷰",
     "_Files/Pasted image 20240514162718.png",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Templetes/manaual_templetes.md",
-    "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/_image/Pasted image 20240513165514.png",
     "Study/kubernetes/_image/Pasted image 20240513161736.png",
     "Study/kubernetes/_image/Pasted image 20240513161644.png",
@@ -230,7 +234,6 @@
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/ETCD",
@@ -239,7 +242,6 @@
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
-    "Study/k8s/무제 파일.md",
     "_Files",
     "Study/0.Linux_ETC/apt",
     "Study/kubernetes/CKA",
