@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73203081d9c07584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/ETCD/ETCD_Commands.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfb7135b4d15fed2",
+            "id": "464b670b49539c5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,12 +183,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dfb7135b4d15fed2",
+  "active": "80c75579a66211b0",
   "lastOpenFiles": [
-    "_Files/Excalidraw_3.png",
-    "_Files/Excalidraw_2.png",
-    "_Files/Pasted image 20240514162718.png",
+    "_Files/Excalidraw_5.png",
+    "_Files/Excalidraw_4.png",
+    "_Files/kubernetes_dashboard.png",
     "프로그램/Obsidian_plugins-Excalidraw.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+    "_Files/Excalidraw_3.png",
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
+    "_Files/Excalidraw_2.png",
     "프로그램/무제 파일.md",
     "도서_리뷰/_나의 서재.md",
     "_Files/Excalidraw_1.png",
@@ -214,8 +204,6 @@
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/_image/K8S Service nodport.png",
     "Study/kubernetes/_image/clusterIP예시이미지.png",
-    "Study/kubernetes/_image/calico_cni.png",
-    "Study/kubernetes/_image/쿠버네티스_구성_요소.png",
     "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
@@ -223,7 +211,6 @@
     "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
     "Excalidraw",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
-    "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "프로그램",
@@ -237,7 +224,6 @@
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
-    "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/ETCD",
