@@ -34,13 +34,11 @@
             }
           },
           {
-            "id": "5c9fc17a24891f9d",
+            "id": "b0534df04662d68e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -119,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -207,8 +201,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5c9fc17a24891f9d",
+  "active": "b0534df04662d68e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw",
@@ -251,7 +246,6 @@
     "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/ETCD",
     "Study/kubernetes/무제 파일.md",
-    "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
     "_Files",

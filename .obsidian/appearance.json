@@ -3,7 +3,7 @@
   "cssTheme": "Comfort Smooth",
   "interfaceFontFamily": "D2Coding",
   "nativeMenus": true,
-  "baseFontSize": 21,
+  "baseFontSize": 20,
   "theme": "obsidian",
   "baseFontSizeAction": true
 }
