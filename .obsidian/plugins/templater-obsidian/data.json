@@ -21,6 +21,10 @@
     {
       "folder": "_Inbox",
       "template": "Templetes/manaual_templetes.md"
+    },
+    {
+      "folder": "/",
+      "template": "Templetes/manaual_templetes.md"
     }
   ],
   "syntax_highlighting": true,

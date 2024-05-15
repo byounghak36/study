@@ -70,7 +70,7 @@ $ curl 10.101.0.3:31333 --silent | grep Hello
 
 한가지 특이한점은 타입을 NodePort로 지정했음에도 Service 오브젝트에 ClusterIP 가 생성된것을 확인 할 수 있습니다. 이는 NodePort 타입의 서비스가 ClusterIP 의 기능을 포함하고 있기 때문입니다. 즉 NodePort 타입의 서비스는 내부 네트워크와 외부 네트워크 양쪽에서 접근할 수 있습니다.
 
-![[Pasted image 20240417103730.png]]
+![[K8S Service nodport.png]]
 
 하지만 실제 운영 환경에서 NodePort로 서비스를 외부에 제공하는 경우는 많지 않습니다. NodePort를 80 또는 443으로 설정하기에는 적절하지 않으며, SSL 인증서 적용, 라우팅과 같은복잡한 설정을 서비스에 적용하기가 어렵기 때문입니다. 따라서 NodePort를 통해 서비스를 직접 외부로 제공하기보다는 인그레스(Ingress)를 이용하여 간접적으로 사용되는 경우가 많습니다.
 

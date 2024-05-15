@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0534df04662d68e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
+                "file": "프로그램/무제 파일 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
+                "file": "프로그램/무제 파일 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
+                "file": "프로그램/무제 파일 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md"
+                "file": "프로그램/무제 파일 1.md"
               }
             }
           }
@@ -210,9 +197,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0534df04662d68e",
+  "active": "dfb7135b4d15fed2",
   "lastOpenFiles": [
+    "Templetes/manaual_templetes.md",
+    "프로그램/무제 파일 1.md",
+    "Templetes/default_templetes.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
+    "프로그램/무제 파일.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
+    "Study/kubernetes/_image/K8S Service nodport.png",
+    "Study/kubernetes/_image/clusterIP예시이미지.png",
+    "Study/kubernetes/_image/calico_cni.png",
+    "Study/kubernetes/_image/쿠버네티스_구성_요소.png",
+    "Study/kubernetes/_image/쿠버네티스 기본 구성.png",
+    "Study/kubernetes/_image/쿠버네티스.jpeg",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
@@ -235,25 +234,13 @@
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
-    "Templetes/manaual_templetes.md",
     "Study/kubernetes/_image/Pasted image 20240513165514.png",
     "Study/kubernetes/_image/Pasted image 20240513161736.png",
     "Study/kubernetes/_image/Pasted image 20240513161644.png",
-    "Study/kubernetes/_image/Pasted image 20240513161621.png",
-    "Study/kubernetes/_image/Pasted image 20240513161608.png",
-    "Study/kubernetes/_image/Pasted image 20240512151954.png",
-    "Study/kubernetes/_image/Pasted image 20240512151243.png",
-    "Study/kubernetes/_image/Pasted image 20240512151030.png",
-    "Study/kubernetes/_image/Pasted image 20240512150728.png",
     "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
     "Study/kubernetes/Rook-Ceph",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
-    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
     "Study/kubernetes/ETCD",
     "Study/kubernetes/K8S",
     "Study/kubernetes/KPaas",
