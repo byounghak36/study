@@ -50,7 +50,7 @@ Dashboard will be available at:
 
 출력된 메시지에 따라서 `kubectl -n kubernetes-dashboard get svc`을 입력해 봅니다.
 
-```bash
+```shell
 ubuntu@master01:~$ kubectl -n kubernetes-dashboard get svc
 NAME                                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)                         AGE
 kubernetes-dashboard-api               ClusterIP   10.233.62.36    <none>        8000/TCP                        74s
