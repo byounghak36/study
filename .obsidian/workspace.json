@@ -37,9 +37,12 @@
             "id": "b0534df04662d68e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md"
+                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -102,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5110321044922
+    "width": 336.5
   },
   "right": {
     "id": "62e015e0b5c02283",
@@ -119,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
+                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
+                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md"
+                "file": "Study/kubernetes/K8S/K8S_Service_OBJ-LoadBalancer.md"
               }
             }
           }
@@ -209,12 +212,12 @@
   },
   "active": "b0534df04662d68e",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Excalidraw/Drawing 2024-05-15 11.42.32.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
     "Excalidraw",
-    "Study/kubernetes/K8S/K8S_Service_OBJ-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/ETCD/ETCD_Commands.md",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
