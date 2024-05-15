@@ -15,14 +15,14 @@ link: []
 > Kubernetes 대시보드는 현재 Helm 기반 설치만 지원합니다. 더 빠르고 대시보드 실행에 필요한 모든 종속성을 더 효과적으로 제어할 수 있기 때문입니다.
 
 배포를 진행하기 위해, helm repo 추가 및 install 을 진행합니다.
-```bash
+```shell
 # Add kubernetes-dashboard repository
 helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 # Deploy a Helm Release named "kubernetes-dashboard" using the kubernetes-dashboard chart
 helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
 ```
 인스톨을 진행하면 아래와 같은 메시지가 출력 됩니다.
-```bash
+```shell
 Release "kubernetes-dashboard" does not exist. Installing it now.
 NAME: kubernetes-dashboard
 LAST DEPLOYED: Tue May 14 15:53:53 2024
@@ -47,7 +47,9 @@ NOTE: In case port-forward command does not work, make sure that kong service na
 Dashboard will be available at:
   https://localhost:8443
 ```
+
 출력된 메시지에 따라서 `kubectl -n kubernetes-dashboard get svc`을 입력해 봅니다.
+
 ```bash
 ubuntu@master01:~$ kubectl -n kubernetes-dashboard get svc
 NAME                                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)                         AGE
@@ -64,7 +66,8 @@ kubernetes-dashboard-web               ClusterIP   10.233.47.209   <none>       
 kubernetes Dashboard는 두가지 접속방식을 지원 합니다. proxy를 통한 접속, service를 통한 접속 각각의 방법에 대해서 설명하겠습니다.
 ### 2.1 proxy 접속
 노드에서 `kubectl proxy` 명령어를 실행함으로써 대시보드로의 접속을 활성화할 수 있습니다.
-```bash
+
+```shell
 ubuntu@master01:~$ kubectl proxy
 Starting to serve on 127.0.0.1:8001
 

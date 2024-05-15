@@ -8,5 +8,7 @@
   "digitalgarden",
   "kr-book-info-plugin",
   "obsidian-excalidraw-plugin",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "cm-editor-syntax-highlight-obsidian",
+  "code-styler"
 ]

@@ -53,7 +53,7 @@ sudo systemctl enable --now kubelet
 
 명시적으로 로드하려면, `sudo modprobe br_netfilter`를 실행한다. 리눅스 노드의 iptables가 브리지된 트래픽을 올바르게 보기 위한 요구 사항으로, `sysctl` 구성에서 `net.bridge.bridge-nf-call-iptables`가 1로 설정되어 있는지 확인한다. 예를 들어,
 
-```bash
+```shell
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
 br_netfilter
@@ -73,7 +73,7 @@ EOF
 sudo sysctl --system
 ```
 
-```bash
+```shell
 OS=xUbuntu_22.04
 CRIO_VERSION=1.28:1.28.4
 
