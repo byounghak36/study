@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ff821c0c8c32da18",
+        "id": "3003d94eedc3b807",
         "type": "tabs",
         "children": [
           {
-            "id": "e9bd8bd61a4c0b67",
+            "id": "83e1881eca4d5783",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+              }
             }
           }
         ]
@@ -90,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+              }
             }
           }
         ],
@@ -174,15 +180,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9bd8bd61a4c0b67",
+  "active": "83e1881eca4d5783",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/_K8S_mindmap.md",
+    "프로그램/Obsidian_plugins-Excalidraw.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+    "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
+    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
+    "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
+    "Study/kubernetes/K8S/_K8S_mindmap.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ_ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
-    "프로그램/Obsidian_plugins-Excalidraw.md",
     "_Files/Excalidraw_5.png",
     "_Files/Excalidraw_4.png",
     "_Files/kubernetes_dashboard.png",
@@ -206,7 +215,6 @@
     "Excalidraw/Drawing 2024-05-15 11.35.29.excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 11.38.41.excalidraw.md",
     "Excalidraw",
-    "Study/kubernetes/K8S/K8S_ReplicaSet.md",
     "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
     "프로그램",
     "기타",
@@ -214,8 +222,6 @@
     "conflict-files-obsidian-git.md",
     "도서_리뷰/무제 파일.md",
     "도서_리뷰",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/Rook-Ceph",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
     "Study/kubernetes/ETCD",

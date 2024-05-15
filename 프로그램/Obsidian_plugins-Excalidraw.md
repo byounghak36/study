@@ -36,3 +36,9 @@ ___
 먼저 우측의 책모양 아이콘을 클릭합니다. 클릭하면 우측에 아이콘이 
 ![[Excalidraw_5.png]]
 
+버튼을 클릭하고 하단의 라이브러리 찾기를 입력하면
+https://libraries.excalidraw.com/?target=_blank&referrer=app%3A%2F%2Fobsidian.md&useHash=true&token=ppfLbfs1fi5ZwbFxCnEdI&theme=light&version=2&sort=default
+해당 웹 페이지로 이동됩니다.
+
+검색을 통해서 원하는 아이콘을 클릭하여 add to excalidraw 또는 download를 한뒤에, 적용을 하게되면 해당 아이콘을 사용할 수 있습니다.
+
