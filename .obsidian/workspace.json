@@ -185,6 +185,8 @@
   },
   "active": "83e1881eca4d5783",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_개념정리.md",
+    "프로그램/Obsidian_plugins-Excalidraw.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-NodePort.md",
     "Study/kubernetes/K8S/K8S_Service_OBJ-ExternalName.md",
@@ -193,8 +195,6 @@
     "Study/kubernetes/K8S/K8S_Service_OBJ.md",
     "Study/kubernetes/K8S/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_개념정리.md",
-    "프로그램/Obsidian_plugins-Excalidraw.md",
     "_Files/Excalidraw_6.png",
     "_Files/Excalidraw_5.png",
     "Study/kubernetes/K8S/K8S_배포전략.md",
