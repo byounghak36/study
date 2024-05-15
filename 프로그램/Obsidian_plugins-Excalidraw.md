@@ -17,5 +17,16 @@ ___
 ---
 타 플러그인과 동일하게 설정 -> 커뮤니티 플러그인 -> 탐색 버튼을 클릭한 뒤 Excalidraw 를 입력하시면 됩니다.
 
-![[Pasted image 20240515120617.png]]
-탐색 클릭후
+![[Excalidraw_1.png]]
+탐색 클릭 후 Excalidraw 를 선택하여 설치합니다.
+![[Excalidraw_2.png]]
+이후 활성화 버튼을 클릭하면 Excalidraw 를 사용할 수 있습니다.
+설치가 완료되면 좌측에 새로 아이콘이 생긴것을 확인할 수 있습니다.
+
+![[Excalidraw_3.png]]
+
+해당 버튼을 클릭하면 아래와 같이 Excalidraw 화면이 보이며 사요
+
+
+# 2. Excalidraw 라이브러리 설치
+---
