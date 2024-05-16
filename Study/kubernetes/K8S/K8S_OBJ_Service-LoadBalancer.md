@@ -45,3 +45,6 @@ MetalLB는 Kubernetes 클러스터에서 LoadBalancer 서비스를 제공하기 
 
 ## LoadBalancer 작동 방식
 ---
+![[Pasted image 20240516095017.png]]
+
+위 사진은 

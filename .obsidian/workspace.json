@@ -11,9 +11,12 @@
             "id": "20a49f0767ad9d6f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -91,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md"
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md"
               }
             }
           }
@@ -158,13 +161,14 @@
   },
   "active": "20a49f0767ad9d6f",
   "lastOpenFiles": [
+    "_Files/Pasted image 20240516095017.png",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516092516.png",
     "_Files/Pasted image 20240516092456.png",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ClusterIP.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
-    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
     "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
