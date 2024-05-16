@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_선언형VS명령형_시험팁.md",
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_선언형VS명령형_시험팁.md",
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_선언형VS명령형_시험팁.md",
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_선언형VS명령형_시험팁.md"
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md"
               }
             }
           }
@@ -176,7 +176,7 @@
   "active": "4408f5eae71451f8",
   "lastOpenFiles": [
     "_Files/Pasted image 20240516092516.png",
-    "Study/kubernetes/CKA/K8S_선언형VS명령형_시험팁.md",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516095017.png",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
