@@ -47,4 +47,39 @@ MetalLB는 Kubernetes 클러스터에서 LoadBalancer 서비스를 제공하기 
 ---
 ![[Pasted image 20240516095017.png]]
 
-위 사진은 
+위 사진은 로드밸런서를 통한 외부 접속 구성도이다.
+WEB/WAS 가 배포되어 있고 각 Pod 는 Nodeport 서비스로 외부에서 접근할 수 있다. 하지만 NodePort는 노드의 IP를 직접 기입해야하는 문제가 있다.
+
+**WEB**
+- 192.168.118.10:31231
+- 192.168.118.11:31231
+- 192.168.118.12:31231
+- 192.168.118.13:31231
+**WAS**
+- 192.168.118.10:31111
+- 192.168.118.11:31111
+- 192.168.118.12:31111
+- 192.168.118.13:31111
+
+매번 이렇게 입력해서 사용할 수 는 없지 않은가? 번거로움도 문제지만 노드의 IP를 직접 개방하는건 보안상의 문제가 있을 수 있다. 또 Node별 부하분산의 문제도 있다. 그래서 LB를 통해 외부로 서비스를 개방하는 것이다.
+
+### LoadBalancer Yaml 작성 예시
+---
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: hostname-svc-lb
+spec:
+  type: LoadBalancer
+  ports:
+  - name: webserver
+    port: 8080
+    targetPort: 80
+  selector:
+    app: webserver
+```
+
+> 기존 NodePort 작성 방법과 크게 다르지 않다.
+> 이전글 NodePort : https://exsso.tistory.com/21
+
