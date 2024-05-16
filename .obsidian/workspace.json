@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4408f5eae71451f8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Files/Pasted image 20240516092516.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
+                "file": "_Files/Pasted image 20240516092516.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
+                "file": "_Files/Pasted image 20240516092516.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md"
+                "file": "_Files/Pasted image 20240516092516.png"
               }
             }
           }
@@ -159,11 +170,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "20a49f0767ad9d6f",
+  "active": "4408f5eae71451f8",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516095017.png",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516092516.png",
     "_Files/Pasted image 20240516092456.png",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",

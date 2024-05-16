@@ -65,6 +65,8 @@ WEB/WAS 가 배포되어 있고 각 Pod 는 Nodeport 서비스로 외부에서 �
 
 ### LoadBalancer Yaml 작성 예시
 ---
+#### Yaml 예시
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -83,3 +85,18 @@ spec:
 > 기존 NodePort 작성 방법과 크게 다르지 않다.
 > 이전글 NodePort : https://exsso.tistory.com/21
 
+#### 설명
+- `kind: Service` Service 형식으로 `spec.type` 을 LoadBalancer 로 하여 생성하였다.
+- `spec.ports.nodePort` 는 따로 기입하지 않았으니, nodePort는 랜덤으로 생성된다.
+- `spec.selector` 를 `app: webserver` 로 지정하여, labels 가 `app:webserver` 인 파드에만 해당 Service 가 적용된다.
+
+#### 적용
+```shell
+ubuntu@master01:~$ kubectl apply -f service-lbtest.yaml
+ubuntu@master01:~$ kubectl get service
+NAME                                 TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
+hostname-svc-lb                      LoadBalancer   10.233.11.178   10.101.0.50   8080:32202/TCP               5d22h
+```
+
+정상적으로 생성된것을 확인할 수 있다. 필자는 EXTERNAL-IP 의 범위를 10.101.0.50~60 으로 지정하여 MetalLB를 설치하였기에 10.101.0.50 으로 IP 가 잡힌 모양이다.
+이제 외부에서도 10.101.0.50 IP 로 해당 Pod에 접근할 수 있다.
