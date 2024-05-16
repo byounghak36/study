@@ -8,6 +8,7 @@ reference:
 link:
   - https://seongjin.me/kubernetes-imparative-vs-declarative/
 ---
+![[Pasted image 20240516115503.png]]
 # 인증 팁 - Kubectl 선언형 VS 명령형
 
 대부분 선언적 방법, 즉 정의 파일을 사용하는 작업을 하겠지만, 명령형 명령어는 한 번의 작업을 빠르게 완료하거나 정의 템플릿을 쉽게 생성하는 데 도움이 될 수 있습니다. 이는 시험 중에 상당한 시간을 절약할 수 있게 해줍니다. 시작하기 전에 아래 명령어를 사용할 때 유용할 수 있는 두 가지 옵션을 숙지하십시오:
