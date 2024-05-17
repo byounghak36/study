@@ -24,13 +24,8 @@
             "id": "4408f5eae71451f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -108,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,9 +166,10 @@
   },
   "active": "4408f5eae71451f8",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_nodeSelect,Node Affinity.md",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
     "_Files/Pasted image 20240516115503.png",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
-    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
     "_Files/Pasted image 20240516092516.png",
     "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516095017.png",
