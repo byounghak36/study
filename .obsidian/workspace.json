@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md"
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service.md"
               }
             }
           }
@@ -175,9 +175,9 @@
   },
   "active": "4408f5eae71451f8",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
     "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
+    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
     "_Files/Pasted image 20240516115503.png",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
