@@ -1,54 +1,40 @@
 {
   "main": {
-    "id": "49fd06f428094c79",
+    "id": "858efd2d286d18c2",
     "type": "split",
     "children": [
       {
-        "id": "73c9e3e0fe5603e4",
+        "id": "9bfd7c1b4df1ccf1",
         "type": "tabs",
         "children": [
           {
-            "id": "20a49f0767ad9d6f",
+            "id": "ba54ef8972aa279d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4408f5eae71451f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+                "file": "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d94b6c1f2c344500",
+    "id": "d8a115183d162479",
     "type": "split",
     "children": [
       {
-        "id": "e10abf292b1d9647",
+        "id": "b8d1997c45b1e67a",
         "type": "tabs",
         "children": [
           {
-            "id": "ec0c01ec45572b0b",
+            "id": "80c75579a66211b0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +44,7 @@
             }
           },
           {
-            "id": "92c76c0420181e11",
+            "id": "ab76b76854309008",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,7 +59,15 @@
             }
           },
           {
-            "id": "3fa88d6b42e01201",
+            "id": "94c8daeb54db170a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "840f8c3ed3e11ac2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,31 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5110321044922
+    "width": 310.5026054382324
   },
   "right": {
-    "id": "a086ccdf14b7b7c9",
+    "id": "62e015e0b5c02283",
     "type": "split",
     "children": [
       {
-        "id": "3c4ca12f854b0be9",
+        "id": "723975564ff67740",
         "type": "tabs",
+        "dimension": 36.81462140992167,
         "children": [
           {
-            "id": "2d71fd43b2e97409",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "107370ffd83c8358",
+            "id": "1ee1fb663db1127e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+                "file": "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,19 +107,37 @@
             }
           },
           {
-            "id": "8998351c411acacc",
+            "id": "7568772eee735157",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+                "file": "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "8862337975383de3",
+            "id": "2b31f4ada88a46fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Taints and Tolerations.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "8eb0b263d5845279",
+        "type": "tabs",
+        "dimension": 24.97824194952132,
+        "children": [
+          {
+            "id": "3011464001e81bec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,53 +146,93 @@
                 "useHierarchy": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "89b8e1dd8c09579e",
+        "type": "tabs",
+        "dimension": 38.207136640557,
+        "children": [
           {
-            "id": "f719c87a405fda92",
+            "id": "16faf47d3ee96a1d",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md"
-              }
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 431.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "kr-book-info-plugin:Add Book Info": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4408f5eae71451f8",
+  "active": "ba54ef8972aa279d",
   "lastOpenFiles": [
     "_Files/Pasted image 20240516115503.png",
-    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
-    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
-    "_Files/Pasted image 20240516092516.png",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516095017.png",
+    "_Files/Pasted image 20240516092516.png",
     "_Files/Pasted image 20240516092456.png",
+    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+    "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/kubernetes/_image/쿠버네티스.jpeg",
+    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service-ClusterIP.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/K8S/K8S_architecture.md"
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/K8S_배포전략.md",
+    "Study/0.Linux_ETC/linux/디스크마운트.md",
+    "Study/0.Linux_ETC/galera/갈레라설치.md",
+    "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Study/kubernetes/K8S/K8S_architecture.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Service-NodePort.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Statefulset.md",
+    "Study/kubernetes/KPaas/KPaaS_etcdctl_사용법.md",
+    "_Files/Excalidraw_6.png",
+    "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "_Files/Pasted image 20240515153935.png",
+    "_Files/Excalidraw_5.png",
+    "_Files/Excalidraw_4.png",
+    "_Files/kubernetes_dashboard.png",
+    "_Files/Excalidraw_3.png",
+    "Excalidraw",
+    "프로그램",
+    "기타",
+    "도서_리뷰",
+    "Study/kubernetes/Rook-Ceph",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
+    "Study/kubernetes/ETCD",
+    "Study/kubernetes/K8S",
+    "Study/kubernetes/KPaas",
+    "_Files",
+    "무제 파일.canvas",
+    "k8s/무제 파일.canvas",
+    "무제 파일 1.canvas"
   ]
 }
