@@ -3,7 +3,7 @@
   "cssTheme": "GitHub Theme",
   "interfaceFontFamily": "D2Coding",
   "nativeMenus": true,
-  "baseFontSize": 15,
+  "baseFontSize": 18,
   "theme": "obsidian",
   "baseFontSizeAction": true
 }
