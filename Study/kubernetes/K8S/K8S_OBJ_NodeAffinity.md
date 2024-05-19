@@ -6,6 +6,7 @@ tags:
 date: 2024_05_17
 reference: 
 link:
+  - "[[K8S_kubectl_explain 옵션]]"
 ---
 ## **Node Affinity**
 
@@ -43,7 +44,7 @@ affinity:
           - ssd
 ```
 
-**requiredDuringSchedulingIgnoredDuringExecution**의 하위 필드로는 노드 어피니티 유형과 연관된 노드 셀렉터 설정을 연결하는 nodeSelectorTerms[] 와 matchExpressions[] 필드가 있습니다. matchExpressions[] 의 하위 필드로는 key, operator, values[] 가 있습니다.
+**requiredDuringSchedulingIgnoredDuringExecution**의 하위 필드로는 노드 어피니티 유형과 연관된 노드 셀렉터 설정을 연결하는 nodeSelectorTerms 와 matchExpressions 필드가 있습니다. matchExpressions 의 하위 필드로는 key, operator, values 가 있습니다.
 
 key는 노드의 레이블 키 중 하나를 설정하고 operator 는 key 가 만족할 조건이며 설정할 수 있는 값은 다음과 같습니다.
 
