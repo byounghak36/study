@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/무제 파일.md",
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4ebe76340c022ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcc56831776b0c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/무제 파일.md",
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/무제 파일.md",
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/무제 파일.md"
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md"
               }
             }
           }
@@ -183,10 +210,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f2ea4243789e9798",
+  "active": "fcc56831776b0c2f",
   "lastOpenFiles": [
+    "웹이 호스팅 하는 스태틱 파드 매니페스트.md",
+    "Study/kubernetes/K8S/K8S_Static_pod.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/K8S/무제 파일.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/K8S/kubectl/K8S_kubectl replace.md",
     "Study/kubernetes/K8S/kubectl",
@@ -221,7 +249,6 @@
     "Study/kubernetes/_image/쿠버네티스.jpeg",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/0.Linux_ETC/linux/디스크마운트.md",
-    "Study/0.Linux_ETC/galera/갈레라설치.md",
     "_Files/Excalidraw_6.png",
     "_Files/Pasted image 20240515153935.png",
     "_Files/Excalidraw_5.png",

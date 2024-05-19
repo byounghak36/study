@@ -1,6 +1,7 @@
 ---
-title: 무제 파일
-tags: 
+title: K8S_Static_pod
+tags:
+  - kubernetes
 date: 2024_05_19
 reference: 
 link:
@@ -36,9 +37,9 @@ Kubelet 은 각각의 스태틱 파드에 대하여 쿠버네티스 API 서버�
 
 ## 스태틱 파드 생성하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#static-pod-creation)
 
-[파일 시스템이 호스팅하는 구성 파일](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#configuration-files)이나 [웹이 호스팅하는 구성 파일](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#pods-created-via-http)을 사용하여 스태틱 파드를 구성할 수 있다.
+[[### 파일시스템이 호스팅 하는 스태틱 파드 매니페스트]]이나 [[### 웹이 호스팅 하는 스태틱 파드 매니페스트]] [[K8S_Static_pod|]]을 사용하여 스태틱 파드를 구성할 수 있다.
 
-### 파일시스템이 호스팅 하는 스태틱 파드 매니페스트[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#configuration-files)
+### 파일시스템이 호스팅 하는 스태틱 파드 매니페스트
 
 매니페스트는 특정 디렉터리에 있는 JSON 이나 YAML 형식의 표준 파드 정의이다. [kubelet 구성 파일](https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/)의 `staticPodPath: <the directory>` 필드를 사용하자. 명시한 디렉터리를 정기적으로 스캔하여, 디렉터리 안의 YAML/JSON 파일이 생성되거나 삭제되었을 때 스태틱 파드를 생성하거나 삭제한다. Kubelet 이 특정 디렉터리를 스캔할 때 점(.)으로 시작하는 단어를 무시한다는 점을 유의하자.
 
@@ -90,9 +91,9 @@ Kubelet 은 각각의 스태틱 파드에 대하여 쿠버네티스 API 서버�
     ```
     
 
-### 웹이 호스팅 하는 스태틱 파드 매니페스트[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#pods-created-via-http)
+### 웹이 호스팅 하는 스태틱 파드 매니페스트
 
-Kubelet은 `--manifest-url=<URL>` 의 인수로 지정된 파일을 주기적으로 다운로드하여 해당 파일을 파드의 정의가 포함된 JSON/YAML 파일로 해석한다. [파일시스템이 호스팅 하는 매니페스트](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#configuration-files) 의 작동 방식과 유사하게 kubelet은 스케줄에 맞춰 매니페스트 파일을 다시 가져온다. 스태틱 파드의 목록에 변경된 부분이 있을 경우, kubelet 은 이를 적용한다.
+Kubelet은 `--manifest-url=<URL>` 의 인수로 지정된 파일을 주기적으로 다운로드하여 해당 파일을 파드의 정의가 포함된 JSON/YAML 파일로 해석한다. [[### 파일시스템이 호스팅 하는 스태틱 파드 매니페스트]] 의 작동 방식과 유사하게 kubelet은 스케줄에 맞춰 매니페스트 파일을 다시 가져온다. 스태틱 파드의 목록에 변경된 부분이 있을 경우, kubelet 은 이를 적용한다.
 
 이 방법을 사용하기 위하여 다음을 수행한다.
 
@@ -138,33 +139,23 @@ Kubelet 을 시작하면, 정의된 모든 스태틱 파드가 자동으로 시�
 ```shell
 # kubelet 이 동작하고 있는 노드에서 이 명령을 수행한다.
 crictl ps
-```
-
-결과는 다음과 유사하다.
-
-```console
 CONTAINER       IMAGE                                 CREATED           STATE      NAME    ATTEMPT    POD ID
 129fd7d382018   docker.io/library/nginx@sha256:...    11 minutes ago    Running    web     0          34533c6729106
 ```
 
-#### 참고:
-
+> [!NOTE] 참고
 `crictl`은 이미지 URI와 SHA-256 체크섬을 출력한다. `NAME`은 다음과 같을 것이다. `docker.io/library/nginx@sha256:0d17b565c37bcbd895e9d92315a05c1c3c9a29f762b011a10c54a66cd53c9b31`
 
 API 서버에서 미러 파드를 볼 수 있다.
 
 ```shell
 kubectl get pods
-```
-
-```
 NAME         READY   STATUS    RESTARTS        AGE
 static-web   1/1     Running   0               2m
 ```
 
-#### 참고:
-
-API 서버에서 미러 파드를 생성할 수 있는 권한이 kubelet에게 있는지 미리 확인해야 한다. 그렇지 않을 경우 API 서버에 의해서 생성 요청이 거부된다.
+> [!NOTE] 참고
+> API 서버에서 미러 파드를 생성할 수 있는 권한이 kubelet에게 있는지 미리 확인해야 한다. 그렇지 않을 경우 API 서버에 의해서 생성 요청이 거부된다.
 
 스태틱 파드에 있는 [레이블](https://kubernetes.io/ko/docs/concepts/overview/working-with-objects/labels) 은 미러 파드로 전파된다. [셀렉터](https://kubernetes.io/ko/docs/concepts/overview/working-with-objects/labels/) 등을 통하여 이러한 레이블을 사용할 수 있다.
 
@@ -172,9 +163,6 @@ API 서버에서 미러 파드를 생성할 수 있는 권한이 kubelet에게 �
 
 ```shell
 kubectl delete pod static-web
-```
-
-```
 pod "static-web" deleted
 ```
 
@@ -182,9 +170,6 @@ pod "static-web" deleted
 
 ```shell
 kubectl get pods
-```
-
-```
 NAME         READY   STATUS    RESTARTS   AGE
 static-web   1/1     Running   0          4s
 ```
@@ -196,9 +181,6 @@ kubelet 이 구동 중인 노드로 돌아가서 컨테이너를 수동으로 �
 crictl stop 129fd7d382018 # 예제를 수행하는 사용자의 컨테이너 ID로 변경한다.
 sleep 20
 crictl ps
-```
-
-```console
 CONTAINER       IMAGE                                 CREATED           STATE      NAME    ATTEMPT    POD ID
 89db4553e1eeb   docker.io/library/nginx@sha256:...    19 seconds ago    Running    web     1          34533c6729106
 ```
