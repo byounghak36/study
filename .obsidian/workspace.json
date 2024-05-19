@@ -176,6 +176,8 @@
   },
   "active": "f2ea4243789e9798",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/kubectl/K8S_kubectl replace.md",
+    "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
@@ -211,7 +213,6 @@
     "Study/0.Linux_ETC/linux/디스크마운트.md",
     "Study/0.Linux_ETC/galera/갈레라설치.md",
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "_Files/Excalidraw_6.png",
     "_Files/Pasted image 20240515153935.png",
     "_Files/Excalidraw_5.png",
@@ -221,7 +222,6 @@
     "프로그램",
     "기타",
     "도서_리뷰",
-    "Study/kubernetes/Rook-Ceph",
     "무제 파일.canvas",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
