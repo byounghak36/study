@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
+                "file": "Study/kubernetes/K8S/Schduler/K8S_Taints and Tolerations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
+                "file": "Study/kubernetes/K8S/Schduler/K8S_NodeAffinity.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
+                "file": "Study/kubernetes/K8S/Schduler/K8S_NodeAffinity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
+                "file": "Study/kubernetes/K8S/Schduler/K8S_NodeAffinity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md"
+                "file": "Study/kubernetes/K8S/Schduler/K8S_NodeAffinity.md"
               }
             }
           }
@@ -199,17 +199,22 @@
   },
   "active": "d0bc2c10f9503164",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Schduler/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/ReplicaSet",
+    "Study/kubernetes/K8S/Statefulset",
+    "Study/kubernetes/K8S/Service",
+    "Study/kubernetes/K8S/Schduler/무제 폴더",
+    "Study/kubernetes/K8S/Schduler",
+    "Study/kubernetes/K8S/Schduler/K8S_NodeAffinity.md",
     "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
-    "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
     "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ClusterIP.md",
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
     "Study/kubernetes/K8S/K8S_install.md",
-    "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
     "conflict-files-obsidian-git.md",
     "_Files/Pasted image 20240516115503.png",
     "_Files/Pasted image 20240516095017.png",
@@ -221,15 +226,14 @@
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
     "Study/kubernetes/_image/쿠버네티스.jpeg",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/0.Linux_ETC/linux/디스크마운트.md",
     "Study/0.Linux_ETC/galera/갈레라설치.md",
     "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
     "_Files/Excalidraw_6.png",
     "_Files/Pasted image 20240515153935.png",
     "_Files/Excalidraw_5.png",
@@ -240,11 +244,6 @@
     "기타",
     "도서_리뷰",
     "Study/kubernetes/Rook-Ceph",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.html",
-    "Study/kubernetes/ETCD",
-    "Study/kubernetes/K8S",
-    "Study/kubernetes/KPaas",
-    "_Files",
     "무제 파일.canvas",
     "k8s/무제 파일.canvas",
     "무제 파일 1.canvas"
