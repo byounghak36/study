@@ -109,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md"
               }
             }
           }
@@ -195,10 +197,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80c75579a66211b0",
+  "active": "d0bc2c10f9503164",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
     "conflict-files-obsidian-git.md",
+    "Study/kubernetes/K8S/K8S_OBJ_NodeAffinity.md",
     "Study/kubernetes/K8S/K8S_Taints and Tolerations.md",
     "_Files/Pasted image 20240516115503.png",
     "_Files/Pasted image 20240516095017.png",
