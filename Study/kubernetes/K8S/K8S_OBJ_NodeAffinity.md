@@ -77,11 +77,11 @@ preferredDuringSchedulingIgnoredDuringExecution:
 
 preference 필드는 해당 조건에 맞는 걸 선호한다는 의미 입니다. preference 필드의 조건에 따라 맞는 노드를 우선해서 선택하지만 없다면 없는 대로 조건에 맞지 않는 노드에 파드를 스케줄링하여 실행합니다.
 
-weight 필드는 1부터 100까지의 값을 설정할 수 있습니다. 여러 개  matchExpressions[] 필드 안 설정 각각이 노드의 설정과 맞을 때 마다 weight 필드 값을 더합니다. 그리고 모든 노드 중에서 weight 필드 값의 합계가 가장 큰 노드를 선택합니다.
+weight 필드는 1부터 100까지의 값을 설정할 수 있습니다. 여러 개  matchExpressions 필드 안 설정 각각이 노드의 설정과 맞을 때 마다 weight 필드 값을 더합니다. 그리고 모든 노드 중에서 weight 필드 값의 합계가 가장 큰 노드를 선택합니다.
 
 ---
 
-**Node Affinity 예시(**requiredDuringSchedulingIgnoredDuringExecution)****
+**Node Affinity 예시(**requiredDuringSchedulingIgnoredDuringExecution)
 
 노드 어피니티를 실행하기 위해서는 쿠버네티스 서버의 버전은 다음과 같거나 더 높아야 합니다. 버전: v1.10.  
 그리고 노드의 구분을 위해 적어도 2개의 워커 노드가 필요합니다.
