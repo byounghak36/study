@@ -1,35 +1,67 @@
 {
   "main": {
-    "id": "49fd06f428094c79",
+    "id": "858efd2d286d18c2",
     "type": "split",
     "children": [
       {
-        "id": "11008c43a84f2417",
+        "id": "27ab532e01fe52b5",
         "type": "tabs",
         "children": [
           {
-            "id": "e64edfbdf38e69c4",
+            "id": "f2ea4243789e9798",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4ebe76340c022ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcc56831776b0c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d94b6c1f2c344500",
+    "id": "d8a115183d162479",
     "type": "split",
     "children": [
       {
-        "id": "e10abf292b1d9647",
+        "id": "b8d1997c45b1e67a",
         "type": "tabs",
         "children": [
           {
-            "id": "ec0c01ec45572b0b",
+            "id": "80c75579a66211b0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,12 +71,12 @@
             }
           },
           {
-            "id": "92c76c0420181e11",
+            "id": "ab76b76854309008",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#kubernetes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +86,15 @@
             }
           },
           {
-            "id": "3fa88d6b42e01201",
+            "id": "94c8daeb54db170a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "840f8c3ed3e11ac2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,30 +105,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5110321044922
+    "width": 310.5026054382324
   },
   "right": {
-    "id": "a086ccdf14b7b7c9",
+    "id": "62e015e0b5c02283",
     "type": "split",
     "children": [
       {
-        "id": "3c4ca12f854b0be9",
+        "id": "723975564ff67740",
         "type": "tabs",
+        "dimension": 36.81462140992167,
         "children": [
           {
-            "id": "2d71fd43b2e97409",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "107370ffd83c8358",
+            "id": "1ee1fb663db1127e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,18 +134,37 @@
             }
           },
           {
-            "id": "8998351c411acacc",
+            "id": "7568772eee735157",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "8862337975383de3",
+            "id": "2b31f4ada88a46fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_Static_pod.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "8eb0b263d5845279",
+        "type": "tabs",
+        "dimension": 24.97824194952132,
+        "children": [
+          {
+            "id": "3011464001e81bec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +173,19 @@
                 "useHierarchy": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "89b8e1dd8c09579e",
+        "type": "tabs",
+        "dimension": 38.207136640557,
+        "children": [
           {
-            "id": "f719c87a405fda92",
+            "id": "16faf47d3ee96a1d",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "calendar",
               "state": {}
             }
           }
@@ -133,59 +193,73 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 431.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "kr-book-info-plugin:Add Book Info": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e64edfbdf38e69c4",
+  "active": "fcc56831776b0c2f",
   "lastOpenFiles": [
+    "_Files/쿠버네티스_구성_요소.png",
     "_Files/쿠버네티스.jpeg",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
-    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
-    "도서_리뷰/_나의 서재.md",
-    "도서_리뷰/데미안.md",
-    "Templetes/manaual_templetes.md",
-    "_Inbox/무제 파일.md",
-    "_Inbox/안녕하세요.md",
-    "Study/kubernetes/K8S/K8S_Static_pod.md",
-    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S/K8S_install.md",
-    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
-    "Study/kubernetes/K8S/K8S_개념정리.md",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/K8S/K8S_GPU_Container.md",
-    "conflict-files-obsidian-git.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+    "_Files/쿠버네티스 기본 구성.png",
+    "_Files/photo_2024-04-17_09-34-07.jpg",
+    "_Files/nodeport_image.png",
+    "_Files/idchowto_운영_평가_및_업추비_산정(24.03).ods",
+    "_Files/idchowto_운영_평가_및_업추비_산정(24.02).ods",
+    "_Files/idchowto_운영_평가_및_업추비_산정(24.01).ods",
+    "_Files/data-center-isometric-flowchart.zip",
+    "_Files/clusterIP예시이미지.png",
+    "_Files/calico_cni.png",
+    "_Files/Pasted image 20240514150241.png",
+    "_Files/Pasted image 20240513165514.png",
+    "_Files/Pasted image 20240513161736.png",
+    "_Files/Pasted image 20240513161644.png",
     "웹이 호스팅 하는 스태틱 파드 매니페스트.md",
+    "Study/kubernetes/K8S/K8S_Static_pod.md",
+    "Study/kubernetes/K8S/K8S_배포전략.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
     "Study/kubernetes/K8S/kubectl/K8S_kubectl replace.md",
     "Study/kubernetes/K8S/kubectl",
-    "Study/kubernetes/K8S/Statefulset",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
-    "Study/kubernetes/K8S/Service",
-    "Study/kubernetes/K8S/Scheduler",
+    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/K8S/ReplicaSet",
-    "_Files/Pasted image 20240516115503.png",
-    "_Files/Pasted image 20240516092516.png",
-    "_Files/Pasted image 20240516095017.png",
-    "_Files/Pasted image 20240516092456.png"
+    "Study/kubernetes/K8S/Statefulset",
+    "Study/kubernetes/K8S/Service",
+    "Study/kubernetes/K8S/Schduler/무제 폴더",
+    "Study/kubernetes/K8S/Scheduler",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
+    "Study/kubernetes/K8S/K8S_install.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "무제 파일.canvas",
+    "k8s/무제 파일.canvas",
+    "무제 파일 1.canvas"
   ]
 }
