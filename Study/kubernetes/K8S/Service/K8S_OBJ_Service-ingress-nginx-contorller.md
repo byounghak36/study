@@ -2,6 +2,7 @@
 title: K8S_Service_OBJ_ingress-nginx-contorller
 tags:
   - kubernetes
+  - K8S_OBJ_Service
 date: 2024_05_09
 Modify_Date: 
 reference: 
