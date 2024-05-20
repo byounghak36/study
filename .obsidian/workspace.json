@@ -32,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4651e8a9b8495b84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2429bce35628c1b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_OBJ_Service.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -173,7 +199,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4408f5eae71451f8",
+  "active": "2429bce35628c1b3",
   "lastOpenFiles": [
     "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
     "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
