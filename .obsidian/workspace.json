@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8c0b8b9f4920b575",
+        "id": "11008c43a84f2417",
         "type": "tabs",
         "children": [
           {
-            "id": "3ae725992842991c",
+            "id": "e64edfbdf38e69c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templetes/manaual_templetes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 367.5110321044922
   },
   "right": {
     "id": "a086ccdf14b7b7c9",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templetes/manaual_templetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templetes/manaual_templetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Templetes/manaual_templetes.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,12 +150,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ae725992842991c",
+  "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
-    "_Inbox/무제 파일.md",
-    "Templetes/manaual_templetes.md",
-    "_Inbox/안녕하세요.md",
+    "_Files/쿠버네티스.jpeg",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+    "도서_리뷰/_나의 서재.md",
+    "도서_리뷰/데미안.md",
+    "Templetes/manaual_templetes.md",
+    "_Inbox/무제 파일.md",
+    "_Inbox/안녕하세요.md",
     "Study/kubernetes/K8S/K8S_Static_pod.md",
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
@@ -185,10 +180,6 @@
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/Service",
     "Study/kubernetes/K8S/Scheduler",
     "Study/kubernetes/K8S/ReplicaSet",
