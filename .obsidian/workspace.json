@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md"
               }
             }
           }
@@ -161,12 +161,18 @@
   },
   "active": "4408f5eae71451f8",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
+    "Study/kubernetes/K8S/K8S_개념정리.md",
+    "Study/kubernetes/K8S/K8S_배포전략.md",
+    "Study/kubernetes/K8S/K8S_architecture.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/K8S_GPU_Container.md",
     "conflict-files-obsidian-git.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service.md",
     "웹이 호스팅 하는 스태틱 파드 매니페스트.md",
     "Study/kubernetes/K8S/kubectl/K8S_kubectl replace.md",
     "Study/kubernetes/K8S/kubectl",
-    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
@@ -175,7 +181,6 @@
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
     "Study/kubernetes/K8S/Service",
-    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/K8S/Scheduler",
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
@@ -189,12 +194,7 @@
     "_Files/Pasted image 20240516115503.png",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "_Files/Pasted image 20240516092516.png",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-LoadBalancer.md",
     "_Files/Pasted image 20240516095017.png",
-    "_Files/Pasted image 20240516092456.png",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ClusterIP.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service-ExternalName.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md"
+    "_Files/Pasted image 20240516092456.png"
   ]
 }
