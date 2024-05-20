@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "73c9e3e0fe5603e4",
+        "id": "8c0b8b9f4920b575",
         "type": "tabs",
         "children": [
           {
-            "id": "4408f5eae71451f8",
+            "id": "3ae725992842991c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,15 +150,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4408f5eae71451f8",
+  "active": "3ae725992842991c",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/K8S/K8S_Static_pod.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/K8S/K8S_architecture.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/K8S_install.md",
+    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/K8S_GPU_Container.md",
     "conflict-files-obsidian-git.md",
     "Study/kubernetes/K8S/K8S_OBJ_Service.md",
@@ -183,16 +179,11 @@
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
     "Study/kubernetes/K8S/Service",
     "Study/kubernetes/K8S/Scheduler",
-    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/ReplicaSet",
-    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
-    "Study/kubernetes/K8S/K8S_Static_pod.md",
     "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
     "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
     "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
     "_Files/Pasted image 20240516115503.png",
-    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "_Files/Pasted image 20240516092516.png",
     "_Files/Pasted image 20240516095017.png",
     "_Files/Pasted image 20240516092456.png"

@@ -31,7 +31,7 @@ link:
 
 **requiredDuringSchedulingIgnoredDuringExecution**를 구성하는 매니페스트 파일의 예시는 다음과 같습니다.
 
-```
+```yaml
 ...중략...
 affinity:
   nodeAffinity:

@@ -15,13 +15,16 @@ link: []
 > Kubernetes 대시보드는 현재 Helm 기반 설치만 지원합니다. 더 빠르고 대시보드 실행에 필요한 모든 종속성을 더 효과적으로 제어할 수 있기 때문입니다.
 
 배포를 진행하기 위해, helm repo 추가 및 install 을 진행합니다.
+
 ```shell
 # Add kubernetes-dashboard repository
 helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 # Deploy a Helm Release named "kubernetes-dashboard" using the kubernetes-dashboard chart
 helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
 ```
+
 인스톨을 진행하면 아래와 같은 메시지가 출력 됩니다.
+
 ```shell
 Release "kubernetes-dashboard" does not exist. Installing it now.
 NAME: kubernetes-dashboard

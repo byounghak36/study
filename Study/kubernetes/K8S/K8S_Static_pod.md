@@ -6,6 +6,14 @@ date: 2024_05_19
 reference: 
 link:
 ---
+- [[#시작하기 전에[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90)|시작하기 전에[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90)]]
+- [[#스태틱 파드 생성하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#static-pod-creation)|스태틱 파드 생성하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#static-pod-creation)]]
+	- [[#스태틱 파드 생성하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#static-pod-creation)#파일시스템이 호스팅 하는 스태틱 파드 매니페스트|파일시스템이 호스팅 하는 스태틱 파드 매니페스트]]
+	- [[#스태틱 파드 생성하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#static-pod-creation)#웹이 호스팅 하는 스태틱 파드 매니페스트|웹이 호스팅 하는 스태틱 파드 매니페스트]]
+- [[#스태틱 파드 행동 관찰하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#behavior-of-static-pods)|스태틱 파드 행동 관찰하기[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#behavior-of-static-pods)]]
+- [[#스태틱 파드의 동적 추가 및 제거[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#%EC%8A%A4%ED%83%9C%ED%8B%B1-%ED%8C%8C%EB%93%9C%EC%9D%98-%EB%8F%99%EC%A0%81-%EC%B6%94%EA%B0%80-%EB%B0%8F-%EC%A0%9C%EA%B1%B0)|스태틱 파드의 동적 추가 및 제거[](https://kubernetes.io/ko/docs/tasks/configure-pod-container/static-pod/#%EC%8A%A4%ED%83%9C%ED%8B%B1-%ED%8C%8C%EB%93%9C%EC%9D%98-%EB%8F%99%EC%A0%81-%EC%B6%94%EA%B0%80-%EB%B0%8F-%EC%A0%9C%EA%B1%B0)]]
+
+---
 # 스태틱(static) 파드 생성하기
 
 _스태틱 파드_ 는 [API 서버](https://kubernetes.io/ko/docs/concepts/overview/components/#kube-apiserver) 없이 특정 노드에 있는 kubelet 데몬에 의해 직접 관리된다. 컨트롤 플레인에 의해 관리되는 파드(예를 들어 [디플로이먼트(Deployment)](https://kubernetes.io/ko/docs/concepts/workloads/controllers/deployment/))와는 달리, kubelet 이 각각의 스태틱 파드를 감시한다. (만약 실패할 경우 다시 구동한다.)
