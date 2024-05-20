@@ -11,8 +11,13 @@
             "id": "3ae725992842991c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Templetes/manaual_templetes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -126,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_Inbox/무제 파일.md"
+              }
             }
           }
         ]
@@ -150,8 +157,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ae725992842991c",
+  "active": "ec0c01ec45572b0b",
   "lastOpenFiles": [
+    "Templetes/manaual_templetes.md",
+    "_Inbox/무제 파일.md",
+    "_Inbox/안녕하세요.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "Study/kubernetes/K8S/K8S_Static_pod.md",
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
@@ -176,13 +187,9 @@
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
     "Study/kubernetes/K8S/Service",
     "Study/kubernetes/K8S/Scheduler",
     "Study/kubernetes/K8S/ReplicaSet",
-    "Study/kubernetes/K8S/K8S_OBJ_scheduler-nodeAffinity.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Deployments-개념정리.md",
-    "Study/kubernetes/K8S/K8S_OBJ_ReplicaSet.md",
     "_Files/Pasted image 20240516115503.png",
     "_Files/Pasted image 20240516092516.png",
     "_Files/Pasted image 20240516095017.png",
