@@ -1,9 +1,11 @@
 ---
-title: 무제 파일
+title: K8S_Rolling-update
 tags: 
 date: 2024_05_21
-reference: 
-link: []
+reference:
+  - https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/
+  - https://zerojsh00.github.io/posts/RollingUpdates/
+link:
 ---
 # 디플로이먼트 롤아웃과 리비전
 
@@ -15,7 +17,7 @@ link: []
 
 이처럼 리비전을 통해 변화들이 추적되기 때문에, 필요에 따라 이전 디플로이먼트 버전으로 롤백 할 수 있다.
 
-## 롤아웃 명령어(Rollout Command)[](https://zerojsh00.github.io/posts/RollingUpdates/#%EB%A1%A4%EC%95%84%EC%9B%83-%EB%AA%85%EB%A0%B9%EC%96%B4rollout-command)
+## 롤아웃 명령어(Rollout Command)
 
 - `kubectl rollout status deployment/<deployment 이름>` 명령어를 통해서 해당 deployment의 rollout 상태를 확인할 수 있다.
 - `kubectl rollout history deployment/<deployment 이름>` 명령어를 통해서 해당 deployment의 revision history 정보를 알 수 있다.
@@ -28,11 +30,11 @@ link: []
 
 디플로이먼트의 업데이트 전략은 두 가지, 즉, `롤링 업데이트(Rolling Update)`와 `재생성(Recreate)`가 있다. `.spec.strategy.type`에서 전략을 명시할 수 있으며, 디플로이먼트의 특별한 배포 전략을 설정하지 않으면, 롤링 업데이트가 기본값이다.
 
-## 재생성(Recreate)[](https://zerojsh00.github.io/posts/RollingUpdates/#%EC%9E%AC%EC%83%9D%EC%84%B1recreate)
+## 재생성(Recreate)
 
 `재생성(Recreate)` 전략은 애플리케이션의 모든 이전 버전의 인스턴스들을 한번에 다운시킨 후 한꺼번에 업데이트를 진행하는 방식이다. 즉, 업데이트 전에 파드 종료를 보장할 수 있다. 그러나 이전 버전의 모든 인스턴스들이 다운되었을 때 애플리케이션이 다운되어 사용자들이 접근할 수 없게 되는 문제가 있다.
 
-## 롤링 업데이트(Rolling Update)[](https://zerojsh00.github.io/posts/RollingUpdates/#%EB%A1%A4%EB%A7%81-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8rolling-update)
+## 롤링 업데이트(Rolling Update)
 
 `롤링 업데이트(Rolling Update)`는 이전 버전의 인스턴스를 하나씩 번갈아가면서 업데이트 하는 방식이다. 롤링 업데이트 전략은 모든 인스턴스가 동시에 다운되지 않기 때문에 애플리케이션이 다운되는 문제를 해결할 수 있다.
 
@@ -40,13 +42,13 @@ link: []
 
 # 롤링 업데이트 및 롤백 방법
 
-## 롤링 업데이트[](https://zerojsh00.github.io/posts/RollingUpdates/#%EB%A1%A4%EB%A7%81-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8)
+## 롤링 업데이트
 
 롤링 업데이트의 가장 쉬운 방법은 디플로이먼트 정의 YAML 파일 내 상세 정보를 원하는 버전에 맞게 변경한 후, `kubectl apply -f <deployment 이름>.yaml` 명령어를 입력하여 수행할 수 있다.
 
 YAML 파일을 이용하지 않고서도 변경할 수는 있다. 예를 들어서, 디플로이먼트 이름을 myapp-deployment라고 한다면, `kubectl set image deployment/myapp-deployment nginx=nginx:1.9.1`와 같이 `kubectl set` 명령어를 사용하고 `nginx:1.9.1`과 같이 직접 특정 버전을 기입함으로써 원하는 버전으로 명령어만을 이용하여 롤링 업데이트 할 수 있다. 다만, 이 경우에는 디플로이먼트 정의 YAML 파일의 내용은 변경되지 않으므로, 미래에 해당 YAML을 다시 사용할 경우 버전 착오에 유의해야 한다.
 
-## 롤백[](https://zerojsh00.github.io/posts/RollingUpdates/#%EB%A1%A4%EB%B0%B1)
+## 롤백
 
 롤링 업데이트 이전 상태로 되돌리고 싶다면, kubectl rollout undo deployment/ 명령어를 실행하여 rollback 할 수 있다.
 
