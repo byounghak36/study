@@ -11,8 +11,13 @@
             "id": "e7ef1e54557e3031",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md"
+              }
             }
           }
         ],
