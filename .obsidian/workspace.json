@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+                "file": "Study/kubernetes/K8S/K8S_secret-key 생성.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+                "file": "Study/kubernetes/K8S/K8S_secret-key 생성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+                "file": "Study/kubernetes/K8S/K8S_secret-key 생성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md"
+                "file": "Study/kubernetes/K8S/K8S_secret-key 생성.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
@@ -188,7 +189,6 @@
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/K8S_GPU_Container.md",
     "conflict-files-obsidian-git.md",
-    "Study/kubernetes/K8S/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service",
