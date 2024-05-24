@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md"
+                "file": "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md"
               }
             }
           }
@@ -161,6 +161,8 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
     "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
@@ -175,11 +177,9 @@
     "_Inbox/무제 파일.md",
     "_Inbox/안녕하세요.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
-    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/K8S_install.md",
     "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
