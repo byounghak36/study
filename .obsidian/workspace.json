@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/영어.md",
+                "file": "Study/vim-nerdtree.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/영어.md",
+                "file": "Study/vim-nerdtree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/영어.md",
+                "file": "Study/vim-nerdtree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/영어.md"
+                "file": "Study/vim-nerdtree.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+    "Templetes/manaual_templetes.md",
+    "Study/vim-nerdtree.md",
     "Study/영어.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Excalidraw/Drawing 2024-05-24 23.29.42.excalidraw.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
@@ -179,7 +181,6 @@
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "도서_리뷰/_나의 서재.md",
     "도서_리뷰/데미안.md",
-    "Templetes/manaual_templetes.md",
     "_Inbox/무제 파일.md",
     "_Inbox/안녕하세요.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
@@ -188,7 +189,6 @@
     "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/K8S_install.md",
     "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service",
