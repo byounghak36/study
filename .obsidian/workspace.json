@@ -161,6 +161,8 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Statefulset/test2",
+    "Study/kubernetes/K8S/Statefulset/test1.md",
     "Templetes/manaual_templetes.md",
     "Study/vim-nerdtree.md",
     "Study/영어.md",
@@ -187,8 +189,6 @@
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_install.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service",
