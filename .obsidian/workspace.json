@@ -16,7 +16,7 @@
                 "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -161,6 +161,17 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "_Files/Pasted image 20240529154512.png",
+    "_Files/Pasted image 20240529154326.png",
+    "_Files/Pasted image 20240529154226.png",
+    "_Files/Pasted image 20240529153725.png",
+    "_Files/Pasted image 20240529153706.png",
+    "_Files/Pasted image 20240529153705.png",
+    "_Files/Pasted image 20240529153702.png",
+    "_Files/Pasted image 20240529153537.png",
+    "_Files/Pasted image 20240529153419.png",
+    "_Files/Pasted image 20240529153329.png",
+    "_Files/Pasted image 20240529150355.png",
     "Study/vim-nerdtree.md",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
     "Study/kubernetes/K8S/Statefulset/test2",
@@ -179,7 +190,6 @@
     "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
     "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
     "Study/kubernetes/K8S/Deployment",
-    "_Files/쿠버네티스.jpeg",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
     "도서_리뷰/_나의 서재.md",
@@ -189,15 +199,10 @@
     "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service",
     "Study/kubernetes/K8S/Scheduler",
-    "Study/kubernetes/K8S/ReplicaSet",
-    "_Files/Pasted image 20240516115503.png",
-    "_Files/Pasted image 20240516092516.png",
-    "_Files/Pasted image 20240516095017.png",
-    "_Files/Pasted image 20240516092456.png"
+    "Study/kubernetes/K8S/ReplicaSet"
   ]
 }
