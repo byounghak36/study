@@ -229,6 +229,13 @@ Kubernetes 관리는 TKS Backend 자동화를 통하여 TKS Console 을 통하�
 ![[Pasted image 20240529154326.png]]
 
 Rego 언어를 활용하여 정책을 코드로 구현하는 특징이 있음
-## Gatekeeper (1/2)
+## Gatekeeper
 ![[Pasted image 20240529154512.png]]
+![[Pasted image 20240529154734.png]]
+
+## TKS
+![[Pasted image 20240529155036.png]]
+
+![[Pasted image 20240529155303.png]]
+![[Pasted image 20240529155447.png]]
 
