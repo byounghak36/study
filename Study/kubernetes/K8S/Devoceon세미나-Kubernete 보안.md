@@ -239,3 +239,9 @@ Rego 언어를 활용하여 정책을 코드로 구현하는 특징이 있음
 ![[Pasted image 20240529155303.png]]
 ![[Pasted image 20240529155447.png]]
 
+![[Pasted image 20240529155634.png]]
+
+![[Pasted image 20240529155801.png]]
+
+![[Pasted image 20240529155934.png]]
+
