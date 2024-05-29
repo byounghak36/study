@@ -304,4 +304,39 @@ Service 를 deploy 했을때 안전한가?
 - Kubernetes가 자체적으로 복구하더라도 다운 타임이 발생한다.
 - 강제적으로 주어진 환경에대해서 복구시스템을 잘 만들어 두었느냐?
 - 싱크가 깨지거나 외의 이슈가 발생할 수 있다.
-- 공격자 입장에서 해다
+- 공격자 입장에서 이런 솔루션이 들어가있다면 게속 공격을 던지면서 서비스의 중단을 유도할것이다.
+
+### 상용제품은 오픈소스SW보다 좋을까?
+![[Pasted image 20240529163638.png]]
+
+- 사용 SW 도 프로세스를 죽인다.
+- 어떤 공격이 발생했을대 알럿을하고 액션을 취한다.
+- 대안은? inlin mitigation 이다.
+### kubearmor
+![[Pasted image 20240529163811.png]]
+- kubearmor 는 프로세스를 죽이지 않고 denied 를 시킨다.
+- 특정 액션만 block 시킬 수 있다.
+
+![[Pasted image 20240529163955.png]]
+
+## Inline Mitiation? 어떻게?
+### Inline Mitiation
+![[Pasted image 20240529164038.png]]
+- 모니터링을 진행하고
+![[Pasted image 20240529164107.png]]
+- system call 만 이요하면 프로세스를 시작했을때 프로세스 이름만 나옴
+- lsm hook 은 구체적인 프로세스 세부사항을 알 수 있음
+- 이를 적절히 섞어서 사용하면 좋음
+
+![[Pasted image 20240529164308.png]]
+
+- 시스템 레벨에서 네임스페이스 정보를 함께 뽑는다.
+- container 정보
+- pod 정보 를 매칭하여 구체적인 액션정보를 탐지한다.
+![[Pasted image 20240529164401.png]]
+- LSM 훅에 각 내용을 담고 kubearmor 나 등등에 매칭이되면 permission denied 시킨다.
+- 액션에 관해서만 permission denied 시킨다.
+
+## 네트워크 레벨에서의 워크로드 보안
+![[Pasted image 20240529164512.png]]
+![[Pasted image 20240529164545.png]]
