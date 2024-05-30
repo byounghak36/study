@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "dataview",
@@ -11,5 +10,6 @@
   "obsidian-mind-map",
   "code-styler",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-git"
 ]
