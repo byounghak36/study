@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/vim-nerdtree.md",
+                "file": "Study/kubernetes/KPaas/무제 파일.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/vim-nerdtree.md",
+                "file": "Study/kubernetes/KPaas/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/vim-nerdtree.md",
+                "file": "Study/kubernetes/KPaas/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/vim-nerdtree.md"
+                "file": "Study/kubernetes/KPaas/무제 파일.md"
               }
             }
           }
@@ -161,10 +161,11 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/vim-nerdtree.md",
+    "Study/kubernetes/KPaas/무제 파일.md",
     "Study/kubernetes/K8S/Statefulset/test2",
     "Study/kubernetes/K8S/Statefulset/test1.md",
     "Templetes/manaual_templetes.md",
-    "Study/vim-nerdtree.md",
     "Study/영어.md",
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Excalidraw/Drawing 2024-05-24 23.29.42.excalidraw.md",
