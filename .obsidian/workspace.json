@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "49fd06f428094c79",
+    "type": "split",
+    "children": [
+      {
+        "id": "11008c43a84f2417",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e64edfbdf38e69c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d94b6c1f2c344500",
+    "type": "split",
+    "children": [
+      {
+        "id": "e10abf292b1d9647",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec0c01ec45572b0b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "92c76c0420181e11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3fa88d6b42e01201",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5110321044922
+  },
+  "right": {
+    "id": "a086ccdf14b7b7c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c4ca12f854b0be9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d71fd43b2e97409",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "107370ffd83c8358",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8998351c411acacc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8862337975383de3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f719c87a405fda92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "kr-book-info-plugin:Add Book Info": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "e64edfbdf38e69c4",
+  "lastOpenFiles": [
+    "_Files/Pasted image 20240529165914.png",
+    "_Files/Pasted image 20240529165747.png",
+    "_Files/Pasted image 20240529165652.png",
+    "_Files/Pasted image 20240529165626.png",
+    "_Files/Pasted image 20240529165536.png",
+    "_Files/Pasted image 20240529165459.png",
+    "_Files/Pasted image 20240529165312.png",
+    "_Files/Pasted image 20240529165106.png",
+    "_Files/Pasted image 20240529165039.png",
+    "_Files/Pasted image 20240529165025.png",
+    "_Files/Pasted image 20240529164907.png",
+    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+    "Study/vim-nerdtree.md",
+    "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
+    "Study/kubernetes/K8S/Statefulset/test2",
+    "Study/kubernetes/K8S/Statefulset/test1.md",
+    "Templetes/manaual_templetes.md",
+    "Study/영어.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+    "Excalidraw/Drawing 2024-05-24 23.29.42.excalidraw.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
+    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
+    "Study/kubernetes/K8S/K8S_secret-key 생성.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
+    "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
+    "Study/kubernetes/K8S/Deployment",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Excalidraw/Drawing 2024-05-15 12.12.07.excalidraw.md",
+    "도서_리뷰/_나의 서재.md",
+    "도서_리뷰/데미안.md",
+    "_Inbox/무제 파일.md",
+    "_Inbox/안녕하세요.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+    "Study/kubernetes/K8S/kubectl",
+    "Study/kubernetes/K8S/Statefulset",
+    "Study/kubernetes/K8S/Service",
+    "Study/kubernetes/K8S/Scheduler",
+    "Study/kubernetes/K8S/ReplicaSet"
+  ]
+}
