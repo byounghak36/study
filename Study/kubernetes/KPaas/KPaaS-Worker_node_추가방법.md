@@ -30,3 +30,4 @@ export STORAGE_TYPE=rook-ceph
 # if STORATE_TYPE=nfs
 export NFS_SERVER_PRIVATE_IP=
 ```
+
