@@ -6,8 +6,6 @@ reference:
 link:
 ---
 
-
-
 목차
 - [[#OpenInfra 커뮤니티|OpenInfra 커뮤니티]]
 - [[#Kubernetes Korea Group|Kubernetes Korea Group]]
