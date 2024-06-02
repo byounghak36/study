@@ -5,7 +5,6 @@ date: 2024_05_29
 reference: 
 link:
 ---
-
 목차
 - [[#OpenInfra 커뮤니티|OpenInfra 커뮤니티]]
 - [[#Kubernetes Korea Group|Kubernetes Korea Group]]
@@ -33,6 +32,7 @@ link:
 		- [[#Token 기반 인증/인가 동작 흐름#Kunbernetes 의 RBAC 설정|Kunbernetes 의 RBAC 설정]]
 	- [[#기술 구성#이를 위한 작업들...|이를 위한 작업들...]]
 
+![[Pasted image 20240602102533.png]]
 ---
 
 # SKT Telecom CTO - 양승현
