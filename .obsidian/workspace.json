@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6681a77b9a80b597",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -159,8 +173,13 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "e64edfbdf38e69c4",
+  "active": "6681a77b9a80b597",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+    "conflict-files-obsidian-git.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_osd 제거 및 추가.md",
+    "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
+    "Study/kubernetes/K8S/Statefulset/test1",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",
     "_Files/Pasted image 20240529165652.png",
@@ -171,8 +190,6 @@
     "_Files/Pasted image 20240529165106.png",
     "_Files/Pasted image 20240529165039.png",
     "_Files/Pasted image 20240529165025.png",
-    "_Files/Pasted image 20240529164907.png",
-    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
     "Study/vim-nerdtree.md",
     "Study/kubernetes/K8S/Statefulset/test2",
     "Study/kubernetes/K8S/Statefulset/test1.md",
@@ -197,8 +214,6 @@
     "_Inbox/무제 파일.md",
     "_Inbox/안녕하세요.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service",
