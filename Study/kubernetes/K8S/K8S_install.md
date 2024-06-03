@@ -134,9 +134,19 @@ sudo apt install -y cri-o kubelet kubeadm kubectl \
   make
 ```
 https://github.com/cri-o/packaging?tab=readme-ov-file
+https://kubernetes.io/blog/2023/10/10/cri-o-community-package-infrastructure/
 (그냥 소스설치하는게 편한거같다...)
 
+
+sudo kubeadm init --control-plane-endpoint=lb01:6443 --pod-network-cidr=192.168.1.0/24 --upload-certs
+sudo kubeadm reset
+sudo rm -rf /var/lib/etcd
+sudo rm -rf /etc/kubernetes/manifests
+sudo rm -rf /etc/kubernetes/pki
+sudo rm -rf ~/.kube
+
 ```shell
+
 Your Kubernetes control-plane has initialized successfully!
 
 To start using your cluster, you need to run the following as a regular user:
@@ -153,20 +163,20 @@ You should now deploy a pod network to the cluster.
 Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
   https://kubernetes.io/docs/concepts/cluster-administration/addons/
 
+You can now join any number of the control-plane node running the following command on each as root:
+
+  kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
+        --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33 \
+        --control-plane --certificate-key f0d1142b7eab1d2e03e45d607e6ad3294d4060458453a1017d7cc8a5032d1baf
+
+Please note that the certificate-key gives access to cluster sensitive data, keep it secret!
+As a safeguard, uploaded-certs will be deleted in two hours; If necessary, you can use
+"kubeadm init phase upload-certs --upload-certs" to reload certs afterward.
+
 Then you can join any number of worker nodes by running the following on each as root:
 
-kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \
-        --discovery-token-ca-cert-hash sha256:f80c29152843fddf6a4c1664030c2b8af232f4f65bb8f87e141e5690513c4af7
-```
-
-당신의 쿠버네티스 제어 평면은 성공적으로 초기화되었습니다!
-
-클러스터를 사용하려면 다음을 일반 사용자로 실행해야합니다:
-
-```shell
-mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
+        --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33
 ```
 
 또는 root 사용자이면 다음을 실행할 수 있습니다:
@@ -175,42 +185,3 @@ export KUBECONFIG=/etc/kubernetes/admin.conf
 
 이제 클러스터에 파드 네트워크를 배포해야합니다. 다음 중 하나의 옵션을 사용하여 "kubectl apply -f [podnetwork].yaml"를 실행하십시오: [https://kubernetes.io/docs/concepts/cluster-administration/addons/](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
 
-그런 다음 각각의 워커 노드에서 다음을 root로 실행하여 워커 노드를 원하는만큼 추가할 수 있습니다:
-
-sql
-
-Copy code
-```shell
-kubeadm join 10.101.0.12:6443 --token b5wy1c.26efqrguni72rrj2 \
---discovery-token-ca-cert-hash sha256:f80c29152843fddf6a4c1664030c2b8af232f4f65bb8f87e141e569051
-```
-
-```shell
-sudo kubeadm init --pod-network-cidr=10.244.0.0/16
-```
-
-- **--pod-network-cidr**
-	- 클러스터에 사용할 `Pod 네트워크 CIDR`을 지정합니다.
-	- 이는 네트워킹 솔루션이 포드에 IP 주소를 할당하는 데 필요합니다.
-	- Ex) `--pod-network-cidr=10.244.0.0/16.`
-- **--apiserver-advertise-address**
-	- API 서버가 퍼블릭 엔드포인트에 대해 알릴 IP 주소를 지정합니다.
-	- API 서버와 통신하도록 kubelet 및 기타 구성 요소를 구성하는 데 사용됩니다.
-	- Ex) `--apiserver-advertise-address=192.168.1.100.`
-- **--control-plane-endpoint**
-	- 컨트롤 플레인 구성요소가 서로 통신하는 데 사용할 엔드포인트를 지정합니다.
-	- 컨트롤 플레인과 통신하도록 kubelet 및 기타 구성 요소를 구성하는 데 사용됩니다.
-	- Ex) `--control-plane-endpoint="k8s-control-plane:6443".`
-- **--upload-certs**
-	- 구성 요소 간의 통신 보안에 사용되는 TLS 인증서를 생성하고 저장합니다
-	- 이 플래그가 설정되면 kubeadm은 새 인증서를 생성하고 이를 kubeadm-certs라는 Kubernetes 비밀에 저장합니다.
-	- 그런 다음 이 암호를 다른 노드에 복사하여 클러스터에 연결할 수 있습니다.
-	- Ex) `--upload-certs.`
-- **--ignore-preflight-errors**
-	- 클러스터를 초기화하기 전에 발생할 수 있는 특정 `preflight` 오류를 무시합니다.
-	- 수행 중인 작업을 알고 있고 오류를 안전하게 무시할 수 있다고 확신하는 경우에만 이 플래그를 사용하십시오.
-	- Ex) `--ignore-preflight-errors=NumCPU.`
-- **--config**
-	- kubeadm init 옵션을 지정하는 구성 파일의 경로를 지정합니다.
-	- 명령줄 인수를 지정하는 대신 사용할 수 있습니다.
-	- Ex) `--config=/path/to/kubeadm-config.yaml.`
