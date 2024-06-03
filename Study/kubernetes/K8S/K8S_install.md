@@ -39,7 +39,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 ```
 
-#### 1.5. (선택 사항) kubeadm을 실행하기 전에 kubelet 서비스를 활성화합니다.
+#### 1.5. kubeadm을 실행하기 전에 kubelet 서비스를 활성화합니다.
 ```shell
 sudo systemctl enable --now kubelet
 ```
@@ -75,7 +75,7 @@ sudo sysctl --system
 
 ```shell
 OS=xUbuntu_22.04
-CRIO_VERSION=1.28:1.28.4
+CRIO_VERSION=1.30:1.30.1
 
 # repo 등록
 echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/ /"|sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
@@ -85,7 +85,7 @@ echo "deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:
 curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$CRIO_VERSION/$OS/Release.key | sudo apt-key add -
 curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | sudo apt-key add -
 
-apt-get update -qq && apt-get install -y \
+sudo apt-get update -qq && apt-get install -y \
   libbtrfs-dev \
   containers-common \
   git \

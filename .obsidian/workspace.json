@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "11008c43a84f2417",
+        "id": "2e0a183553d18a01",
         "type": "tabs",
         "children": [
           {
-            "id": "e64edfbdf38e69c4",
+            "id": "183cd52f34f26f67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+                "file": "Study/kubernetes/K8S/K8S_install.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 348.51103591918945
   },
   "right": {
     "id": "a086ccdf14b7b7c9",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+                "file": "Study/kubernetes/K8S/K8S_install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+                "file": "Study/kubernetes/K8S/K8S_install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md"
+                "file": "Study/kubernetes/K8S/K8S_install.md"
               }
             }
           }
@@ -159,10 +159,11 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "e64edfbdf38e69c4",
+  "active": "183cd52f34f26f67",
   "lastOpenFiles": [
-    "_Files/Pasted image 20240529140855.png",
+    "Study/kubernetes/K8S/무제 파일.md",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+    "_Files/Pasted image 20240529140855.png",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.pdf",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안_tmp.html",
     "_Files/Pasted image 20240602102533.png",
