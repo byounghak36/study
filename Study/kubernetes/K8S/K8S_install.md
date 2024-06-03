@@ -179,6 +179,47 @@ kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
         --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33
 ```
 
+
+현재 작업중인 `k8s-master1`서버의 유저계정(작업은`k8s`계정에서 진행)에서 아래와 같은 작업을 진행합니다.
+
+```shell
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
+
+만일, ROOT 계정이라면 아래와 같은 명령을 실행합니다.
+
+```shell
+export KUBECONFIG=/etc/kubernetes/admin.conf
+```
+
+
+
+```shell
+ubuntu@master01:/var/lib$ kubectl get pods -A
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+kube-system   coredns-7db6d8ff4d-s7v72           1/1     Running   0          4m15s
+kube-system   coredns-7db6d8ff4d-tqqkb           1/1     Running   0          4m15s
+kube-system   etcd-master01                      1/1     Running   1          4m28s
+kube-system   etcd-master02                      1/1     Running   0          2m56s
+kube-system   etcd-master03                      1/1     Running   0          2m35s
+kube-system   kube-apiserver-master01            1/1     Running   1          4m28s
+kube-system   kube-apiserver-master02            1/1     Running   0          2m56s
+kube-system   kube-apiserver-master03            1/1     Running   0          2m35s
+kube-system   kube-controller-manager-master01   1/1     Running   1          4m28s
+kube-system   kube-controller-manager-master02   1/1     Running   0          2m56s
+kube-system   kube-controller-manager-master03   1/1     Running   0          2m35s
+kube-system   kube-proxy-8r4fp                   1/1     Running   0          2m21s
+kube-system   kube-proxy-cqd7h                   1/1     Running   0          2m56s
+kube-system   kube-proxy-csflt                   1/1     Running   0          2m25s
+kube-system   kube-proxy-gk6kc                   1/1     Running   0          4m15s
+kube-system   kube-proxy-pjrpk                   1/1     Running   0          2m36s
+kube-system   kube-proxy-vj5fc                   1/1     Running   0          2m18s
+kube-system   kube-scheduler-master01            1/1     Running   1          4m28s
+kube-system   kube-scheduler-master02            1/1     Running   0          2m56s
+kube-system   kube-scheduler-master03            1/1     Running   0          2m35s
+```
 또는 root 사용자이면 다음을 실행할 수 있습니다:
 
 export KUBECONFIG=/etc/kubernetes/admin.conf
