@@ -1,6 +1,7 @@
 ---
 title: K8S_install
-tags: 
+tags:
+  - kubernetes
 date: 2024_04_28
 Modify_Date: 
 reference:
@@ -9,10 +10,6 @@ reference:
 
 ---
 ### 1. apt 저장소 추가(ubuntu,debian 기준) 
-
-
-#### 1.5. kubeadm을 실행하기 전에 kubelet 서비스를 활성화합니다.
-
 
 `lsmod | grep br_netfilter`를 실행하여 `br_netfilter` 모듈이 로드되었는지 확인한다.
 
@@ -144,3 +141,4 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
         --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33
 ```
+
