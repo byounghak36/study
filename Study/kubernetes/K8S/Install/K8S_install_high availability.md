@@ -6,9 +6,7 @@ date: 2024_04_28
 Modify_Date: 
 reference:
 ---
-목차
-
----
+# K8S_install_high availability
 ## 1. 모듈 로드 및 ipv4 사용 지정
 
 `lsmod | grep br_netfilter`를 실행하여 `br_netfilter` 모듈이 로드되었는지 확인한다.
@@ -140,9 +138,23 @@ kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
 
 친절한 설명대로 진행해보자
 
-## 3-1. 
+## 3-1. contole-plane
+추가 하고자 하는 마스터 노드는 아래 명령어를 실행한다.
+```shell
+  kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
+        --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33 \
+        --control-plane --certificate-key f0d1142b7eab1d2e03e45d607e6ad3294d4060458453a1017d7cc8a5032d1baf
+```
+kube 디렉토리 생성
 ```shell
   mkdir -p $HOME/.kube
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
+
+## 3-2. worker node
+추가 하고자 하는 워커 노드는 아래 명령어를 실행한다.
+```shell
+kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
+        --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33
 ```
