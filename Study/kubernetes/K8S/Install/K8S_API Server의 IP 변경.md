@@ -3,7 +3,8 @@ title: K8S_API Server의 IP 변경
 tags:
   - kubernetes
 date: 2024_06_04
-reference: 
+reference:
+  - https://happycloud-lee.tistory.com/235
 link:
 ---
 # 0. 개요
@@ -29,9 +30,9 @@ $ kubectl get configmap kubeadm-config -n kube-system -o jsonpath='{.data.Cluste
 
 ## 3) kubeadm-conf.yaml파일에 certSANS항목 추가
 
-아래 예처럼 apiServer밑에 'certSANs'를 추가하고, master node의 private, public IP  지정합니다. 
+아래 예처럼 apiServer밑에 'certSANs'를 추가하고, master node의 private, public IP 를 지정합니다. 
 
-```
+```yaml
 apiServer:
   certSANs:
   - 169.56.70.205
@@ -57,9 +58,9 @@ networking:
 scheduler: {}
 ```
 
-4) api server CERT key 재생성
+## 4) 기존 api server CERT key 백업
 
-- 기존 api server CERT key들을 백업합니다. 기존에 key가 있으면 생성 되지 않습니다. 
+기존 api server CERT key들을 백업합니다. 기존에 key가 있으면 생성 되지 않습니다. 
 
 ```
 $ cd /etc/kubernetes/pki
@@ -67,7 +68,7 @@ $ mkdir backup
 $ mv apiserver.* backup
 ```
 
-- key파일 생성
+key파일 생성
 
 ```
 $ kubeadm init phase certs apiserver --config ~/work/kubeadm-conf.yaml
@@ -76,13 +77,14 @@ $ ls -al /etc/kubernetes/pki/apiserver.*
 -rw-------. 1 root root 1679 Aug 23 08:57 /etc/kubernetes/pki/apiserver.key
 ```
 
-5) configmap 'kubeadm-config'에 변경 사항 반영  
+## 5) ~/.kube/config 초기화
+```shell
+rm rf ~/.kube
+mkdir -p $HOME/.kube
+```
+
+## 6) configmap 'kubeadm-config'에 변경 사항 반영  
+```shell
 $ kubeadm init phase upload-config kubelet --config ~/work/kubeadm-conf.yaml
+```
 
-6) 접근할 외부 서버(예: bastion)에 k8s config파일 다시 다운로드 하고 k8s config의 API Server IP를 public IP로 변경 
-
-scp root@{k8s master ip}:~/.kube/config ~/.kube/config
-
-vi ~/.kube/config
-
-![](https://blog.kakaocdn.net/dn/bE93Tp/btrpkuCIuE9/KU4tx9cfdGCKPAOKzfisk0/img.png)
