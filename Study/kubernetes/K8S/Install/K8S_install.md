@@ -9,7 +9,7 @@ reference:
 목차
 
 ---
-### 1. apt 저장소 추가(ubuntu,debian 기준) 
+## 1. 모듈 로드 및 ipv4 사용 지정
 
 `lsmod | grep br_netfilter`를 실행하여 `br_netfilter` 모듈이 로드되었는지 확인한다.
 
@@ -35,7 +35,11 @@ EOF
 sudo sysctl --system
 ```
 
-아래 참고
+
+## 2. repo 지정 및 설치
+본 글에서는 crio를 런타임 엔진으로 사용하려고한다, crio 관련 버전 정보를 아래 참고로 남기니 참고하면 좋다.
+https://github.com/cri-o/packaging?tab=readme-ov-file
+https://kubernetes.io/blog/2023/10/10/cri-o-community-package-infrastructure/
 ### Stable Versions
 - [`isv:kubernetes:addons:cri-o:stable`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:stable): Stable Packages (Umbrella)
     - [`isv:kubernetes:addons:cri-o:stable:v1.31`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:stable:v1.31): `v1.31.z` tags (Stable)
@@ -46,19 +50,6 @@ sudo sysctl --system
         - [`isv:kubernetes:addons:cri-o:stable:v1.29:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:stable:v1.29:build): `v1.29.z` tags (Builder)
     - [`isv:kubernetes:addons:cri-o:stable:v1.28`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:stable:v1.28): `v1.28.z` tags (Stable)
         - [`isv:kubernetes:addons:cri-o:stable:v1.28:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:stable:v1.28:build): `v1.28.z` tags (Builder)
-
-### Prereleases
-- [`isv:kubernetes:addons:cri-o:prerelease`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease): Prerelease Packages (Umbrella)
-    - [`isv:kubernetes:addons:cri-o:prerelease:main`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:main): [`main`](https://github.com/cri-o/cri-o/commits/main) branch (Prerelease)
-        - [`isv:kubernetes:addons:cri-o:prerelease:main:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:main:build): [`main`](https://github.com/cri-o/cri-o/commits/main) branch (Builder)
-    - [`isv:kubernetes:addons:cri-o:prerelease:v1.31`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.31): [`release-1.31`](https://github.com/cri-o/cri-o/commits/release-1.31) branch (Prerelease)
-        - [`isv:kubernetes:addons:cri-o:prerelease:v1.31:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.31:build): [`release-1.31`](https://github.com/cri-o/cri-o/commits/release-1.31) branch (Builder)
-    - [`isv:kubernetes:addons:cri-o:prerelease:v1.30`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.30): [`release-1.30`](https://github.com/cri-o/cri-o/commits/release-1.30) branch (Prerelease)
-        - [`isv:kubernetes:addons:cri-o:prerelease:v1.30:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.30:build): [`release-1.30`](https://github.com/cri-o/cri-o/commits/release-1.30) branch (Builder)
-    - [`isv:kubernetes:addons:cri-o:prerelease:v1.29`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.29): [`release-1.29`](https://github.com/cri-o/cri-o/commits/release-1.29) branch (Prerelease)
-        - [`isv:kubernetes:addons:cri-o:prerelease:v1.29:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.29:build): [`release-1.29`](https://github.com/cri-o/cri-o/commits/release-1.29) branch (Builder)
-    - [`isv:kubernetes:addons:cri-o:prerelease:v1.28`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.28): [`release-1.28`](https://github.com/cri-o/cri-o/commits/release-1.28) branch (Prerelease)
-        - [`isv:kubernetes:addons:cri-o:prerelease:v1.28:build`](https://build.opensuse.org/project/show/isv:kubernetes:addons:cri-o:prerelease:v1.28:build): [`release-1.28`](https://github.com/cri-o/cri-o/commits/release-1.28) branch (Builder)
 
 ```shell
 KUBERNETES_VERSION=v1.30
@@ -93,22 +84,27 @@ sudo apt install -y cri-o kubelet kubeadm kubectl \
   gcc \
   make
 ```
-https://github.com/cri-o/packaging?tab=readme-ov-file
-https://kubernetes.io/blog/2023/10/10/cri-o-community-package-infrastructure/
-(그냥 소스설치하는게 편한거같다...)
+
+## 3. kubernetes 배포
 
 ```shell
 sudo systemctl enable --now kubelet
 ```
 
-sudo kubeadm init --control-plane-endpoint=lb01:6443 --pod-network-cidr=192.168.1.0/24 --upload-certs
+혹시 진행하다가 문제가 생겨서 다시 설치해야하는 경우 아래 순서대로 초기화하자
+```shell
 sudo kubeadm reset
 sudo rm -rf /var/lib/etcd
 sudo rm -rf /etc/kubernetes/manifests
 sudo rm -rf /etc/kubernetes/pki
 sudo rm -rf ~/.kube
+```
+
+
+배포를 진행할경우 아래처럼 kubeadm을 활용한다.
 
 ```shell
+sudo kubeadm init --control-plane-endpoint=lb01:6443 --pod-network-cidr=192.168.1.0/24 --upload-certs
 
 Your Kubernetes control-plane has initialized successfully!
 
@@ -142,3 +138,11 @@ kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
         --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33
 ```
 
+친절한 설명대로 진행해보자
+
+## 3-1. 
+```shell
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
