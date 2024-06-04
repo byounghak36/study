@@ -158,3 +158,17 @@ kube 디렉토리 생성
 kubeadm join lb01:6443 --token imbp6w.mj1er4ccpxsb8t7y \
         --discovery-token-ca-cert-hash sha256:4ff4ed67e0f0986a4fdee6d06ff753daef21da611b5d33cde5d1df209acf3c33
 ```
+
+# 설치이후...
+```shell
+(combined from similar events): Failed to create pod sandbox: rpc error: code = Unknown desc = failed to create pod network sandbox k8s_coredns-7db6d8ff4d-9snnn_kube-system_5c2ba979-73a2-485a-bf9c-083fde9fbb2c_0(ab7e5423b5d7a1ee5b057138ee82a63f66d8a5beb2ff3a43f2dd9573f070257b): no CNI configuration file in /etc/cni/net.d/. Has your network provider started?
+```
+
+coredns 에서 위와 같은 에러가 발생하고 있을것이다. 에러 그대로 cni 가 없기때문입니다.
+
+에러 분석
+- `Failed to create pod sandbox`: Pod 샌드박스를 생성하지 못했음
+- `rpc error: code = Unknown desc = failed to create pod network sandbox ...`: Pod 네트워크 샌드박스를 생성하는 동안 RPC 오류가 발생
+- `no CNI configuration file in /etc/cni/net.d/. Has your network provider started?`: `/etc/cni/net.d/` 디렉터리에 CNI 구성 파일이 없다음, 이는 Network Provider가 시작되지 않았거나 구성 파일이 올바르게 배치되지 않았음을 확인할 수 있음
+
+kube-proxy 외에도 cni 서드파티 플러그인의 설치가 필수입니다. 다음 글에서는 서드파티 플러그인의 비교와 설치를 진행합니다.
