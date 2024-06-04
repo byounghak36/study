@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.51103591918945
+    "width": 306.51103591918945
   },
   "right": {
     "id": "a086ccdf14b7b7c9",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md"
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md"
               }
             }
           }
@@ -161,12 +161,20 @@
   },
   "active": "183cd52f34f26f67",
   "lastOpenFiles": [
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_osd 제거 및 추가.md",
+    "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
     "Study/kubernetes/K8S/K8S_install.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/troubleshooting",
     "Study/kubernetes/K8S/Install/K8S_install_high availability.md",
-    "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
     "Study/kubernetes/K8S/Install",
     "Study/kubernetes/K8S/무제 파일.md",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
@@ -175,7 +183,6 @@
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안_tmp.html",
     "_Files/Pasted image 20240602102533.png",
     "conflict-files-obsidian-git.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_osd 제거 및 추가.md",
     "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
     "Study/kubernetes/K8S/Statefulset/test1",
     "_Files/Pasted image 20240529165914.png",
@@ -196,14 +203,7 @@
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
     "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
-    "Study/kubernetes/K8S/K8S_secret-key 생성.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
-    "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
     "Study/kubernetes/K8S/Deployment",
-    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
     "Study/kubernetes/K8S/Service"
