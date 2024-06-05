@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md"
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
     "Study/vim-nerdtree.md",
     "웹이 호스팅 하는 스태틱 파드 매니페스트.md",
@@ -176,7 +178,6 @@
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
     "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
     "Study/kubernetes/K8S/K8S_개념정리.md",
@@ -199,7 +200,6 @@
     "_Files/Pasted image 20240529165039.png",
     "Study/kubernetes/K8S/Statefulset/test2",
     "Study/kubernetes/K8S/Statefulset/test1.md",
-    "Templetes/manaual_templetes.md",
     "Study/kubernetes/K8S/Deployment",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
