@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md"
+                "file": "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
     "Study/vim-nerdtree.md",
     "웹이 호스팅 하는 스태틱 파드 매니페스트.md",
     "Study/kubernetes/K8S/Install/K8S_install_high availability.md",
@@ -168,11 +171,9 @@
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
     "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
     "Study/kubernetes/K8S/kubectl/K8S_kubectl replace.md",
     "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
@@ -199,7 +200,6 @@
     "Study/kubernetes/K8S/Statefulset/test2",
     "Study/kubernetes/K8S/Statefulset/test1.md",
     "Templetes/manaual_templetes.md",
-    "Excalidraw/Drawing 2024-05-24 23.29.42.excalidraw.md",
     "Study/kubernetes/K8S/Deployment",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",

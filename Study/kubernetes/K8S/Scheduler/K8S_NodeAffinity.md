@@ -4,7 +4,8 @@ tags:
   - kubernetes
   - K8S_OBJ_scheduler
 date: 2024_05_17
-reference: 
+reference:
+  - https://kimjingo.tistory.com/144
 link:
   - "[[K8S_kubectl_explain 옵션]]"
 ---
@@ -293,5 +294,3 @@ nginx2   1/1     Running   0          51s   20.111.156.125   k8s-node1   <none> 
 ```
 
 위의 예시 처럼 두 개의 파드를 생성하였으며  두 개의 파드 모두 disktype=hdd 인 레이블이 없기 때문에 파드가 k8s-node1, k8s-node2에 각각 하나씩 생성된 것을 확인할 수 있습니다.
-
-출처: [https://kimjingo.tistory.com/144](https://kimjingo.tistory.com/144) [김징어의 Devlog:티스토리]
