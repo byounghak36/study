@@ -46,7 +46,12 @@
   "defaultMediaIcon": "lucide//file-image",
   "exportPath": "/home/kimbh/study",
   "filesToExport": [
-    []
+    [
+      "_Files",
+      "Excalidraw",
+      "Study",
+      "Templetes"
+    ]
   ],
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
