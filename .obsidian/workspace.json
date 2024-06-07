@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "11008c43a84f2417",
+        "id": "2e0a183553d18a01",
         "type": "tabs",
         "children": [
           {
-            "id": "e64edfbdf38e69c4",
+            "id": "183cd52f34f26f67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5110321044922
+    "width": 306.51103591918945
   },
   "right": {
     "id": "a086ccdf14b7b7c9",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_배포전략.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_배포전략.md"
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md"
               }
             }
           }
@@ -147,50 +147,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "e64edfbdf38e69c4",
+  "active": "183cd52f34f26f67",
   "lastOpenFiles": [
-    "Study/kubernetes/커피캣츠_인프라예상.png",
     "Study/제목 없는 다이어그램.drawio",
+    "Study/kubernetes/커피캣츠_인프라예상.png",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
-    "Study/vim-nerdtree.md",
-    "웹이 호스팅 하는 스태틱 파드 매니페스트.md",
-    "Study/kubernetes/K8S/Install/K8S_install_high availability.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
-    "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
-    "Study/kubernetes/K8S/kubectl/K8S_kubectl replace.md",
-    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
-    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
-    "Study/kubernetes/K8S/K8S_개념정리.md",
-    "Study/영어.md",
-    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
-    "Study/kubernetes/K8S/troubleshooting",
-    "Study/kubernetes/K8S/Install",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_osd 제거 및 추가.md",
-    "_Files/Pasted image 20240602102533.png",
+    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
+    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
+    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_osd 제거 및 추가.md",
+    "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
+    "Study/kubernetes/K8S/K8S_install.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
+    "Study/kubernetes/K8S/troubleshooting",
+    "Study/kubernetes/K8S/Install/K8S_install_high availability.md",
+    "Study/kubernetes/K8S/Install",
+    "Study/kubernetes/K8S/무제 파일.md",
+    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
+    "_Files/Pasted image 20240529140855.png",
+    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.pdf",
+    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안_tmp.html",
+    "_Files/Pasted image 20240602102533.png",
+    "conflict-files-obsidian-git.md",
     "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
+    "Study/kubernetes/K8S/Statefulset/test1",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",
     "_Files/Pasted image 20240529165652.png",
@@ -198,14 +195,17 @@
     "_Files/Pasted image 20240529165536.png",
     "_Files/Pasted image 20240529165459.png",
     "_Files/Pasted image 20240529165312.png",
-    "_Files/Pasted image 20240529165106.png",
-    "_Files/Pasted image 20240529165039.png",
+    "Study/vim-nerdtree.md",
     "Study/kubernetes/K8S/Statefulset/test2",
+    "Study/kubernetes/K8S/Statefulset/test1.md",
+    "Templetes/manaual_templetes.md",
+    "Study/영어.md",
+    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
+    "Excalidraw/Drawing 2024-05-24 23.29.42.excalidraw.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/Deployment",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
-    "Study/kubernetes/K8S/Service",
-    "Study/kubernetes/K8S/Scheduler",
-    "Study/kubernetes/K8S/ReplicaSet"
+    "Study/kubernetes/K8S/Service"
   ]
 }
