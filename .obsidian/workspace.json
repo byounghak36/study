@@ -161,6 +161,8 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/커피캣츠_인프라예상.png",
+    "Study/제목 없는 다이어그램.drawio",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
@@ -199,7 +201,6 @@
     "_Files/Pasted image 20240529165106.png",
     "_Files/Pasted image 20240529165039.png",
     "Study/kubernetes/K8S/Statefulset/test2",
-    "Study/kubernetes/K8S/Statefulset/test1.md",
     "Study/kubernetes/K8S/Deployment",
     "Study/kubernetes/K8S/kubectl",
     "Study/kubernetes/K8S/Statefulset",
