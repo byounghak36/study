@@ -31,7 +31,7 @@
   "authorName": "",
   "vaultTitle": "study",
   "exportPreset": "website",
-  "openAfterExport": false,
+  "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,

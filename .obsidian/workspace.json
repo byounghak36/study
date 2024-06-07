@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,37 +152,97 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "digitalgarden:Digital Garden Publication Center": false,
-      "kr-book-info-plugin:Add Book Info": false
+      "kr-book-info-plugin:Add Book Info": false,
+      "obsidian42-brat:BRAT": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "183cd52f34f26f67",
+  "floating": {
+    "id": "deaf1c83730ab948",
+    "type": "floating",
+    "children": [
+      {
+        "id": "187a15743121909a",
+        "type": "window",
+        "children": [
+          {
+            "id": "0167146731d41bed",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d03c06f74b1d65fb",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1d75f7a14f0d4366",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "9415036aaeadabd4",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 270,
+        "y": 2035,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "9415036aaeadabd4",
   "lastOpenFiles": [
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
+    "Study/0.Linux_ETC/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "Study/0.Linux_ETC/grep_option/grep옵션.md",
+    "Study/0.Linux_ETC/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
+    "Study/0.Linux_ETC/galera/갈레라설치.md",
+    "Study/0.Linux_ETC/apt/패키지 에러로 apt 미작동.md",
+    "Study/0.Linux_ETC/pdns/pdns_install.md",
+    "Study/0.Linux_ETC/pdns/dns_record.md",
+    "Study/0.Linux_ETC/openssl/openssl_install_man.md",
+    "Study/0.Linux_ETC/nagios/nagios.md",
+    "Study/0.Linux_ETC/mariadb/mariadb_install.md",
+    "Study/0.Linux_ETC/linux/regular_expression.md",
+    "Study/0.Linux_ETC/linux/디스크마운트.md",
+    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
+    "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
+    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
+    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
+    "Study/kubernetes/K8S/K8S_architecture.md",
+    "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
+    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
+    "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
+    "Study/kubernetes/ETCD/ETCD_Commands.md",
+    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
+    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
     "Study/제목 없는 다이어그램.drawio",
     "Study/kubernetes/커피캣츠_인프라예상.png",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
-    "Study/kubernetes/CKA/Dcker와 Containerd 차이.md",
-    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
-    "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
-    "Study/kubernetes/CKA/Replicastion Controller vs Replicaset.md",
-    "Study/kubernetes/CKA/K8S_ReplicaSet-YAML_작성법.md",
-    "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_Dashbaord.md",
-    "Study/kubernetes/Rook-Ceph/K8S_Plugin_rook-ceph_osd 제거 및 추가.md",
-    "Study/kubernetes/K8S/Install/K8S_API Server의 IP 변경.md",
-    "Study/kubernetes/K8S/K8S_install.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/troubleshooting",
-    "Study/kubernetes/K8S/Install/K8S_install_high availability.md",
     "Study/kubernetes/K8S/Install",
-    "Study/kubernetes/K8S/무제 파일.md",
-    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
     "_Files/Pasted image 20240529140855.png",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.pdf",
     "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안_tmp.html",
     "_Files/Pasted image 20240602102533.png",
-    "conflict-files-obsidian-git.md",
-    "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
     "Study/kubernetes/K8S/Statefulset/test1",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",
@@ -195,17 +251,9 @@
     "_Files/Pasted image 20240529165536.png",
     "_Files/Pasted image 20240529165459.png",
     "_Files/Pasted image 20240529165312.png",
-    "Study/vim-nerdtree.md",
     "Study/kubernetes/K8S/Statefulset/test2",
-    "Study/kubernetes/K8S/Statefulset/test1.md",
-    "Templetes/manaual_templetes.md",
-    "Study/영어.md",
-    "Study/kubernetes/K8S/ReplicaSet/K8S_OBJ_ReplicaSet.md",
-    "Excalidraw/Drawing 2024-05-24 23.29.42.excalidraw.md",
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ingress-nginx-contorller.md",
     "Study/kubernetes/K8S/Deployment",
     "Study/kubernetes/K8S/kubectl",
-    "Study/kubernetes/K8S/Statefulset",
-    "Study/kubernetes/K8S/Service"
+    "Study/kubernetes/K8S/Statefulset"
   ]
 }
