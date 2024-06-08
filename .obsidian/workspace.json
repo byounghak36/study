@@ -169,9 +169,7 @@
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "obsidian42-brat:BRAT": false
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
   "active": "da590a77cd47afc6",
