@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "da590a77cd47afc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+                "file": "Study/kubernetes/K8S/K8S_architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+                "file": "Study/kubernetes/K8S/K8S_architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md"
+                "file": "Study/kubernetes/K8S/K8S_architecture.md"
               }
             }
           }
@@ -160,58 +174,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "floating": {
-    "id": "deaf1c83730ab948",
-    "type": "floating",
-    "children": [
-      {
-        "id": "187a15743121909a",
-        "type": "window",
-        "children": [
-          {
-            "id": "0167146731d41bed",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d03c06f74b1d65fb",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
-                "id": "1d75f7a14f0d4366",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
-                "id": "9415036aaeadabd4",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "vertical",
-        "x": 270,
-        "y": 120,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "183cd52f34f26f67",
+  "active": "da590a77cd47afc6",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/K8S_개념정리.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
@@ -234,10 +202,6 @@
     "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
-    "Study/kubernetes/ETCD/ETCD란 무엇인가.md",
-    "Study/kubernetes/ETCD/K8S_ETCD_backup.md",
-    "Study/kubernetes/ETCD/ETCD_Commands.md",
-    "Study/kubernetes/CKA/K8S_시험팁_선언형 VS 명령형.md",
     "Study/제목 없는 다이어그램.drawio",
     "Study/kubernetes/커피캣츠_인프라예상.png",
     "Study/kubernetes/K8S/troubleshooting",
