@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md"
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md"
               }
             }
           }
@@ -174,10 +174,11 @@
   },
   "active": "ec0c01ec45572b0b",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
+    "Study/kubernetes/K8S/ConfigMaps&Secret",
     "프로그램/Obsidian_plugins-Excalidraw.md",
     "프로그램",
-    "Study/kubernetes/K8S/ConfigMaps & Secret/K8S_ConfigMaps 작성 예시.md",
-    "Study/kubernetes/K8S/ConfigMaps & Secret",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
@@ -201,7 +202,6 @@
     "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
     "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/제목 없는 다이어그램.drawio",
     "Study/kubernetes/커피캣츠_인프라예상.png",
     "Study/kubernetes/K8S/troubleshooting",
