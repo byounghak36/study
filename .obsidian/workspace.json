@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fffc9f3e4ddb136",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/kubernetes/K8S/ConfigMaps & Secret/K8S_ConfigMaps 작성 예시.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps & Secret/K8S_ConfigMaps 작성 예시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps & Secret/K8S_ConfigMaps 작성 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md"
+                "file": "Study/kubernetes/K8S/ConfigMaps & Secret/K8S_ConfigMaps 작성 예시.md"
               }
             }
           }
@@ -172,8 +185,10 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "da590a77cd47afc6",
+  "active": "ec0c01ec45572b0b",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/ConfigMaps & Secret/K8S_ConfigMaps 작성 예시.md",
+    "Study/kubernetes/K8S/ConfigMaps & Secret",
     "Study/kubernetes/K8S/K8S_개념정리.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
@@ -199,7 +214,6 @@
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
-    "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
     "Study/제목 없는 다이어그램.drawio",
     "Study/kubernetes/커피캣츠_인프라예상.png",
     "Study/kubernetes/K8S/troubleshooting",
@@ -218,7 +232,6 @@
     "_Files/Pasted image 20240529165312.png",
     "Study/kubernetes/K8S/Statefulset/test2",
     "Study/kubernetes/K8S/Deployment",
-    "Study/kubernetes/K8S/kubectl",
-    "Study/kubernetes/K8S/Statefulset"
+    "Study/kubernetes/K8S/kubectl"
   ]
 }
