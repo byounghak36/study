@@ -4,7 +4,7 @@ tags:
   - galera
   - DB
   - replication
-date: <% tp.file.creation_date("YYYY_MM_DD") %>
+date: 2024_05_30
 Modify_Date: 
 reference: 
 link:
