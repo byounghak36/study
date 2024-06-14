@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e84426813f81e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S_세미나_nginx.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S_세미나_nginx.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S_세미나_nginx.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -172,10 +185,13 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "da590a77cd47afc6",
+  "active": "3e84426813f81e3e",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S_세미나_nginx.md",
+    "conflict-files-obsidian-git.md",
+    "Study/커피캣츠_인프라.drawio",
+    "Study/kubernetes/커피캣츠_인프라.png",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
     "Study/kubernetes/K8S/ConfigMaps&Secret",
     "프로그램/Obsidian_plugins-Excalidraw.md",
@@ -201,7 +217,6 @@
     "Study/0.Linux_ETC/linux/디스크마운트.md",
     "Study/kubernetes/CKA/K8S_OBJ_ReplicaSet-생성법.md",
     "Study/0.Linux_ETC/vim_option&plugin/vim_단축키.md",
-    "Study/kubernetes/K8S/K8S_kubectl_explain 옵션.md",
     "Study/제목 없는 다이어그램.drawio",
     "Study/kubernetes/커피캣츠_인프라예상.png",
     "Study/kubernetes/K8S/troubleshooting",
@@ -217,8 +232,6 @@
     "_Files/Pasted image 20240529165626.png",
     "_Files/Pasted image 20240529165536.png",
     "_Files/Pasted image 20240529165459.png",
-    "_Files/Pasted image 20240529165312.png",
-    "Study/kubernetes/K8S/Statefulset/test2",
-    "Study/kubernetes/K8S/Deployment"
+    "Study/kubernetes/K8S/Statefulset/test2"
   ]
 }
