@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md",
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/K8S_architecture.md"
+                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md"
               }
             }
           }
@@ -174,6 +174,8 @@
   },
   "active": "3344fe31584938fe",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
     "Study/kubernetes/K8S/K8S_GPU_Container.md",
     "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
@@ -184,9 +186,7 @@
     "conflict-files-obsidian-git.md",
     "Study/kubernetes/커피캣츠_인프라.png",
     "Study/kubernetes/커피캣츠_인프라예상.png",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/K8S_배포전략.md",
     "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
     "Study/kubernetes/K8S/ConfigMaps&Secret",
