@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
+                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
+                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
+                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md"
+                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md"
               }
             }
           }
@@ -172,8 +172,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ec0c01ec45572b0b",
+  "active": "3344fe31584938fe",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/K8S_architecture.md",
@@ -214,7 +215,6 @@
     "Study/Linux/galera/갈레라설치.md",
     "Study/Linux/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
     "Study/Linux/bind/bind_설치",
-    "Study/Linux/apt/패키지 에러로 apt 미작동.md",
     "_Files/Pasted image 20240602102533.png",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",
