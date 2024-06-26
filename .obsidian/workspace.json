@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,15 +21,12 @@
             }
           },
           {
-            "id": "3344fe31584938fe",
+            "id": "5f82a8d58c7a99a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "currentVersion": "1.6.5"
               }
             }
           }
@@ -108,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md",
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/kubernetes/CKA/K8S_Pod-YAML_작성법.md"
+                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md"
               }
             }
           }
@@ -161,60 +158,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3344fe31584938fe",
+  "active": "5f82a8d58c7a99a1",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
-    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
-    "Study/kubernetes/K8S/K8S_architecture.md",
-    "Study/kubernetes/K8S/K8S_GPU_Container.md",
-    "Study/kubernetes/K8S/K8S_Dashbaord 배포.md",
-    "Study/kubernetes/K8S_세미나_nginx.md",
-    "Study/kubernetes/K8S/K8S_개념정리.md",
-    "Study/kubernetes/K8S/Devoceon세미나-Kubernete 보안.md",
-    "Study/kubernetes/KPaas/KPaaS-Worker_node_추가방법.md",
-    "conflict-files-obsidian-git.md",
+    "Study/vim-nerdtree.md",
+    "Study/Linux/vim_option&plugin/vim_단축키.md",
+    "Study/Linux/pdns/pdns_setting.md",
+    "Study/Linux/pdns/pdns_install.md",
+    "Study/Linux/php/php_설치.md",
+    "Study/Linux/php/php_설치.ㅡㅇ",
+    "Study/Linux/openssl/ssl_communication_process.md",
+    "Study/Linux/openssl/openssl_install_man.md",
+    "Study/Linux/openssl/openssl3.0.8_설치.md",
+    "Study/Linux/nagios/nagios.md",
+    "Study/Linux/MHA 구성/[DB] MySQL Replication, MHA 구성.md",
+    "Study/Linux/mariadb/mariadb_install.md",
+    "Study/Linux/linux/regular_expression.md",
+    "Study/Linux/linux/디스크마운트.md",
+    "Study/Linux/grep_option/grep옵션.md",
+    "Study/Linux/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
+    "Study/Linux/galera/갈레라설치.md",
+    "Study/Linux/bind/bind_설치.md",
+    "Study/Linux/bind/bind_설정.md",
+    "Study/Linux/apt/패키지 에러로 apt 미작동.md",
+    "Study/Linux/apache/apache_install.md",
+    "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
+    "Study/openstack/작성중/1. openstack_install_환경설정.md",
+    "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_개요.md",
+    "Study/openstack/작성중",
+    "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_콘솔가이드.md",
+    "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
+    "Study/Server_Infra/Network/CIDR(Classless_Inter-Domain_Routing)_이란?.md",
+    "Study/Server_Infra/Network",
+    "Study/Server_Infra",
+    "Study/NHN_Cloud/Network/Network_ACL",
+    "Study/NHN_Cloud/Network",
+    "Study/NHN_Cloud",
     "Study/kubernetes/커피캣츠_인프라.png",
     "Study/kubernetes/커피캣츠_인프라예상.png",
-    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
-    "Study/kubernetes/K8S/K8S_배포전략.md",
-    "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
     "Study/kubernetes/K8S/ConfigMaps&Secret",
     "Study/Linux/pdns/pictures/master_serv_record.png",
     "Study/Linux/linux/images/regular-expression.gif",
     "Study/Linux/linux/images/regexp_3type.jpeg",
     "Study/Linux/php/php_설치",
-    "Study/Linux/vim_option&plugin/vim_단축키.md",
     "Study/Linux/pdns/pictures",
-    "Study/Linux/pdns/pdns_setting",
-    "Study/Linux/pdns/pdns_install.sh",
-    "Study/Linux/pdns/pdns_install.md",
-    "Study/Linux/pdns/dns_record.md",
-    "Study/Linux/openssl/ssl_communication_process.md",
-    "Study/Linux/openssl/openssl_install_man.md",
-    "Study/Linux/openssl/openssl3.0.8_설치",
-    "Study/Linux/nagios/nagios.md",
-    "Study/Linux/mariadb/mariadb_설명",
-    "Study/Linux/mariadb/mariadb_install.md",
-    "Study/Linux/linux/디스크마운트.md",
-    "Study/Linux/linux/regular_expression.md",
-    "Study/Linux/linux/regular_expression.html",
-    "Study/Linux/linux/images",
-    "Study/Linux/grep_option/grep옵션.md",
-    "Study/Linux/galera/갈레라설치.md",
-    "Study/Linux/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
-    "Study/Linux/bind/bind_설치",
     "_Files/Pasted image 20240602102533.png",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",
