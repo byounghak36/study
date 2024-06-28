@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "5f82a8d58c7a99a1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md",
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/ceph/ceph-ansible/Ceph-ansible.md"
+                "file": "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md"
               }
             }
           }
@@ -169,8 +158,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f82a8d58c7a99a1",
+  "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
+    "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
+    "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ExternalName.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
+    "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
+    "Study/kubernetes/K8S/Scheduler/K8S_Static_pod.md",
+    "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/vim-nerdtree.md",
     "Study/Linux/vim_option&plugin/vim_단축키.md",
     "Study/Linux/pdns/pdns_setting.md",
@@ -185,20 +187,7 @@
     "Study/Linux/mariadb/mariadb_install.md",
     "Study/Linux/linux/regular_expression.md",
     "Study/Linux/linux/디스크마운트.md",
-    "Study/Linux/grep_option/grep옵션.md",
-    "Study/Linux/galera/Galera Cluster & MySQL 5.7 설치_v1.4.md",
-    "Study/Linux/galera/갈레라설치.md",
-    "Study/Linux/bind/bind_설치.md",
-    "Study/Linux/bind/bind_설정.md",
-    "Study/Linux/apt/패키지 에러로 apt 미작동.md",
-    "Study/Linux/apache/apache_install.md",
-    "Study/openstack/subnet생성후 붙이기/subnet생성후_붙이기.md",
-    "Study/openstack/작성중/1. openstack_install_환경설정.md",
-    "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_개요.md",
     "Study/openstack/작성중",
-    "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_콘솔가이드.md",
-    "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
-    "Study/Server_Infra/Network/CIDR(Classless_Inter-Domain_Routing)_이란?.md",
     "Study/Server_Infra/Network",
     "Study/Server_Infra",
     "Study/NHN_Cloud/Network/Network_ACL",
