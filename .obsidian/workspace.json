@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Linux/php/php_설치.md",
+                "file": "Study/Linux/tpcdump/tcpdump_사용법.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Options",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Linux/php/php_설치.md",
+                "file": "Study/Linux/tpcdump/tcpdump_사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Linux/php/php_설치.md",
+                "file": "Study/Linux/tpcdump/tcpdump_사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Linux/php/php_설치.md"
+                "file": "Study/Linux/tpcdump/tcpdump_사용법.md"
               }
             }
           }
@@ -159,8 +158,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "92c76c0420181e11",
+  "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
+    "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
+    "Study/Linux/tpcdump/tcpdump_사용법.md",
+    "Study/Linux/tpcdump",
+    "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
+    "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
+    "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
+    "Study/Linux/php/php_설치.md",
     "Study/Linux/vim_option&plugin/vim_단축키.md",
     "Study/Linux/linux/regular_expression.md",
     "Study/Linux/linux/디스크마운트.md",
@@ -168,7 +174,6 @@
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph csi-rbdplugin pending.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph mgr restart.md",
     "Study/kubernetes/K8S/troubleshooting/K8S_rook-ceph osd pending.md",
-    "Study/kubernetes/K8S/ConfigMaps&Secret/K8S_ConfigMaps 작성 예시.md",
     "Study/kubernetes/K8S/Statefulset/K8S_OBJ_Statefulset.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-NodePort.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-LoadBalancer.md",
@@ -182,12 +187,7 @@
     "Study/vim-nerdtree.md",
     "Study/Linux/pdns/pdns_setting.md",
     "Study/Linux/pdns/pdns_install.md",
-    "Study/Linux/php/php_설치.md",
     "Study/Linux/php/php_설치.ㅡㅇ",
-    "Study/Linux/openssl/ssl_communication_process.md",
-    "Study/Linux/openssl/openssl_install_man.md",
-    "Study/Linux/openssl/openssl3.0.8_설치.md",
-    "Study/Linux/nagios/nagios.md",
     "Study/openstack/작성중",
     "Study/Server_Infra/Network",
     "Study/Server_Infra",
@@ -201,7 +201,6 @@
     "Study/Linux/linux/images/regular-expression.gif",
     "Study/Linux/linux/images/regexp_3type.jpeg",
     "Study/Linux/php/php_설치",
-    "Study/Linux/pdns/pictures",
     "_Files/Pasted image 20240602102533.png",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",

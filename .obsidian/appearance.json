@@ -3,7 +3,7 @@
   "cssTheme": "Red Graphite",
   "interfaceFontFamily": "D2Coding",
   "nativeMenus": true,
-  "baseFontSize": 18,
-  "theme": "moonstone",
+  "baseFontSize": 17,
+  "theme": "obsidian",
   "baseFontSizeAction": true
 }
