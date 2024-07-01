@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Linux/tpcdump/tcpdump_사용법.md",
+                "file": "Study/Linux/3Tier(Apache,tomcat,db)/Apache,Tomcat_연동.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Linux/tpcdump/tcpdump_사용법.md",
+                "file": "Study/Linux/3Tier(Apache,tomcat,db)/Apache,Tomcat_연동.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Linux/tpcdump/tcpdump_사용법.md",
+                "file": "Study/Linux/3Tier(Apache,tomcat,db)/Apache,Tomcat_연동.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Linux/tpcdump/tcpdump_사용법.md"
+                "file": "Study/Linux/3Tier(Apache,tomcat,db)/Apache,Tomcat_연동.md"
               }
             }
           }
@@ -160,8 +160,11 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
-    "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
     "Study/Linux/tpcdump/tcpdump_사용법.md",
+    "Study/Linux/3Tier(Apache,tomcat,db)/Apache,Tomcat_연동.md",
+    "Study/Linux/3Tier(Apache,tomcat,db)",
+    "Study/Linux/Apache&Tomcat&DB",
+    "Study/kubernetes/K8S/Deployment/K8S_OBJ_Deployments-개념정리.md",
     "Study/Linux/tpcdump",
     "Study/kubernetes/K8S/Deployment/K8S_rook-ceph_배포에러(디스크초기화).md",
     "Study/kubernetes/K8S/Deployment/K8S_Rolling-update.md",
@@ -186,7 +189,6 @@
     "Study/ceph/ceph-ansible/Ceph-ansible.md",
     "Study/vim-nerdtree.md",
     "Study/Linux/pdns/pdns_setting.md",
-    "Study/Linux/pdns/pdns_install.md",
     "Study/Linux/php/php_설치.ㅡㅇ",
     "Study/openstack/작성중",
     "Study/Server_Infra/Network",
@@ -196,11 +198,9 @@
     "Study/NHN_Cloud",
     "Study/kubernetes/커피캣츠_인프라.png",
     "Study/kubernetes/커피캣츠_인프라예상.png",
-    "Study/kubernetes/K8S/ConfigMaps&Secret",
     "Study/Linux/pdns/pictures/master_serv_record.png",
     "Study/Linux/linux/images/regular-expression.gif",
     "Study/Linux/linux/images/regexp_3type.jpeg",
-    "Study/Linux/php/php_설치",
     "_Files/Pasted image 20240602102533.png",
     "_Files/Pasted image 20240529165914.png",
     "_Files/Pasted image 20240529165747.png",
