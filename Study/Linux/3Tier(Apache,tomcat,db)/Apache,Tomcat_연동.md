@@ -6,8 +6,6 @@ reference:
 link:
 ---
 
-
-
 ```shell
 libtool: warning: remember to run 'libtool --finish /usr/lib64/httpd/modules'
 make[1]: 디렉터리 '/home/rocky/tomcat-connectors-1.2.49-src/native/apache-2.0' 나감
