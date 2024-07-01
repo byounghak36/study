@@ -5,7 +5,51 @@ date: 2024_07_01
 reference: 
 link:
 ---
+### Apache, Tomcat 연동하기
 
+아파치와 톰캣을 연동하는 방법은 mod_jk, mod_proxy, mod_proxy_ajp를 이용한 방법이 있다.  
+이번에는 연동 방법 중 가장 많이 사용 되는 mod_jk로 Apache와 Tomcat을 연동 해보도록 하겠다.
+
+#### mod_jk 란?
+
+Apache와 Tomcat을 연동하기 위한 모듈이다. AJP 프로토콜을 이용하여 아파치로 들어온 요청을 톰캣에 전달하여 처리한다. 아파치로 들어온 요청을 톰캣으로 전달 할때 AJP 포트 (기본 8009)를 사용하며 필요에 의한 포트 변경도 가능하다.
+
+#### 1.Apache 설치
+Apache 및 mod_jk 컴파일 설치를 위해 몇 가지 추가 패키지를 설치 해준다.
+```shell
+yum install -y httpd autoconf libtool httpd-devel
+```
+
+#### 2. mod_jk 설치
+mod_jk 설치를 위해 mod_jk를 다운 받는다. 톰캣 사이트([http://tomcat.apache.org/download-connectors.cgi](http://tomcat.apache.org/download-connectors.cgi))에 접속하여 리눅스용 파일을 다운로드 한다.
+```shell
+wget https://downloads.apache.org/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.48-src.tar.gz
+```
+
+다운받은 파일을 압축 해제 한다.
+
+```shell
+tar -xvzf tomcat-connectors-1.2.48-src.tar.gz
+ls
+tomcat-connectors-1.2.48-src tomcat-connectors-1.2.48-src.tar.gz
+```
+#### mod_jk 컴파일 설치
+
+압축 해제 후 tomcat-connectors-1.2.48-src
+
+```null
+
+# cd tomcat-connectors-1.2.48-src/native
+# ./buildconf.sh
+# ./configure --with-apxs=/bin/apxs
+# make 
+# make install
+```
+
+
+
+---
+에러 #1
 ```shell
 libtool: warning: remember to run 'libtool --finish /usr/lib64/httpd/modules'
 make[1]: 디렉터리 '/home/rocky/tomcat-connectors-1.2.49-src/native/apache-2.0' 나감
