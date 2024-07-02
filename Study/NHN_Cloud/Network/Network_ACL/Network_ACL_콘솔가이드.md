@@ -2,7 +2,6 @@
 title: Network_ACL_콘솔가이드
 tags:
   - NHN_Network_ALC
-  - NHN_Network
 date: 2024_06_25
 reference: 
 link:

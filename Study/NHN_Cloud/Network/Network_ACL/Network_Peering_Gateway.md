@@ -1,7 +1,7 @@
 ---
 title: Network_Peering_Gateway
 tags:
-  - NHN_Network
+  - NHN_Network_Peering
 date: 2024_06_25
 reference: 
 link:

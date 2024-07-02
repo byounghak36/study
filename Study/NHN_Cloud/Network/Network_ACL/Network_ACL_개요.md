@@ -1,8 +1,7 @@
 ---
 title: Network_ACL
 tags:
-  - NHN_Cloud
-  - NHN_Network
+  - NHN_Network_ALC
 date: 2024_06_25
 reference: 
 link:
