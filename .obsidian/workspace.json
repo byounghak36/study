@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/NHN_Cloud/Network/NAT/Network_NAT_Instance.md",
+                "file": "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/NHN_Cloud/Network/NAT/Network_NAT_Instance.md",
+                "file": "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/NHN_Cloud/Network/NAT/Network_NAT_Instance.md",
+                "file": "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,11 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/NHN_Cloud/Network/NAT/Network_NAT_Instance.md"
+                "file": "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,12 +148,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
@@ -160,10 +161,11 @@
   },
   "active": "e64edfbdf38e69c4",
   "lastOpenFiles": [
-    "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
-    "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_개요.md",
     "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_콘솔가이드.md",
+    "Study/NHN_Cloud/Network/Network_ACL/Network_ACL_개요.md",
+    "Study/NHN_Cloud/Network/NAT/Network_NAT_Instance_생성방법.md",
     "Study/NHN_Cloud/Network/NAT/Network_NAT_Instance.md",
+    "Study/NHN_Cloud/Network/Network_ACL/Network_Peering_Gateway.md",
     "Study/Linux/3Tier(Apache,tomcat,db)/Apache,Tomcat_연동.md",
     "Study/NHN_Cloud/Network/NAT",
     "Study/Linux/tpcdump/tcpdump_사용법.md",
@@ -189,7 +191,6 @@
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service-ClusterIP.md",
     "Study/kubernetes/K8S/Service/K8S_OBJ_Service.md",
     "Study/kubernetes/K8S/Scheduler/K8S_Taints and Tolerations.md",
-    "Study/kubernetes/K8S/Scheduler/K8S_NodeAffinity.md",
     "Study/Linux/php/php_설치.ㅡㅇ",
     "Study/openstack/작성중",
     "Study/Server_Infra/Network",
